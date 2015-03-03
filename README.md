@@ -33,11 +33,11 @@ Content in this repository is freely available to read and use for non-commercia
 If you wish to contribute to the book, you may do so by submitted a pull request to this repository. You can send us a simple spelling correction, a section or even an entire chapter. By contributing you agree in full to the Contributor Agreement described below.
 
 ##Contributor Agreement##
-This repository may eventually be published for e-readers or in traditional print. If such publishing occurs, contributors may be eligible for a royalty payment to be comensurate with the percentage of content contributed. By submitting any content, you affirm and agree the following:
+This repository may eventually be published for e-readers or in traditional print. If such publishing occurs, contributors will be eligible for a royalty payment to be comensurate with the percentage of content contributed. By submitting any content, you affirm and agree the following:
 
 * The contribution is completely original and not taken from any source from which you do not possess the copyright 
 * You agree to allow your contribution to be used for any purpose by the repository owners (including commerical use)
-* In the event this book is commericalized into a tangible printed book or e-book format, you will receive a royalty based on the percentage of your work included in the final publication
+* In the event this book is commericalized into a tangible printed book or e-book format, you will receive a royalty based on the percentage of your work included in the final publication and an author attribution
 
 ##Style Guide##
 
