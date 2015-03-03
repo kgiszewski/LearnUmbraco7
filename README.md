@@ -23,17 +23,17 @@ This book is not intended for readers who:
 * Common Umbraco Anti-patterns
 * Client languages and frameworks: HTML, Javascript, CSS, AngularJs, Underscore.js
 * Server languages and frameworks: C#, ASP.NET, MVC
-* Data: MSSQL Express and SSMS
+* Data: SQL CE, MSSQL Express and SSMS
 * Hosting: Internet Information Services (IIS), Win Server
 
 ##License##
 Content in this repository is freely available to read and use for non-commercial uses. It may not be reproduced or used for commercial use without consent. All rights are reserved and copyrighted by Kevin Giszewski. 
 
 ##Contribute##
-If you wish to contribute to the book, you may do so by submitted a pull request to this repository. You can send us a simple spelling correction, a section or even an entire chapter. By contributing you agree in full to the Contributor Agreement described below.
+If you wish to contribute to the book, you may do so by submitting a pull request to this repository. You can send us a simple spelling correction, a section or even an entire chapter. By contributing you agree in full to the Contributor Agreement described below.
 
 ##Contributor Agreement##
-This repository may eventually be published for e-readers or in traditional print. If such publishing occurs, contributors will be eligible for a royalty payment to be comensurate with the percentage of content contributed. By submitting any content, you affirm and agree the following:
+This repository has a very SLIGHT chance of eventually being published for e-readers or in traditional print. If such publishing occurs, contributors will be eligible for a royalty payment to be comensurate with the percentage of content contributed. By submitting any content, you affirm and agree the following:
 
 * The contribution is completely original and not taken from any source from which you do not possess the copyright 
 * You agree to allow your contribution to be used for any purpose by the repository owners (including commerical use)
@@ -41,13 +41,12 @@ This repository may eventually be published for e-readers or in traditional prin
 
 ##Style Guide##
 
-For now the style is fairly undecided. The book currently uses markdown along with GitHub flavored markdown. All files created will need to have the `.md` extension. 
+For now the style is fairly undecided. The book currently uses markdown along with GitHub flavored markdown. All text files created will need to have the `.md` extension. Images should be high quality and be in JPG, GIF or PNG formats.
 
 If you are not familiar with markdown, please use these references:
 
 * https://help.github.com/articles/markdown-basics/
 * https://help.github.com/articles/github-flavored-markdown/
 
-
-##So what should I contribute?##
+##So what should you contribute?##
 Each chapter and section will have TODO lists associated with them as well as general outlines of future content. Feel free to tackle any of those or submit other TODOs.
