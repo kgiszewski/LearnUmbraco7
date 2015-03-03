@@ -7,8 +7,8 @@ This book is targeted for readers who:
 
 * Have developed web applications in other languages
 * Have little or no experience with Umbraco
-* Have little or no experience with .NET
-
+* Have some experience with .NET
+* Have some experience with the client languages Javascript, HTML and CSS
 
 This book is not intended for readers who:
 
