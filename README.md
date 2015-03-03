@@ -30,7 +30,7 @@ This book is not intended for readers who:
 Content in this repository is freely available to read and use for non-commercial uses. It may not be reproduced or used for commercial use without consent. All rights are reserved and copyrighted by Kevin Giszewski. 
 
 ##Contribute##
-If you wish to contribute to the book, you may do so by submitted a pull request to this repository. You can send us a simple spelling correction, a section or even an entire chapter. By contributing you agree to allow the repository owners to use your contribution for any purpose to include commercial use.
+If you wish to contribute to the book, you may do so by submitted a pull request to this repository. You can send us a simple spelling correction, a section or even an entire chapter. By contributing you agree in full to the Contributor Agreement described below.
 
 ##Contributor Agreement##
 This repository may eventually be published for e-readers or in traditional print. If such publishing occurs, contributors may be eligible for a royalty payment to be comensurate with the percentage of content contributed. By submitting any content, you affirm and agree the following:
@@ -49,5 +49,5 @@ If you are not familiar with markdown, please use these references:
 * https://help.github.com/articles/github-flavored-markdown/
 
 
-##So what should I contribute to?##
+##So what should I contribute?##
 Each chapter and section will have TODO lists associated with them as well as general outlines of future content. Feel free to tackle any of those or submit other TODOs.
