@@ -1,6 +1,6 @@
 #Learn Umbraco 7#
 
-Learn Umbraco 7 is a crowd authored book with the purpose of onboarding new Umbraco developers. 
+Learn Umbraco 7 is a crowd authored book with the purpose of onboarding new Umbraco developers for free.
 
 ##Target Audience##
 This book is targeted for readers who:
@@ -27,17 +27,16 @@ This book is not intended for readers who:
 * Hosting: Internet Information Services (IIS), Win Server
 
 ##License##
-Content in this repository is freely available to read and use for non-commercial uses. It may not be reproduced or used for commercial use without consent. All rights are reserved and copyrighted by Kevin Giszewski. 
+Content in this repository is freely available to read and use for non-commercial uses. It may not be reproduced or used for commercial use without consent. All rights are reserved and copyrighted by the repository owners.
 
 ##Contribute##
 If you wish to contribute to the book, you may do so by submitting a pull request to this repository. You can send us a simple spelling correction, a section or even an entire chapter. By contributing you agree in full to the Contributor Agreement described below.
 
 ##Contributor Agreement##
-The purpose of this book is to provide free information to those who want to know. However, this repository has a very SLIGHT chance of eventually being published for e-readers or in traditional print. If such publishing occurs, contributors will be eligible for a royalty payment to be comensurate with the percentage of content contributed. By submitting any content, you affirm and agree the following:
+The purpose of this book is to provide free information to those who want to know. By submitting any content, you affirm and agree the following:
 
 * The contribution is completely original and not taken from any source from which you do not possess the copyright 
-* You agree to allow your contribution to be used for any purpose by the repository owners (including commerical use)
-* In the event this book is commericalized into a tangible printed book or e-book format, you will receive a royalty based on the percentage of your work included in the final publication and an author attribution
+* You agree to allow your contribution to be used for any purpose by the repository owners 
 
 ##Style Guide##
 
