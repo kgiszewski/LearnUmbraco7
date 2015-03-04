@@ -48,7 +48,14 @@ If you are not familiar with markdown, please use these references:
 * https://help.github.com/articles/github-flavored-markdown/
 
 ##So what should you contribute?##
-Each chapter and section will has TODO lists associated with them as well as general outlines of future content. Feel free to tackle any of those or submit other TODOs.
+Each chapter and section will has TODO lists associated with them as well as general outlines of future content. Feel free to tackle any of those or submit other TODOs.  Here are some other examples of what you can contribute:
+
+* Sample Code
+* Diagrams
+* Photos from the Umbraco World
+* Editing by reading, correcting and clarifying; if it's wrong say so :)
+
+Each person that has been assimilated into Umbraco has a unique opportunity to contribute in some way.
 
 ##A Note to Grammar Nazi's##
 Writing narrative text is not our best skill so if you see an issue with overall organization, grammar, spelling and/or other issues; we expect a pull-request to fix the issues :)
