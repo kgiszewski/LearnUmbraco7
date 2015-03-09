@@ -1,6 +1,6 @@
 #Learn Umbraco 7#
 
-Learn Umbraco 7 is a crowd authored book with the purpose of onboarding new Umbraco developers for free.
+Learn Umbraco 7 is a crowd authored book with the purpose of onboarding new Umbraco developers for free.  This book isn't intended to be a resource guide, please refer to the official Umbraco documentation for that.  This book is a narrative of different topics in the Umbraco 7 realm.
 
 ##Target Audience##
 This book is targeted for readers who:
@@ -27,7 +27,7 @@ This book is not intended for readers who:
 * Hosting: Internet Information Services (IIS), Win Server
 
 ##License##
-Content in this repository is freely available to read and use for non-commercial uses. It may not be reproduced or used for commercial use without consent. All rights are reserved and copyrighted by the repository owners.
+Content in this repository is freely available to read and use for non-commercial uses. It may not be reproduced or used for commercial use without consent. All rights are reserved and copyrighted by the contributor.  All images and files are copyrighted by their respective owners.  All logos are trademarked by their respective owners.  Please seek permission to use before using any materials.
 
 ##Contribute##
 If you wish to contribute to the book, you may do so by submitting a pull request to this repository. You can send us a simple spelling correction, a section or even an entire chapter. By contributing you agree in full to the Contributor Agreement described below.
