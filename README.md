@@ -1,6 +1,10 @@
 #Learn Umbraco 7#
 
+**Work in Progress  - Sections updated regularly.**
+
 Learn Umbraco 7 is a crowd authored book with the purpose of onboarding new Umbraco developers for free.  This book isn't intended to be a resource guide, please refer to the official Umbraco documentation for that.  This book is a narrative of different topics in the Umbraco 7 realm.
+
+This book is downloadable despite not being complete.  This is being done to encourage more authors to fill in the blanks.  Please consider writing a section :)
 
 ##Target Audience##
 This book is targeted for readers who:
