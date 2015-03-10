@@ -59,4 +59,20 @@ Each node can be right-clicked on and a set of context menus options will be pre
 
 ![Context Menu](assets/context-menu.png)
 
-An administrator can limit the context menu options based on the user as well as a developer can add [custom actions](/Chapter 16 - Custom Sections, Trees and Actions).
+The default context menu items are as follows:
+
+* Create - Create a content node
+* Delete - Delete a content node
+* Move - Move a content node to nest underneath another piece of content that allows the content (document) type of the node moving
+* Copy - Same as move except a duplicate is created
+* Change Document Type - A new feature that allows switching from one document type to the other
+* Sort - Rather than drag and drop in the tree to re-arrange nodes, you must use this menu item
+* Rollback - If you've made a mistake and would like to rollback content, use this
+* Audit Trail - Umbraco keeps a log of who is doing things to the content
+* Publish - Publishes the node
+* Culture and Hostnames - This is where you'll set up basic domain and culture associations with a node
+* Permissions - This is where you can modify context menu options by username
+* Public Access - This is a feature that allows an editor to password protect a section of the site
+* Notifications - Use this to get notified when a certain action is performed
+* Send to Translation - Sends the node into the translation workflow
+* Custom - You can add your own action as well
