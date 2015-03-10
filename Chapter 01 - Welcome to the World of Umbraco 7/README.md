@@ -1,6 +1,6 @@
 #Introduction and the Nature of the Beast#
 
-Umbraco is a content management system created by Niels Hartvig and is headquartered in the Scandinavian country of Denmark.  Umbraco is an open-source software project hosted on GitHub.  It is updated often and embodies some of the latest web technologies and methodologies.  It has evolved through the years and this book specifically deals with version 7.
+Umbraco is a content management system created by Niels Hartvig and is headquartered in the Scandinavian country of Denmark.  Umbraco is an open-source software project hosted on [GitHub](https://github.com/umbraco/Umbraco-CMS/).  It is updated often and embodies some of the latest web technologies and methodologies.  It has evolved through the years and this book specifically deals with version 7.
 
 ##Umbraco 7 features at a glance##
 * The backend is mainly built on .NET C# MVC.  There are some leftovers of web forms still in the core, but they are being weeded out.
@@ -14,3 +14,8 @@ Umbraco is a content management system created by Niels Hartvig and is headquart
 * Umbraco follows many convention over configuration patterns.
 * Umbraco tends to provide default functionality with the ability to override it.
 * The core is open-source and is hosted on GitHub.  Umbraco developers regularly contribute to the core.
+
+##Open-Source isn't scary##
+Open-source software used to be cast in a negative light due to many reasons.  However Umbraco proves that OSS can be very innovative and can implement positive change in short order.
+
+Umbraco is very fast-paced and you can expect patch updates regularly and new features often.  Umbraco has gone through many major versions, but version 7 is in a class of it's own.
