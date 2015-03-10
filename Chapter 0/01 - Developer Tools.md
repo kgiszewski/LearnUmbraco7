@@ -15,6 +15,7 @@ Things requiring custom server side code:
 * Handling custom forms
 * Programmatically create/import content
 * Custom database queries
+* Capturing and modifying default behavior through event handling (like running code before or after a publish)
 
 *Please check documentation and Google for what you are trying to accomplish.  There are many things Umbraco already provides.*
 
