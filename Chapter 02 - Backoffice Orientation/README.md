@@ -14,3 +14,5 @@ The Umbraco backoffice is where the content editors and developers will spend a 
 Version 7 has brought a very clean responsive interface powered by AngularJs.  Umbraco sections (called `applications` when developing new sections) consist of a node tree on the left, a contextual panel on the right and dashboards available at the root of each sectoin.
 
 ![Backoffice](assets/backoffice.png)
+
+>NOTE: Typically editors are only given access to the `Content` and `Media` section while developers will need access to everything.
