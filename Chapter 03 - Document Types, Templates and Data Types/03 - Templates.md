@@ -34,11 +34,9 @@ var value = Model.Content.GetPropertyValue<int>("somePropertyAlias");
 
 //in some cases you can even do this when you have certain packages installed (https://www.nuget.org/packages/Our.Umbraco.CoreValueConverters/)
 var value = Model.Content.GetPropertyValue<IEnumberable<IPublishedContent>>("someMntpPropertyAlias");
-
-
-###Access Data Relative to the Current Page###
 ```
 
+###Access Data Relative to the Current Page###
 Since Umbraco's content is organized in a hierarchy you can traverse the tree like so:
 
 ```
