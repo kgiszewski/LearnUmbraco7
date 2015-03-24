@@ -2,6 +2,7 @@
 
 This class is responsible for delivering cached published content to your views.  This class is `read only` so if you need to manipulate your data please see the section on `IContent`.
 
+Please see the [templates section](/Chapter 03 - Document Types, Templates and Data Types/03 - Templates.md) for more information on how to use this class or consult the official Umbraco documentation.
 You can access the `IPublishedContent` items elsewhere in your code by simply using the `UmbracoHelper` like so:
 
 ```
@@ -22,5 +23,3 @@ namespace SomeNamespace
 }
 
 ```
-
-Please see the [templates section](/Chapter 03 - Document Types, Templates and Data Types/03 - Templates.md) for more information or consult the official Umbraco documentation.
