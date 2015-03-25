@@ -17,6 +17,7 @@ You automatically get a reference to the `UmbracoHelper` in views and can be use
 ```
 
 You get a reference for free in `SurfaceController`'s as well:
+
 ```
 using Umbraco.Web.Mvc;
 
@@ -29,7 +30,8 @@ namespace MyNamespace
             Umbraco.TypedContent(1234);
         }
     }
-}```
+}
+```
 
 You can also get a reference in any class:
 
@@ -47,4 +49,5 @@ namespace MyNamespace
             var content = umbHelper.TypedContent(1234);
         }
     }
-}```
+}
+```
