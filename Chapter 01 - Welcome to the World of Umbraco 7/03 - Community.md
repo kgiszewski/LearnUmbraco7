@@ -10,3 +10,7 @@ Codegarden is the main festival that occurs every year in the late Spring.  It u
 uWestFest is relatively new and is the North American festival held in late Winter.
 ##UK Fest##
  UK Fest is the United Kingdom festival typically held in the Fall.
+##uHangout##
+uHangout is a weekly recurring webcast hosted by Warren Buckley.
+
+http://uhangout.co.uk/
