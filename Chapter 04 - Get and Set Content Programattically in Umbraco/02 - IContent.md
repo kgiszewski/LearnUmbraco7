@@ -1,6 +1,6 @@
 #IContent#
 
-The `IContent` class is the class you should be using if you want to manipulate the content in the backoffice.  If you wish to just `get` the data, please use the `IPublishedContent` class family methods.
+The `IContent` interface is the interface you should be using if you want to manipulate the content in the backoffice.  If you wish to just `get` the data, please use the `IPublishedContent` interface family methods.
 
 With `IContent` you can do the following:
 
