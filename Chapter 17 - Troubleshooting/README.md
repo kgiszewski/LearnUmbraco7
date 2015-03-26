@@ -17,6 +17,9 @@ Most of you know, but just in case you don't; any modification to the web.config
 ##Rebuild Your Site##
 Often times after a NuGet install or simple `.cs` file update, a developer will forget to build his/her solution.  Rebuilding sometimes fixes missing updates.
 
+##Check the Log##
+Most un-handled errors will get logged into text files located at `~/App_Data/logs/`.  This is a good place to start when the usual tricks don't work.
+
 ##Recovering a Lost Admin Password##
 Your password for your backoffice account is stored in the database inside the `umbracoUserLogins` table.  The password is hashed and you will need to replace your users' hash with a known hashed value.
 
