@@ -6,6 +6,8 @@ Learn Umbraco 7 is a crowd authored book with the purpose of onboarding new Umbr
 
 This book is downloadable despite not being complete.  This is being done to encourage more authors to fill in the blanks.  Please consider writing a section :)
 
+You can view this book right inside the Umbraco 7 backoffice using [Umbraco Bookshelf](https://our.umbraco.org/projects/backoffice-extensions/bookshelf).  You can also install with [NuGet](https://www.nuget.org/packages/UmbracoBookshelf/).
+
 ##Target Audience##
 This book is targeted for readers who:
 
