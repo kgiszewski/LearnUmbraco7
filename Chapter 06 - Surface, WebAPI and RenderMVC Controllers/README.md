@@ -2,7 +2,7 @@
 
 In Umbraco, Surface, RenderMVC and WebAPI controllers are responsible for deliver data (models) to clients via their templates (views).
 
-By default the `RenderMVCController` delivers content (model) with a view (template) to the client.  This can be overridden globally or by document type/template.
+By default the `RenderMvcController` delivers content (model) with a view (template) to the client.  This can be overridden globally or by document type/template.
 
 `SurfaceController`'s are what you'll use for form submissions or quick web services that may return views, test, JSON or XML.
 
