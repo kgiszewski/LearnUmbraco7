@@ -58,3 +58,28 @@ namespace MyNamespace
 You would then be able to get to the service with this URL: `/umbraco/MyNameThing/mynamesurface/getnames`
 
 Of course the URL is public and if you want to restrict access to members only, you can add another attribute like so:
+
+```
+using System.Collections.Generic;
+using System.Web.Mvc;
+using Umbraco.Web.Mvc;
+
+namespace MyNamespace
+{
+    [MemberAuthorize(AllowAll = true)]
+    [PluginController("MyNameThing")]
+    public class MyNameSurfaceController : SurfaceController
+    {
+        public ActionResult GetNames()
+        {
+            var listOfNames = new List<string>() {"Warren", "Bob", "Tom"};
+
+            return Json(listOfNames, JsonRequestBehavior.AllowGet);
+        }
+    }
+}
+```
+
+`SurfaceController`'s are not meant to be secured for the backoffice and are always public.
+
+Surface controllers follow MVC convention for naming and routing.  Please reference official Umbraco and Microsoft documentation.
