@@ -14,6 +14,9 @@ This is a quick action and can be found by right-clicking on words `Content` and
 ##Touch the web.config##
 Most of you know, but just in case you don't; any modification to the web.config will cause the site to restart.  This is a great way to clean out cached items and get going again.  Simply add and remove a space and save the file.
 
+##Rebuild Your Site##
+Often times after a NuGet install or simple `.cs` file update, a developer will forget to build his/her solution.  Rebuilding sometimes fixes missing updates.
+
 ##Recovering a Lost Admin Password##
 Your password for your backoffice account is stored in the database inside the `umbracoUserLogins` table.  The password is hashed and you will need to replace your users' hash with a known hashed value.
 
