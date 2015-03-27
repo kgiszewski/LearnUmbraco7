@@ -30,7 +30,7 @@ When testing with the Examine search tool, you can see the fields that Examine i
 ##Updating the Indexes##
 Whenever a node is saved and published, the index files are automatically updated.  If you need to do some direct index manipulation, there are a few events that you can use to hook into the pipeline.  The most used event is probably `GatheringNodeData` and can be implemented like so:
 
-```
+```C#
 using Examine;
 using Umbraco.Core;
 
@@ -45,9 +45,9 @@ namespace MyNamespace
             ExamineManager.Instance.IndexProviderCollection["ExternalIndexer"].GatheringNodeData += MyGatheringNodeDataMethod;
         }
 
-        private void MyGatheringNodeDataMethod(object sender, IndexingNodeDataEventArgs indexingNodeDataEventArgs)
+        private void MyGatheringNodeDataMethod(object sender, IndexingNodeDataEventArgs nodeData)
         {
-            indexingNodeDataEventArgs.Fields.Add("myNewField", "someValue");
+            nodeData.Fields.Add("myNewField", "someValue");
         }
     }
 }
@@ -60,7 +60,7 @@ After the index is rebuilt or the node is save/published, you can return to the 
 ##Complex Property Values##
 Sometimes the property contains complex data and might need to be deserialized into individual fields or munged into one large field.  The example below uses Archetype and creates a field per fieldset:
 
-```
+```C#
 using System;
 using Archetype.Models;
 using Examine;
@@ -79,36 +79,34 @@ namespace MyNamespace
             ExamineManager.Instance.IndexProviderCollection["ExternalIndexer"].GatheringNodeData += MyGatheringNodeDataMethod;
         }
 
-        private void MyGatheringNodeDataMethod(object sender, IndexingNodeDataEventArgs indexingNodeDataEventArgs)
+        private void MyGatheringNodeDataMethod(object sender, IndexingNodeDataEventArgs nodeData)
         {
-            var services = ApplicationContext.Current.Services;
-
-            var contentService = services.ContentService;
-
             try
             {
-                var umbracoContent = contentService.GetById(indexingNodeDataEventArgs.NodeId);
+                var docTypeAliasField = nodeData.Fields["nodeTypeAlias"];
 
-                if (umbracoContent != null && umbracoContent.ContentType.Alias == "BizmagArticlePage")
+                if (docTypeAliasField == "BizmagArticlePage")
                 {
-                    var archetypeValueAsString = umbracoContent.GetValue<string>("modules");
-
-                    if (!string.IsNullOrEmpty(archetypeValueAsString))
+                    //modules is the name of the property alias for the archetype
+                    if (nodeData.Fields.ContainsKey("modules"))
                     {
-                        var archetype = JsonConvert.DeserializeObject<ArchetypeModel>(archetypeValueAsString);
+                        var archetypeValueAsString = nodeData.Fields["modules"];
 
-                        var index = 0;
-
-                        foreach (var fieldset in archetype)
+                        if (!string.IsNullOrEmpty(archetypeValueAsString))
                         {
-                            var value = fieldset.GetValue<string>("text");
+                            var archetype = JsonConvert.DeserializeObject<ArchetypeModel>(archetypeValueAsString);
 
-                            LogHelper.Info<ArchetypeModel>("Examining value =>" + value);
+                            var index = 0;
 
-                            if (value != null)
+                            foreach (var fieldset in archetype)
                             {
-                                indexingNodeDataEventArgs.Fields.Add(string.Format("archetype-{0}-{1}", fieldset.Alias, index), value);
-                                index++;
+                                var value = fieldset.GetValue<string>("text");
+
+                                if (value != null)
+                                {
+                                    nodeData.Fields.Add(string.Format("archetype-{0}-{1}", fieldset.Alias, index), value);
+                                    index++;
+                                }
                             }
                         }
                     }
