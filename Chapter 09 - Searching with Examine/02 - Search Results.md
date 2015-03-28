@@ -53,7 +53,7 @@ namespace MyNamespace
 }
 ```
 
->Examine also has a fluid API to try to articulate through methods the intended results.  For more on this please consult the official documentation.
+>Examine also has a fluid API to use if you don't want to use raw Lucene syntax.  Learning the Lucene syntax makes for more targeted results but is yet another thing to learn and some prefer the fluid syntax instead. For more on this please consult the official documentation.
 
 ##Call the Searcher##
 You can call the searcher right from a view or from a controller.  The example below is from a view:
