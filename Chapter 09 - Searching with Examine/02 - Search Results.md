@@ -1,7 +1,7 @@
 #Search Results#
 To perform a query and then show the results, we simply can just create a searcher and call it from a view.  We will first need to define a searcher.  Inside this searcher we need to generate Lucene query commands as you'll see in the example:
 
-```
+```c#
 using System;
 using System.Collections.Generic;
 using Examine;
@@ -58,7 +58,7 @@ namespace MyNamespace
 ##Call the Searcher##
 You can call the searcher right from a view or from a controller.  The example below is from a view:
 
-```
+```c#
 @inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @using MyNamespace
 @{
