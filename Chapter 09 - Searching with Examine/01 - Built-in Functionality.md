@@ -30,7 +30,7 @@ When testing with the Examine search tool, you can see the fields that Examine i
 ##Updating the Indexes##
 Whenever a node is saved and published, the index files are automatically updated.  If you need to do some direct index manipulation, there are a few events that you can use to hook into the pipeline.  The most used event is probably `GatheringNodeData` and can be implemented like so:
 
-```C#
+```c#
 using Examine;
 using Umbraco.Core;
 

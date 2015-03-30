@@ -29,3 +29,11 @@ uHangout is a weekly recurring webcast hosted by Warren Buckley.
 http://uhangout.co.uk/
 
 ![uhangout](assets/uhangout.png)
+
+##24days.in##
+
+An annual community contributed blog about Umbraco tips and tricks.
+
+http://24days.in/umbraco
+
+To contribute please tweet to: http://twitter.com/greystate
