@@ -7,7 +7,7 @@ It is a package that takes advantage of some of the core's internal plumbing to 
 ###Why should I use it?###
 An example would be retrieving stored data from the multinode tree picker data type.  Normally that data type will return a comma separated list of node Id's that then need to be parsed into `IPublishedContent` items like so:
 
-```
+```c#
     <ul>
     @{
         var mntpCsvList = Model.Content.GetPropertyValue<string>("mntpPropertyAlias");
@@ -23,7 +23,7 @@ An example would be retrieving stored data from the multinode tree picker data t
 ```
 
 With this package you could rewrite it as such:
-```
+```c#
     <ul>
         @foreach(var contentin Model.Content.GetPropertyValue<IEnumerable<IPublishedContent>>("mntpPropertyAlias"))
         {

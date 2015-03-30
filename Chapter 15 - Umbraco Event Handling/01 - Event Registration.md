@@ -2,7 +2,7 @@
 
 You have three opportunities at different points in time to register an event from your code.  You will register these events by extending the `ApplicationEventHandler` class like so:
 
-```
+```c#
 using Umbraco.Core;
 
 namespace MyNamespace
@@ -36,7 +36,7 @@ namespace MyNamespace
 
 A typical use of the `ContentService.Published` and the `ContentService.Publishing` events are like so:
 
-```
+```c#
 using Umbraco.Core;
 using Umbraco.Core.Events;
 using Umbraco.Core.Logging;
