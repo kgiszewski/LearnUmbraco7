@@ -10,9 +10,9 @@ The URL Picker is a simple property editor that does all of what we've covered i
 * The controller handles two special properties of the model that Umbraco recognizes.  `$scope.model` represents the data that will be saved whilst `$scope.model.config` are the prevalues.  Whatever the value of `$scope.model` when the page is saved will be what gets stored in Umbraco.
 * This property editor also uses a [Property Value Converter](https://github.com/imulus/uWestFest/blob/master/urlpicker/src/UrlPicker.Umbraco/PropertyConverters/UrlPickerValueConverter.cs) that allows the data to be mapped like so on a template:
 
-```
+```c#
 @{
-   var urlPicker = Model.Content.GetPropertyValue<UrlPicker>("myUrlPickerProperty")
+   var urlPicker = Model.Content.GetPropertyValue<UrlPicker.Umbraco.Models.UrlPicker>("myUrlPickerProperty")
    {
         <div>@urlPicker.Url</div>
    }  
