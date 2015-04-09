@@ -12,6 +12,10 @@ By defining some rules here, your RTE's can have different drop options in the `
 
 ![rte formats](assets/rte-formats.png)
 
+To enable the style sheet for a particular RTE, visit the RTE in the `Developer->Data Types` section and tick the box for your stylesheet:
+
+![rte-styles](assets/rte-styles.png)
+
 ##Templates##
 
 Use the templates tree to register a template with Umbraco.  You can also use the built-in editor.  When you create a template, a `.cshtml` file will be created in your web root at `~/views`.
