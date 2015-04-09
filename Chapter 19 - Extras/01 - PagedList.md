@@ -91,6 +91,6 @@ Consider the following example:
 
 The pager will have it's URL's in the following format:
 
-* http://foo.local/mypage?q=a keyword&p=1
-* http://foo.local/mypage?q=a keyword&p=2
-* http://foo.local/mypage?q=a keyword&p=3
+* http://foo.local/mypage?q=a%20keyword&p=1
+* http://foo.local/mypage?q=a%20keyword&p=2
+* http://foo.local/mypage?q=a%20keyword&p=3
