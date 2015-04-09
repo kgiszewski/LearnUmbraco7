@@ -16,7 +16,7 @@ Consider the following example:
 
 ```c#
 @inherits Umbraco.Web.Mvc.UmbracoTemplatePage
-@using MyNamespace.UmbracoExtensions.BizMag.Searchers;
+@using MyNamespace.UmbracoExtensions.Shared.Searchers;
 @using MyNamespace.UmbracoExtensions.Shared.Helpers;
 @using PagedList
 @using PagedList.Mvc
