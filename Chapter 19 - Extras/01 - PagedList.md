@@ -65,7 +65,11 @@ Consider the following example:
             @if (results.Any())
             {
                 <ol>
-                    <!-- list your results -->
+                    @foreach(item in pagedResultList)
+                    {
+                        <!-- list your results -->
+                        <li></li>
+                    }
                 </ol>
             }
             else
