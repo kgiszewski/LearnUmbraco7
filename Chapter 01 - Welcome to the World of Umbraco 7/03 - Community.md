@@ -37,3 +37,6 @@ An annual community contributed blog about Umbraco tips and tricks.
 http://24days.in/umbraco
 
 To contribute please tweet to: http://twitter.com/greystate
+
+#Skrift.io#
+![skrift](assets/skrift.png)
