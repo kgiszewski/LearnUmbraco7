@@ -1,8 +1,8 @@
 #Content Section#
 
-The content section is where all of the content (not media) is added to an Umbraco site.   During a fresh install, the only node that will be in your content tree will be the `Recycle Bin` *.  All other pieces of content will need to be defined by a [document type](/Chapter 03 - Document Types, Templates and Data Types/01 - Document Types.md).  The content section also will have a few dashboards by default like: `Get Started` and `Change Password`.
+The content section is where all of the content (not media) is added to an Umbraco site.   During a fresh install, the only node that will be in your content tree will be the `Recycle Bin`.  All other pieces of content will need to be defined by a [document type](/Chapter 03 - Document Types, Templates and Data Types/01 - Document Types.md).  The content section also will have a few dashboards by default like: `Get Started` and `Change Password`.
 
-**If you installed a starter kit when you installed Umbraco, you will have some content (and document types) already.*
+*If you installed a starter kit when you installed Umbraco, you will have some content (and document types) already.*
 
 ![Content Section](assets/backoffice.png)
 
@@ -10,7 +10,7 @@ The content section is where all of the content (not media) is added to an Umbra
 
 The content tree is a hierarchy of document types and each one is affectionately called a node.  By nesting content nodes underneath each other, Umbraco builds the default URL based on the structure.
 
-See how the URL's would be generated below as both a single site or a multi-site install:
+See how the URL's would be generated below as both a single site or a multi-site install: 
  
 **Single Site**
 

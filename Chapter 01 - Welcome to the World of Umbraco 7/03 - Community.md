@@ -39,4 +39,7 @@ http://24days.in/umbraco
 To contribute please tweet to: http://twitter.com/greystate
 
 #Skrift.io#
+
+A weekly Umbraco magazine: http://skrift.io
+
 ![skrift](assets/skrift.png)
