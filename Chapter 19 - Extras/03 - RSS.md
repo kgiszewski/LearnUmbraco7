@@ -10,7 +10,7 @@ RSS in Umbraco can be done a number of ways, one way is to take advantage of the
 @using Archetype.Models
 @inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
-    var currentIssue = NodeHelper.Instance.CurrentSite.Home.GetPropertyValue<IEnumerable<IPublishedContent>>("currentIssue").First();
+    var currentIssue = Model.Content.GetPropertyValue<IEnumerable<IPublishedContent>>("currentIssue").First();
     
 }<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
@@ -42,6 +42,6 @@ This example is using a Archetype fieldset to fill in the `<description>` tag bu
 
 >Note that this is some special attention with how the `<link>` tag is rendered.  It's sort of a conflict/bug with the C# Razor engine.
 
-Now that you've got a basic RSS feed going, you can check it out by visiting: http://mydomain.local/rss
+Now that you've got a basic RSS feed going, you can check it out by visiting: http://mydomain.local/rss.
 
 >If you use Internet Explorer, it'll format the response in a human readable feed.
