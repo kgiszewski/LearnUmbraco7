@@ -11,3 +11,5 @@ Kevin has an Associate of Computer Science degree from Purdue University, a soft
 Kevin is employed as a Senior Web Developer by the University of Notre Dame Mendoza College of Business located in South Bend, IN.
 
 You can follow Kevin on Twitter at: http://twitter.com/kevingiszewski
+
+###Mark Kimmet###
