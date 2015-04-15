@@ -3,10 +3,10 @@ AngularJs is used for more than just property editors.  You can use the manifest
 
 Make sure to checkout the special section on [Custom Sections, Trees and Actions](/Chapter 16 - Custom Sections, Trees and Actions).
 
-##Custom Dialog##
+##Custom Dialogs##
 One cool feature of working with AnuglarJs and Umbraco is using custom dialogs.  For instance, it would be super awesome if you could click a button and custom dialog appeared.  Then when the user performed an action, the dialog closes and sends an object back to the calling controller.
 
-To do so, we'll turn to our trusty Umbraco Bookshelf project.
+Well, we're in luck because we can in Umbraco 7.  To do so, we'll turn to our trusty Umbraco Bookshelf project.
 
 The following example assumes you have already registered two controllers.  One for the caller and one for the dialog handler:
 
