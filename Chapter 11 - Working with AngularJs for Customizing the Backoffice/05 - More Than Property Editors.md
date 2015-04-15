@@ -70,4 +70,4 @@ What happens is this:
 * The function `insertImageMd()` is invoked by the first controller (on it's template https://github.com/kgiszewski/UmbracoBookshelf/blob/master/src/App_Plugins/UmbracoBookshelf/backoffice/UmbracoBookshelfTree/file.html)
 * A dialog is opened as a result
 * The dialog template is loaded with it's own controller that handles how and what to display
-* Clicking an image causes the `$scope.submit()` method to fire which send back the data to the original callback in the first controller
+* Clicking an image causes the `$scope.submit()` method to fire which sends back the data to the original callback in the first controller
