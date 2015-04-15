@@ -11,7 +11,7 @@ Well, we're in luck because we can in Umbraco 7.  To do so, we'll turn to our tr
 The following example assumes you have already registered two controllers.  One for the caller and one for the dialog handler:
 
 ```js
-//the calling
+//the caller
 ...
 $scope.insertImageMd = function () {
         dialogService.open({
