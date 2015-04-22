@@ -28,7 +28,7 @@ Morten handles the much of the Azure and Umbraco as a Service (UaaS) work.
 ##Shannon Deminick##
 Twitter: http://twitter.com/shazwazza
 
-Shannon is a legend in the web world and is the main C# programmer at Umbraco.  Some of Shannon's outstanding work include Examine, uComponents and the ClientDependency projects.  Be sure to check out his blog: http://shazwazza.com/
+Shannon is a legend in the web world and is the main C# programmer at Umbraco.  Some of Shannon's outstanding work includes Examine, uComponents and the ClientDependency projects.  Be sure to check out his blog: http://shazwazza.com/
 
 ##Sebastiaan Janssen##
 Twitter: http://twitter.com/cultiv
