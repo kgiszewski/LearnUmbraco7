@@ -6,7 +6,7 @@ There is a fun discussion here if you'd like to read further: https://our.umbrac
 ##The Fix
 First you will need to update your `ImageProcessor.Web` (https://www.nuget.org/packages/ImageProcessor.Web/) to the latest version.  At the moment, NuGet is your safest (only?) option.
 
-Next install `ImageProcessor.Web.config` (https://www.nuget.org/packages/ImageProcessor.Web.Config/)
+Next install `ImageProcessor.Web.Config` (https://www.nuget.org/packages/ImageProcessor.Web.Config/)
 
 Go into `~/config/imageprocessor/security.config` and add your storage account to the whitelist: `<add url="http://[accountname].blob.core.windows.net/"/>`.
 
