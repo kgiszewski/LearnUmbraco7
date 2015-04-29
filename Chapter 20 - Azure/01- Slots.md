@@ -41,3 +41,9 @@ In order to keep some sort of order and synchronization with your media, you wil
 The reason for the preprod and production being connected to the same media and DB, this ensures that no resources are lost between swaps.
 
 >You should probably disable auto sync stuff such as uSync.  Perform import operations manaully using those packages instead.
+
+
+##Repo Sanity Check
+You should go out of your way to make sure you're not storing more code than you need to.  To get the most out of Azure, you should be using NuGet packages wherever possible and turn on 'Enable NuGet Package Restore' in Visual Studio.
+
+If you do this properly, you won't actually store any of Umbraco in your repo (or any other NuGet items).  When your repo gets deployed to Azure, all of your NuGet packages will be downloaded from NuGet and deployed with your project automatically.  A lean repo is a clean and tidy repo.  It's a bit magical.  If you're not using the NuGet command `install-package umbracocms` when you install Umbraco, you're doing more work than you should. 
