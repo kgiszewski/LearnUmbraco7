@@ -11,7 +11,7 @@ After installing, you will need to create a new file (or rename the sample) call
 <FileSystemProviders>
   <Provider alias="media"  type="idseefeld.de.UmbracoAzure.AzureBlobFileSystem, idseefeld.de.UmbracoAzure">
     <Parameters>
-      <add key="containerName" value="mendozaappmedia" />
+      <add key="containerName" value="media" />
       <add key="rootUrl" value="" />
       <add key="connectionString" value="DefaultEndpointsProtocol=https;AccountName=;AccountKey="/>
       <add key="mimetypes" value="" />
