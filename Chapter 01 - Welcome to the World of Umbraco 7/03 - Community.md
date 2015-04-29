@@ -38,8 +38,12 @@ http://24days.in/umbraco
 
 To contribute please tweet to: http://twitter.com/greystate
 
-#Skrift.io#
+##Skrift.io##
 
 A weekly Umbraco magazine: http://skrift.io
 
 ![skrift](assets/skrift.png)
+
+##nibble.be
+
+A very popular blog by Tim Geysens from the core team.  This is always full of good stuff: http://www.nibble.be/
