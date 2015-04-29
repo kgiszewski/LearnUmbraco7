@@ -9,7 +9,7 @@ After installing, you will need to create a new file (or rename the sample) call
 ```
 <?xml version="1.0"?>
 <FileSystemProviders>
-  <Provider alias="media"  type="idseefeld.de.UmbracoAzure.AzureBlobFileSystem, idseefeld.de.UmbracoAzure">
+  <Provider alias="media" type="idseefeld.de.UmbracoAzure.AzureBlobFileSystem, idseefeld.de.UmbracoAzure">
     <Parameters>
       <add key="containerName" value="media" />
       <add key="rootUrl" value="" />
