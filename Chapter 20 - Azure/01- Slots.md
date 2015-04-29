@@ -39,3 +39,5 @@ In order to keep some sort of order and synchronization with your media, you wil
 ![topology.png](assets/topology.png)
 
 The reason for the preprod and production being connected to the same media and DB, this ensures that no resources are lost between swaps.
+
+>You should probably disable auto sync stuff such as uSync.  Perform import operations manaully using those packages instead.
