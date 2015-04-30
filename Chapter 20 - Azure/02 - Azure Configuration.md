@@ -18,7 +18,12 @@ For these two environments, we'll use a single transform.  Create a transform ca
 ###Azure Dev
 We will retain the same settings as the local environment, but you could create a `Web.Azure-Dev.config` and do something specific there.
 
-###Azure Services
+##Get Azure to Use a Specific Transform
+To get Azure to use a specific transform on a particular slot, go to the `configure` area for your slot and add an app setting:
+
+`SCM_BUILD_ARGS` with value of `-p:PublishProfile=Azure-Prod`
+
+##Azure Services
 You need to sign up for these services as well:
 * CDN - For Image processor caching
 * Azure Storage - For Image Processor caching and media

@@ -8,7 +8,7 @@ Umbraco is incredibly compatible with Azure, but it takes a strong stomach to be
 * A development server (Continuously integrated with a GitHub Developer branch)
 * Host your `/media` folder on Azure
 * Host your Image Processor cache on Azure
-* Have you media served via the Azure CDN
+* Have your media served via the Azure CDN
 * Perform web.config transformation based on slot
 
 >Note that this is not a tutorial, rather it is more or less a guide as to how set things up overall and some help with configurations.  It is assumed you've been able to setup an Azure Website already but just want to see how to optimize things.

@@ -1,12 +1,12 @@
 #Fixing Image Processor with Umbraco#
-So using the Azure File System package unwittingly breaks Image Processors ability to make crops.  This is because Image Processor relies on the fact that images are usually hosted in the same web app.  Fortunately James South (and others) have a work around.  The workaround grabs the Azure hosted images (that live at a different URL now) and proxy's them through Umbraco (thus restoring the ability to crop them).
+So using the Azure File System package unwittingly breaks Image Processor's ability to make crops.  This is because Image Processor relies on the fact that images are usually hosted in the same web app.  Fortunately James South (and others) have a workaround.  The workaround grabs the Azure hosted images (that live at a different URL now) and proxy's them through Umbraco (thus restoring the ability to crop them).
 
-There is a fun discussion here if you'd like to ready further: https://our.umbraco.org/projects/backoffice-extensions/azure-blob-storage-provider/your-remarks,-ideas-etc/64307-Image-CropperImage-Processor-Crops
+There is a fun discussion here if you'd like to read further: https://our.umbraco.org/projects/backoffice-extensions/azure-blob-storage-provider/your-remarks,-ideas-etc/64307-Image-CropperImage-Processor-Crops
 
 ##The Fix
 First you will need to update your `ImageProcessor.Web` (https://www.nuget.org/packages/ImageProcessor.Web/) to the latest version.  At the moment, NuGet is your safest (only?) option.
 
-Next install `ImageProcessor.web.config` (https://www.nuget.org/packages/ImageProcessor.Web.Config/)
+Next install `ImageProcessor.Web.Config` (https://www.nuget.org/packages/ImageProcessor.Web.Config/)
 
 Go into `~/config/imageprocessor/security.config` and add your storage account to the whitelist: `<add url="http://[accountname].blob.core.windows.net/"/>`.
 
