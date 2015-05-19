@@ -11,6 +11,6 @@ It's extremely useful for production boxes where access to the box may not be ea
 
 ###Where do I get it?###
 
-**Our Umbraco: **https://our.umbraco.org/projects/developer-tools/diplo-trace-log-viewer
+**Our Umbraco:** https://our.umbraco.org/projects/developer-tools/diplo-trace-log-viewer
 
 **NuGet:** http://www.nuget.org/packages/DiploTraceLogViewer/
