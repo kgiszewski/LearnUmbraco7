@@ -46,31 +46,31 @@ The purpose of this book is to provide free information to those who want to kno
 
 ##Style Guide##
 
-###Structure###
+####Structure####
 The structure of this books is the following:
 
-* Chapter folder named as `{Chapter Number} - {Chapter Name}` 
-    * Section markdown file named as `{Section Number} - {Section Name}.md`
-    * asset folder (to hold images/pdfs for this chapter) named as `assets`
-    * readme.md (all folders are required to have one and this serves as an overview page)
+* `Chapter` - Chapters are folders named as `{Chapter Number} - {Chapter Name}` 
+    * `Section` - A section is a markdown file named as `{Section Number} - {Section Name}.md`
+    * `Assets` - A folder for media (to hold images/pdfs for this chapter) named as `assets`
+    * `Readme.md` - All folders are required to have one and this serves as an overview page
 
-###Do Use Markdown###
+####Do Use Markdown####
 Everything should be written in markdown and not HTML.  If you are not familiar with markdown, please use these references:
 
 * https://help.github.com/articles/markdown-basics/
 * https://help.github.com/articles/github-flavored-markdown/
 
-###Do Use Root Relative, Current Relative or External Links###
+####Do Use Root Relative, Current Relative or External Links####
 Use links that are rooted from the top level like so `[click me](/LearnUmbraco7/01 - Chapter 0/readme.md)`.
 
-###Do Not Use Relative Paths with Double Dots###
+####Do Not Use Relative Paths with Double Dots####
 These type of links `[click me](../01 - Chapter 0/readme.md)` are useful normally, but create a security issue when downloaded into things like [Umbraco Bookshelf](https://github.com/kgiszewski/UmbracoBookshelf).
 >Side note, Umbraco Bookshelf ignores these types of links.
 
-###Do Split Things Up###
+####Do Split Things Up####
 Try to split chapters into logical sections.
 
-###Do Use the Assets Folder###
+####Do Use the Assets Folder####
 Each chapter has an `assets` folder where your pdf and image files should go.
 
 When linking assets, use relative paths like `![my image](assets/myimage.png)`.
