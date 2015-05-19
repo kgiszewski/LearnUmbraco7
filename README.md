@@ -73,13 +73,13 @@ Try to split chapters into logical sections.
 ####Do Use the Assets Folder####
 Each chapter has an `assets` folder where your pdf and image files should go.
 
+When linking assets, use relative paths like `![my image](assets/myimage.png)`.
+
 ####Do Use Blockquotes for Callouts####
 Need to call something out?  Use a blockquote.
 
 ####Do Use Code Literals and Namespaces####
 Use code blocks when showing code.  Always include namespaces for C#.
-
-When linking assets, use relative paths like `![my image](assets/myimage.png)`.
 
 ##So what should you contribute?##
 Each chapter and section will has TODO lists associated with them as well as general outlines of future content. Feel free to tackle any of those or submit other TODOs.  Here are some other examples of what you can contribute:
