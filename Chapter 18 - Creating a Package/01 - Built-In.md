@@ -1,7 +1,7 @@
 #Built-In#
 The built-in method is simple and essentially a GUI-based way to select files that will be zipped up.  In addition to files, this method allows for the inclusion of database definitions such as document types and data types. Please do note that if you plan to include data types, the target system should include the required files or you'll have to include them in your package.
 
-Ideally you'll only include files and little to no database definitions as this can create environment specific issues.
+>Ideally you'll only include files and little to no database definitions as this can create environment specific issues.
 
 ##Let's Create One##
 Navigate to `Developer->Created Packages` and right click on that node and then select `Create`.
