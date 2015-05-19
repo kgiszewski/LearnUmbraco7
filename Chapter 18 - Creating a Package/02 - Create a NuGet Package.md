@@ -7,7 +7,7 @@ First and foremost, creating a NuGet package isn't a trivial task the first time
 * Developers won't have to commit your package to source control
 * Extra exposure and install options for your package if both the built-in and NuGet versions are available
 
-What follows next is a guide on how to a process to create packages on demand.  Thanks to Tom Fulton for setting this up initially.
+What follows next is a guide on how to a process to create packages on demand.
 
 ##NuGet Package Format##
 As with the built-in method, a NuGet package is pretty much just files and a manifest zipped together into a `.nupkg` file. 
@@ -20,6 +20,7 @@ We will have to address certain formatting of the file structure/manifest aspect
 So if you're already using Node.js and/or Grunt, this will be familiar to you. If not, please visit the [Appendix](/z-Appendix F - Node.js/README.md) to learn how to install these tools.
 
 The idea is we will use Grunt to automate the building of our NuGet package.  In your repo root (not in your web root), create these files:
+>For a live example, see the file structure on this project: https://github.com/kgiszewski/UmbracoBookshelf
 
 ###package.json###
 ```
