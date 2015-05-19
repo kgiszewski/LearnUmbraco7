@@ -46,12 +46,34 @@ The purpose of this book is to provide free information to those who want to kno
 
 ##Style Guide##
 
-For now the style is fairly undecided. The book currently uses markdown along with GitHub flavored markdown. All text files created will need to have the `.md` extension. Images should be high quality and be in JPG, GIF or PNG formats.
+###Structure###
+The structure of this books is the following:
 
-If you are not familiar with markdown, please use these references:
+* Chapter folder named as `{Chapter Number} - {Chapter Name}` 
+    * Section markdown file named as `{Section Number} - {Section Name}.md`
+    * asset folder (to hold images/pdfs for this chapter) named as `assets`
+    * readme.md (all folders are required to have one and this serves as an overview page)
+
+###Do Use Markdown###
+Everything should be written in markdown and not HTML.  If you are not familiar with markdown, please use these references:
 
 * https://help.github.com/articles/markdown-basics/
 * https://help.github.com/articles/github-flavored-markdown/
+
+###Do Use Root Relative, Current Relative or External Links###
+Use links that are rooted from the top level like so `[click me](/LearnUmbraco7/01 - Chapter 0/readme.md)`.
+
+###Do Not Use Relative Paths with Double Dots###
+These type of links `[click me](../01 - Chapter 0/readme.md)` are useful normally, but create a security issue when downloaded into things like [Umbraco Bookshelf](https://github.com/kgiszewski/UmbracoBookshelf).
+>Side note, Umbraco Bookshelf ignores these types of links.
+
+###Do Split Things Up###
+Try to split chapters into logical sections.
+
+###Do Use the Assets Folder###
+Each chapter has an `assets` folder where your pdf and image files should go.
+
+When linking assets, use relative paths like `![my image](assets/myimage.png)`.
 
 ##So what should you contribute?##
 Each chapter and section will has TODO lists associated with them as well as general outlines of future content. Feel free to tackle any of those or submit other TODOs.  Here are some other examples of what you can contribute:
