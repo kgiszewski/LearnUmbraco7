@@ -1,5 +1,8 @@
 #Introduction and the Nature of the Beast#
 
+![9024347315_8f5df45da8_o.jpg](assets/9024347315_8f5df45da8_o.jpg)
+>Photo by: Doug Robar
+
 Umbraco is a content management system created by Niels Hartvig and is headquartered in the Scandinavian country of Denmark.  Umbraco is an open-source software project hosted on [GitHub](https://github.com/umbraco/Umbraco-CMS/).  It is updated often and embodies some of the latest web technologies and methodologies.  It has evolved through the years and this book specifically deals with version 7.
 
 ##Umbraco 7 features at a glance##

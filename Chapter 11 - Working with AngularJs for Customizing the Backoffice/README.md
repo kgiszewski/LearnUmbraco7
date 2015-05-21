@@ -1,5 +1,8 @@
 #Overview#
 
+![7377957044_76c6714b63_o.jpg](assets/7377957044_76c6714b63_o.jpg)
+>Photo by Doug Robar
+
 AngularJs powers most of the Umbraco 7 backoffice.  If you are new to AngularJs, then you will need to study up on how Angular works [separately](https://angularjs.org/).
 
 There are two other libraries available to you when working with Angular.  They are jQuery and [Underscore.js](http://underscorejs.org/).  You may see usage of both in some of the examples and you should be aware of the mixing of the libraries.

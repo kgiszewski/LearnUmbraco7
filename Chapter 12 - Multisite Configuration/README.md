@@ -1,5 +1,8 @@
 #Overview#
 
+![13391452355_aed8eb7c54_o.jpg](assets/13391452355_aed8eb7c54_o.jpg)
+>Photo by Doug Robar
+
 Setting up Umbraco to handle more than one website is easy to do.  Below is a list of things to consider when setting up a multisite install:
 
 * Create a `Site` document type (or whatever you name it) that will reside on root of your content section for each of your sites.

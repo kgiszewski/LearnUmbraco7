@@ -13,3 +13,11 @@ Kevin is employed as a Senior Web Developer by the University of Notre Dame Mend
 You can follow Kevin on Twitter at: http://twitter.com/kevingiszewski
 
 ###Mark Kimmet###
+
+##Photos##
+All of the photography in this book is copyrighted and provided as a courtesy by [Doug Robar](https://twitter.com/drobar) who is the official Umbraco Photographer.  Thank you Doug for allowing them to be used #h5yr!
+
+For even more wonderful pictures by Doug, please visit his [Flickr](https://www.flickr.com/photos/percipientstudios/sets/with/72157605372962113)!
+
+![4372945716_0cecd1e8c2_o.jpg](assets/4372945716_0cecd1e8c2_o.jpg)
+>Photo of Doug Robar

@@ -1,5 +1,8 @@
 #Custom Sections, Trees and Actions#
 
+![13391598663_b2f0f68f87_o.jpg](assets/13391598663_b2f0f68f87_o.jpg)
+>Photo by Doug Robar
+
 What makes Umbraco truly special is the ability to integrate custom functionality without making it look like the extra functionality was tacked on.
 
 This section is dedicated to adding custom sections (also known as applications), trees and actions (context menu items).

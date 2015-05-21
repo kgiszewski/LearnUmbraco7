@@ -1,5 +1,8 @@
 #Overview#
 
+![14434411872_fd5c69b77c_o.jpg](assets/14434411872_fd5c69b77c_o.jpg)
+>Photo by Doug Robar
+
 Umbraco is incredibly compatible with Azure, but it takes a strong stomach to be able to fully utilize all of the bells and whistles.  This chapter covers the Azure Websites configuration specifically and will enable you to do the following:
 
 * Run the main site from a production slot

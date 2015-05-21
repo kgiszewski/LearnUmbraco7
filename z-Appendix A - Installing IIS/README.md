@@ -1,5 +1,8 @@
 #Install IIS#
 
+![16397177094_574e2f4ef1_o.jpg](assets/16397177094_574e2f4ef1_o.jpg)
+>Photo by Doug Robar
+
 There are at least two ways to run a website on your local machine.  You can use the built-in IIS in Visual Studio or use IIS Express which comes with OS's like Windows 7/8.
 
 For this book, we need to use IIS Express as it has more features than what is built into Visual Studio.

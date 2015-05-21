@@ -1,5 +1,8 @@
 #Overview#
 
+![9026574602_d1d9d142bb_o.jpg](assets/9026574602_d1d9d142bb_o.jpg)
+>Photo by Doug Robar
+
 Umbraco provides some pretty awesome features out of the box without much need for additional functionality.  That said Umbraco HQ produces a few paid packages that you might be interested in.  There are many clever third-party packages out there that add some amazing features that you should be aware of.  The next few sections will cover some of the most popular for version 7.
 
 >Most packages in the community are free but some are commercial.

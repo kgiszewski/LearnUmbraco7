@@ -1,5 +1,9 @@
 #Installing Umbraco#
 
+
+![14435732345_b3d6799cff_o.jpg](assets/14435732345_b3d6799cff_o.jpg)
+>Photo by Doug Robar
+
 If you haven't set up IIS with a website and Visual Studio, see Appendices A and B first.  After you have these set up you can continue on to install Umbraco.
 
 First open up Visual Studio and create a new Project.  Make sure to use .NET Framework 4.5 and select MVC 4 Web Application for

@@ -1,4 +1,8 @@
 #Core Team#
+
+![15930521975_013c7c300d_o.jpg](assets/15930521975_013c7c300d_o.jpg)
+>Photo by: Doug Robar
+
 The core team is the team that has made Umbraco what it is today.  While HQ is in Denmark, many core team members live other places around the world.
 ##Niels Hartvig##
 Twitter: http://twitter.com/umbraco

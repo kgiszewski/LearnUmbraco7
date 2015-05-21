@@ -1,5 +1,8 @@
 #Node.Js#
 
+![14272076400_cc38812b9a_o.jpg](assets/14272076400_cc38812b9a_o.jpg)
+>Photo by Doug Robar
+
 Node.js is server-side javascript that can be used for a variety of reasons.  For the purposes of this book, Node.js is being used to execute repetitive code (tasks) that make life easier for a developer.
 
 ##Install##

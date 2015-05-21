@@ -1,5 +1,8 @@
 #The Umbraco Backoffice#
 
+![8656703331_63be55c15c_o.jpg](assets/8656703331_63be55c15c_o.jpg)
+>Photo by: Doug Robar
+
 The Umbraco backoffice is where the content editors and developers will spend a large part of their time.  The backoffice is broken into several sections:
 
 * [Content](01 - Content Section.md)

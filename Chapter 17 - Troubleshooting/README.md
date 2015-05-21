@@ -1,5 +1,8 @@
 #Troubleshooting#
 
+![14428541106_9e3d6e049b_o.jpg](assets/14428541106_9e3d6e049b_o.jpg)
+>Photo by Doug Robar
+
 Inevitably Umbraco will show you love with the ubiquitous yellow screen of death (YSOD).
 
 Some things you may wanna try before googling for answers are below.

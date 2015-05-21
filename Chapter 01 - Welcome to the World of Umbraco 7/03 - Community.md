@@ -22,7 +22,11 @@ uWestFest is relatively new and is the North American festival held in late Wint
 ![uwestfest](assets/uwestfest.png)
 
 ##UK Fest##
- UK Fest is the United Kingdom festival typically held in the Fall.
+UK Fest is the United Kingdom festival typically held in the Fall.
+
+![15101926851_bd53bbf155_o.jpg](assets/15101926851_bd53bbf155_o.jpg)
+>Photo by: Doug Robar
+
 ##uHangout##
 uHangout is a weekly recurring webcast hosted by Warren Buckley.
 

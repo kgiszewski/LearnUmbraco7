@@ -1,5 +1,8 @@
 #Developer Tools#
 
+![9026576438_2b6993f317_o (1).jpg](assets/9026576438_2b6993f317_o.jpg)
+>Photo by: Doug Robar
+
 This book is about extending Umbraco and extending Umbraco can be simple and it can be advanced for those who choose to do so.  Therefore depending on what you wish to accomplish, it may not require anything special.
 
 ##Required Tools##

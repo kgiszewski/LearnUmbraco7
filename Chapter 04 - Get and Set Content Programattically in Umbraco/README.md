@@ -1,5 +1,8 @@
 #Overview#
 
+![5838817600_1da1563821_o.jpg](assets/5838817600_1da1563821_o.jpg)
+>Photo by: Doug Robar
+
 Umbraco is a very easy to use content management system.  Getting data in Umbraco is a matter of deciding of whether it should be sourced from published content or from the backoffice directly.
 
 Published content is delivered through the `IPublishedContent`class.  Typically you will encounter this class when working with views.  `IPublishedContent` is cached and is `read only`.  This is where you should be getting your data if you need the latest published copy.
