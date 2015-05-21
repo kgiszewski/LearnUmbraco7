@@ -31,3 +31,7 @@ namespace MyNamespace
 You can set information programmatically as well but consider just using the GUI for this purpose.
 
 For more information regarding these services, please consult the official docs.
+
+[<Back 09 - Member Service](09 - Member Service.md)
+
+[Next> 11 - IOHelper.md](11 - IOHelper.md.md)

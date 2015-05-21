@@ -98,3 +98,7 @@ The pager will have it's URL's in the following format:
 * http://foo.local/mypage?q=a%20keyword&p=1
 * http://foo.local/mypage?q=a%20keyword&p=2
 * http://foo.local/mypage?q=a%20keyword&p=3
+
+[<Back Overview](README.md)
+
+[Next> 02 - Sitemap](02 - Sitemap.md)

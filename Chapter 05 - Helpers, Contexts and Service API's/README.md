@@ -10,3 +10,5 @@ For instance, you may be tempted to install and use Entity Framework to handle c
 Also, keep in mind that the items in this chapter are in regards to C# functionality.  There are AngularJS resources, directives and services you should be aware of as well.  We'll cover those later in [Chapter 11](/Chapter 11 - Working with AnuglarJs for Customizing the Backoffice).
 
 >For the record you can still use Entity Framework in parallel with PetaPoco.
+
+[Next> 01 - ApplicationContext](01 - ApplicationContext.md)

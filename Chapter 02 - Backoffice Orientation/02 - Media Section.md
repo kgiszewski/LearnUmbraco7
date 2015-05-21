@@ -33,3 +33,7 @@ It is very common to change the type of the `umbracoFile` property to `Image Cro
 Umbraco also is compatible with using virtual directories and custom file providers to locate your media in a different directory or even on a cloud server.
 
 >IMPORTANT: All media files are open to the public.  To make any media files private, you will have to implement a custom or use a 3rd party package.
+
+[<Back 01 - Content Section](01 - Content Section.md)
+
+[Next> 03 - Settings Section](03 - Settings Section.md)

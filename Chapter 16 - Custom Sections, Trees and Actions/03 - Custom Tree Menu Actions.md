@@ -112,3 +112,7 @@ To wire all this up, you'll need to create a web structure in your `App_Plugins`
 ![custom section plugins](assets/custom-section-plugins.png)
 
 Please visit the Bookshelf project for further details: https://github.com/kgiszewski/UmbracoBookshelf/tree/master/src/App_Plugins/UmbracoBookshelf
+
+[<Back 02 - Create a Tree](02 - Create a Tree.md)
+
+[Next> 04 - Custom IAction](04 - Custom IAction.md)

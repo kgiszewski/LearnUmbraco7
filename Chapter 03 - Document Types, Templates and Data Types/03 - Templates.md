@@ -92,3 +92,5 @@ Remember that Umbraco is using regular old MVC with a lot of help being given to
 
 @Html.Partial("~/Views/BizMag/Partials/disqus.cshtml")
 ```
+
+[<Back 02 - Data Types](02 - Data Types.md)

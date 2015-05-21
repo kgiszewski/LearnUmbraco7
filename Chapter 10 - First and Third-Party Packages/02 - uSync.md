@@ -11,3 +11,7 @@ It is a free way to synchronize settings between environments.
 **NuGet:** https://www.nuget.org/packages/uSync/
 
 **Our Umbraco:** https://our.umbraco.org/projects/developer-tools/usync
+
+[<Back 01 - Core Property Value Converters](01 - Core Property Value Converters.md)
+
+[Next> 03 - Archetype](03 - Archetype.md)

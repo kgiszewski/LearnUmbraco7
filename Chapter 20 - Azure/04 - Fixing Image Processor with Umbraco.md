@@ -27,3 +27,7 @@ public static string ToAzureBlobUrl(this string input)
 The idea is that you are inserting `remote.axd` into the url which tells Image Processor to get the image by proxy.  Thanks to both James and Dirk for helping out here.
 
 Usage would be: `someImageIPublishedContent.GetCropUrl().ToAzureBlogUrl()`.
+
+[<Back 03 - File System Provider](03 - File System Provider.md)
+
+[Next> 05 - Wiring Up Image Processor Cache](05 - Wiring Up Image Processor Cache.md)

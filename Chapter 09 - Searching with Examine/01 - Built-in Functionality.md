@@ -124,3 +124,7 @@ namespace MyNamespace
 And when you return to the search tool, you'll now see the new fields each representing an Archetype fieldset:
 
 ![complex](assets/examine-complex.png)
+
+[<Back Overview](README.md)
+
+[Next> 02 - Search Results](02 - Search Results.md)

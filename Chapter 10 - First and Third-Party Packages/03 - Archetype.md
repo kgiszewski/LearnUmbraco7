@@ -23,3 +23,7 @@ It is an alternative to the MNTP pattern for trivial data such as carousel slide
 **NuGet:** http://www.nuget.org/packages/archetype
 
 **Our Umbraco:** https://our.umbraco.org/projects/backoffice-extensions/archetype
+
+[<Back 02 - uSync](02 - uSync.md)
+
+[Next> 04 - Merchello](04 - Merchello.md)

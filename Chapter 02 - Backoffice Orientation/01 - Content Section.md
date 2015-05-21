@@ -76,3 +76,7 @@ The default context menu items are as follows:
 * Notifications - Use this to get notified when a certain action is performed
 * Send to Translation - Sends the node into the translation workflow
 * Custom - You can add your own action as well
+
+[<Back Overview](README.md)
+
+[Next> 02 - Media Section](02 - Media Section.md)

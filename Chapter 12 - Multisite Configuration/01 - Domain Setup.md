@@ -14,3 +14,5 @@ The standard Umbraco way to do multilingual sites is to assign a culture to the 
 ![menu](assets/domain-setup.png)
 
 Visit the `Settings->Languages` section to add new cultures that will be selectable in the domain setup dialog.
+
+[<Back Overview](README.md)

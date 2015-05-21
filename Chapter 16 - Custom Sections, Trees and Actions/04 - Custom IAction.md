@@ -126,3 +126,5 @@ namespace MyNamespace
 ```
 
 >I've created an `IAction` in a side project that adds 'move' functionality to the `Settings->Document Type` node items.  You can find it here: https://github.com/kgiszewski/DocumentTypeMover
+
+[<Back 03 - Custom Tree Menu Actions](03 - Custom Tree Menu Actions.md)

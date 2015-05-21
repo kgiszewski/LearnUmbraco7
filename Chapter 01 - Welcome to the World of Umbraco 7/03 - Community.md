@@ -51,3 +51,5 @@ A weekly Umbraco magazine: http://skrift.io
 ##nibble.be
 
 A very popular blog by Tim Geysens from the core team.  This is always full of good stuff: http://www.nibble.be/
+
+[<Back 02 - History](02 - History.md)

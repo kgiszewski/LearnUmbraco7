@@ -19,3 +19,5 @@ Umbraco is incredibly compatible with Azure, but it takes a strong stomach to be
 Azure provides a bunch of things that may cut a lot of dev ops costs (i.e. TeamCity).
 
 ![azure.png](assets/azure.png)
+
+[Next> 01- Slots](01- Slots.md)

@@ -20,3 +20,5 @@ The components you should be aware of are:
 * Services - Fancy way of saying do some server stuff via AJAX (most likely).
 
 For this section, we will build a simple property that hides the tab that it appears on.   You can use this bit of functionality to hide the 'Generic Properties' tab on document types that don't represent pages (just data).
+
+[Next> 01 - Manifest](01 - Manifest.md)

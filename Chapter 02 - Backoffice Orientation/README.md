@@ -19,3 +19,5 @@ Version 7 has brought a very clean responsive interface powered by AngularJs.  U
 ![Backoffice](assets/backoffice.png)
 
 >NOTE: Typically editors are only given access to the `Content` and `Media` section while developers will need access to everything.
+
+[Next> 01 - Content Section](01 - Content Section.md)

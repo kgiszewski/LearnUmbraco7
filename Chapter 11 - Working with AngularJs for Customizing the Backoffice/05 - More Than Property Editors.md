@@ -71,3 +71,5 @@ What happens is this:
 * A dialog is opened as a result
 * The dialog template is loaded with it's own controller that handles how and what to display
 * Clicking an image causes the `$scope.submit()` method to fire which sends back the data to the original callback in the first controller
+
+[<Back 04 - URL Picker Property Editor](04 - URL Picker Property Editor.md)

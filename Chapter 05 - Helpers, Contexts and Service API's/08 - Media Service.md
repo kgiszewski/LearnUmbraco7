@@ -49,3 +49,7 @@ Umbraco has several reserved properties that are being used by default by severa
 * `umbracoFile` - Holds the web path to a file in the `~/media` folder
 * `umbracoBytes` - Holds the file size in bytes
 * `umbracoExtensions` - Holds the extension (without the dot) of the file type
+
+[<Back 07 - Data Type Service](07 - Data Type Service.md)
+
+[Next> 09 - Member Service](09 - Member Service.md)

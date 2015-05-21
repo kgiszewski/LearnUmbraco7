@@ -10,3 +10,7 @@ Out of the box are most of the data types you will ever need.  However Umbraco i
 Some data types allow for nesting of data structures such as other data types and other document types.  Be sure to visit http://our.umbraco.org for some killer packages.
 
 For more information regarding core data types, please refer to the official documentation.
+
+[<Back 01 - Document Types](01 - Document Types.md)
+
+[Next> 03 - Templates](03 - Templates.md)

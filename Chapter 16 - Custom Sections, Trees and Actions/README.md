@@ -14,3 +14,5 @@ For our example, we will use the [Umbraco Bookshelf project](https://github.com/
 The final product will look like this:
 
 ![custom-section](assets/custom-section.png)
+
+[Next> 01 - Create a Section](01 - Create a Section.md)

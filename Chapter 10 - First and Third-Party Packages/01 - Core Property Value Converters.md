@@ -39,3 +39,7 @@ There are several of these conversions that will happen when this package is ins
 **NuGet:** https://www.nuget.org/packages/Our.Umbraco.CoreValueConverters/
 
 **Our Umbraco:** https://our.umbraco.org/projects/developer-tools/umbraco-core-property-value-converters
+
+[<Back Overview](README.md)
+
+[Next> 02 - uSync](02 - uSync.md)

@@ -12,3 +12,5 @@ Setting up Umbraco to handle more than one website is easy to do.  Below is a li
 * Consider creating a `Site Settings` document type to hold settings for each website.
 
 ![multisite](assets/multisite.png)
+
+[Next> 01 - Domain Setup](01 - Domain Setup.md)

@@ -45,3 +45,7 @@ This example is using a Archetype fieldset to fill in the `<description>` tag bu
 Now that you've got a basic RSS feed going, you can check it out by visiting: http://mydomain.local/rss.
 
 >If you use Internet Explorer, it'll format the response in a human readable feed.
+
+[<Back 02 - Sitemap](02 - Sitemap.md)
+
+[Next> 04 - Custom Membership Providers](04 - Custom Membership Providers.md)

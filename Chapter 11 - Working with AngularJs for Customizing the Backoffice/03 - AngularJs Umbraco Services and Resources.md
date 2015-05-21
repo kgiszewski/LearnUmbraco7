@@ -92,3 +92,7 @@ angular.module('umbraco').controller('MySampleController', function ($scope, ent
 Notice a few things here:
 * The call to `getById()` will return a promise and if successful it'll fill the `data` variable with the JSON from the server.
 * This is a very common pattern in AngularJs, please read up on promises and understand that this will happen asynchronously.
+
+[<Back 02 - The View and Directive](02 - The View and Directive.md)
+
+[Next> 04 - URL Picker Property Editor](04 - URL Picker Property Editor.md)

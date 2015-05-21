@@ -22,3 +22,5 @@ Umbraco is a content management system created by Niels Hartvig and is headquart
 Open-source software used to be cast in a negative light due to many reasons.  However Umbraco proves that OSS can be very innovative and can implement positive change in short order.
 
 Umbraco is very fast-paced and you can expect patch updates regularly and new features often.  Umbraco has gone through many major versions, but version 7 is in a class of it's own.
+
+[Next> 01 - Core Team](01 - Core Team.md)

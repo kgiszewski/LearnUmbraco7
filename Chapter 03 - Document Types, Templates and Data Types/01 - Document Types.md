@@ -36,3 +36,7 @@ This is where you'll define tabs and data types that will appear on a document t
 
 ##Tabs Tab##
 Here is where you'll manage your tabs for your documents' data types.  Tabs are inherited, so often you'll see a `Content` tab placed on a base document type up the chain.
+
+[<Back Overview](README.md)
+
+[Next> 02 - Data Types](02 - Data Types.md)

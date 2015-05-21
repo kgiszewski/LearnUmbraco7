@@ -23,3 +23,7 @@ Once you've completed your package selections, you can then return to the `Packa
 That's it!  You can now upload it to http://our.umbraco.org and share it with the world.
 
 >Please note that many Umbraco Developers prefer installing your package via NuGet which is covered in the next section.
+
+[<Back Overview](README.md)
+
+[Next> 02 - Create a NuGet Package](02 - Create a NuGet Package.md)

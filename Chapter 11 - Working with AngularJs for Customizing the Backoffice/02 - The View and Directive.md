@@ -79,3 +79,7 @@ When registering functionality with Umbraco, please use the appropriate module.
 If you examine the directive code, the directive simply crawls the DOM and hides items based on what it finds.
 
 We'll cover another property editor later on.
+
+[<Back 01 - Manifest](01 - Manifest.md)
+
+[Next> 03 - AngularJs Umbraco Services and Resources](03 - AngularJs Umbraco Services and Resources.md)

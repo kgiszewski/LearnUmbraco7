@@ -39,3 +39,7 @@ Finally, since I don't want my local dev to store images in Azure but I DO want 
 >Make sure you have set your Azure app setting to use the `Web.Azure-Prod.config` transform (previous section).
 
 It is important to know that using this file system provider will break Image Processor's `GetCropUrl()` functionality within Umbraco.  The next section covers how to fix it.
+
+[<Back 02 - Azure Configuration](02 - Azure Configuration.md)
+
+[Next> 04 - Fixing Image Processor with Umbraco](04 - Fixing Image Processor with Umbraco.md)

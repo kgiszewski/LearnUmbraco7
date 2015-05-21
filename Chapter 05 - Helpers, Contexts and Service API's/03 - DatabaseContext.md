@@ -108,3 +108,7 @@ Then finally let's call the helper from a controller, view or wherever:
 ```
 
 While the sampling above is not all inclusive, you can also perform transactions and you should consult the main PetaPoco website for further help.
+
+[<Back 02 - UmbracoContext](02 - UmbracoContext.md)
+
+[Next> 04 - UmbracoHelper](04 - UmbracoHelper.md)

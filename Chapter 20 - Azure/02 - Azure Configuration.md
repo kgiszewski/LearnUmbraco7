@@ -27,3 +27,7 @@ To get Azure to use a specific transform on a particular slot, go to the `config
 You need to sign up for these services as well:
 * CDN - For Image processor caching
 * Azure Storage - For Image Processor caching and media
+
+[<Back 01- Slots](01- Slots.md)
+
+[Next> 03 - File System Provider](03 - File System Provider.md)

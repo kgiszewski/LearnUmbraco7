@@ -56,3 +56,5 @@ Now that we have a way to capture 404's (and 500's), a positive side-effect is t
 A side project that handles this sort of redirection help can be found here: https://github.com/kgiszewski/G42.UmbracoGrease
 
 If you need 100's of redirects, you may want to use an Umbraco package built for such a purpose.
+
+[<Back Overview](README.md)

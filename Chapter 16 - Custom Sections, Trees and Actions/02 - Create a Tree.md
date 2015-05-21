@@ -215,3 +215,7 @@ namespace UmbracoBookshelf.Controllers
 ```
 
 There is a lot going on in this file and most of it has to do with the business logic of how the project works.  Hopefully this gives you an idea of what you can do with your file tree.
+
+[<Back 01 - Create a Section](01 - Create a Section.md)
+
+[Next> 03 - Custom Tree Menu Actions](03 - Custom Tree Menu Actions.md)

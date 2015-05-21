@@ -109,3 +109,7 @@ You can call the searcher right from a view or from a controller.  The example b
 </div>
 ```
 >Note that the Examine search result object includes a `Score` property that represents the relevancy score.
+
+[<Back 01 - Built-in Functionality](01 - Built-in Functionality.md)
+
+[Next> 03 - Debugging with Luke](03 - Debugging with Luke.md)
