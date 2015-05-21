@@ -9,7 +9,7 @@ Learn Umbraco 7 is a crowd authored book with the purpose of onboarding new Umbr
 
 This book is downloadable despite not being complete.  This is being done to encourage more authors to fill in the blanks.  Please consider writing a section :)
 
-You can view this book right inside the Umbraco 7 backoffice using [Umbraco Bookshelf](https://our.umbraco.org/projects/backoffice-extensions/bookshelf).  You can also install with [NuGet](https://www.nuget.org/packages/UmbracoBookshelf/).
+You can view this book right inside the Umbraco 7 backoffice using [Umbraco Bookshelf](https://our.umbraco.org/projects/backoffice-extensions/bookshelf).  You can also install Bookshelf with [NuGet](https://www.nuget.org/packages/UmbracoBookshelf/).
 
 ##Target Audience##
 This book is targeted for readers who:
@@ -36,7 +36,7 @@ This book is not intended for readers who:
 * Hosting: Internet Information Services (IIS), Win Server
 
 ##License##
-Content in this repository is freely available to read and use for non-commercial uses. It may not be reproduced or used for commercial use without consent. All rights are reserved and copyrighted by the contributor.  All images and files are copyrighted by their respective owners.  All logos are trademarked by their respective owners.  Please seek permission to use before using any materials.
+Content in this repository is freely available to read and use for non-commercial uses. It may not be reproduced or used for commercial use without consent. All rights are reserved and copyrighted by the contributors.  All images and files are copyrighted by their respective owners.  All logos are trademarked by their respective owners.  Please seek permission to use before using any materials for any other purposes.
 
 ##Contribute##
 If you wish to contribute to the book, you may do so by submitting a pull request to this repository. You can send us a simple spelling correction, a section or even an entire chapter. By contributing you agree in full to the Contributor Agreement described below.
@@ -45,7 +45,7 @@ If you wish to contribute to the book, you may do so by submitting a pull reques
 The purpose of this book is to provide free information to those who want to know. By submitting any content, you affirm and agree the following:
 
 * The contribution is completely original and not taken from any source from which you do not possess the copyright 
-* You agree to allow your contribution to be used for any purpose by the repository owners 
+* You agree to allow your contribution to be used for any purpose by the repository owners in a non-commercial way
 
 ##Style Guide##
 
