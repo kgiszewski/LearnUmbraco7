@@ -28,3 +28,5 @@ For the uber nerds, you will probably want to get these tools:
 * [ReSharper](https://www.jetbrains.com/resharper/) - ReSharper takes code hinting and completion to the next level.  *May not be installable on VS Express.*
 * [GitExtensions](https://code.google.com/p/gitextensions/) - A GUI that helps with common Git commands.
 * [Fiddler](http://www.telerik.com/fiddler) - A free tool to watch HTTP transactions happen in real-time.
+
+[<Back Overview](Readme.md)
