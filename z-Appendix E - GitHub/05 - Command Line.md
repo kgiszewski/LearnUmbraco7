@@ -62,3 +62,21 @@ git merge master
 
 //this merges master into the current branch (assuming we're not on master)
 ```
+
+```
+git init
+
+//this creates a repo locally but it won't be connected to GitHub, we will connect it using commands given to us by GitHub
+//this assumes you are running this command from the root of your new repo
+```
+
+##Connecting to GitHub##
+Getting your local repo connected to GitHub is easy, please follow these steps:
+
+1. To create a repo locally, run `git init`.  This creates the required Git files.
+2. Manually create or copy/paste an existing `.gitignore` to exclude stuff we shouldn't track.
+3. Create a `README.md`.  This file will greet users on GitHub.
+4. Go to GitHub and create a new public or private repo.
+5. Run the commands that GitHub displays.
+
+You should now be able to push/pull to GitHub with your new repo.
