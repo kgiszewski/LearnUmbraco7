@@ -17,3 +17,7 @@ The process is the following:
 Umbraco is a fast moving project so make sure you have the latest version sync'ed locally.  You will also need to register an entry on their [bug tracker](http://issues.umbraco.org).  This allows the core team to track things in their project management.  Finally, there are several versions being developed at any one time so you may need to check to see which branch you should be modifying.
 
 ![issues.png](assets/issues.png)
+
+[<Back 03 - Git Extensions](03 - Git Extensions.md)
+
+[Next> 05 - Command Line](05 - Command Line.md)

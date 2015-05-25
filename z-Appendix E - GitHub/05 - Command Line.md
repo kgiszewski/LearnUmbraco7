@@ -80,3 +80,5 @@ Getting your local repo connected to GitHub is easy, please follow these steps:
 5. Run the commands that GitHub displays.
 
 You should now be able to push/pull to GitHub with your new repo.
+
+[<Back 04 - Contribute to a Project](04 - Contribute to a Project.md)

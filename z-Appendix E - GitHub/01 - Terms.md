@@ -35,3 +35,7 @@ Some terms that you should know about Git that will help the conversation.
 **Pull Request** - Since you can't directly modify another users' repo (due to permissions), you can *fork* a repo, make changes and then send the changes to the origin repo.  This sending of changes is done by creating a pull request.  A pull request shows a project owner a summary of the proposed changes.  If accepted, the repo owner merges in your changes.
 
 **Merge Conflict** - A merge conflict occurs when Git can't figure out what to do when two or more changes seem to conflict with each other during a merge.  To resolve, open the file(s) with the conflict and change the file to the way it needs to be.  Git will insert `<<<<` characters denoting the changes that conflict.  Once you make the file 'right', you will then be able to complete the commit/merge.
+
+[<Back Overview](README.md)
+
+[Next> 02 - .gitignore](02 - .gitignore.md)
