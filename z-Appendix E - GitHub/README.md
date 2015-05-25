@@ -1,5 +1,8 @@
 #GitHub#
 
+![16683508582_3ca71d1946_o.jpg](assets/16683508582_3ca71d1946_o.jpg)
+>Photo by Doug Robar
+
 GitHub has become the defacto version control tool that the Umbraco core team uses.  As such it is probably a good idea to give a brief immersion into what GitHub is and what it can do for you.  If you are not using any sort of version control, start today, you won't regret it.
 
 ##What is GitHub?##
