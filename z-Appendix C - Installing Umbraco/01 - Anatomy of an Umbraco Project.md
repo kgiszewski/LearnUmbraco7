@@ -42,3 +42,5 @@ Lastly, don't forget to reference (in the first project) any DLL's from your roo
 ![solution-explorer.png](assets/solution-explorer.png)
 
 >Please note the second project was created as an empty web application.  This was done to make accessing the `web.config` configuration manager easier to do.
+
+When setting up your IIS, please use the project folder that holds the Umbraco CMS project.  In this example it would be the `mendozaApp.Umbraco` folder.
