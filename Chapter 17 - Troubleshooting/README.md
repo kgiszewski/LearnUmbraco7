@@ -27,3 +27,6 @@ Most un-handled errors will get logged into text files located at `~/App_Data/lo
 Your password for your backoffice account is stored in the database inside the `umbracoUserLogins` table.  The password is hashed and you will need to replace your users' hash with a known hashed value.
 
 For example if you replace your password with `LCsQb84eg25PdNLUEk3zW04Cw/E=` your password will be set to `1234`.
+
+##Reporting a Bug##
+Before reporting a bug, you may want to pose a question on the forums at http://our.umbraco.org. If indeed you would like to report a bug to the core, register the issue at http://issues.umbraco.org. If you want to makes some friends, try troubleshooting the core and sending a pull-request (PR) to the core team.
