@@ -1,9 +1,9 @@
 #Umbraco WebAPI#
-Umbraco also uses WebAPI and these are more suited for getting information from the backoffice as opposed to surface controllers which are mainly for public information/interactions.
+Umbraco also uses WebAPI and these are more suited for getting information from the backoffice as opposed to surface controllers which are mainly for public information/interactions. You can restrict access to these controllers easily whereas `SurfaceControllers` you cannot.
 
 To use an WebApi with Umbraco, you can do the following:
 
-```
+```c#
 using Umbraco.Web.WebApi;
 
 namespace MyNamespace
@@ -21,7 +21,7 @@ namespace MyNamespace
 }
 ```
 This will return: 
-```
+```js
 )]}',
 ["Warren","Bob","Tom"]
 ```
@@ -31,7 +31,7 @@ The above controller is public to anyone who has the URL of: `/umbraco/api/mynam
 
 You can lock down the URL to only resolve to users logged into the backoffice by changing it to:
 
-```
+```c#
 using Umbraco.Web.Editors;
 
 namespace MyNamespace
@@ -52,7 +52,7 @@ The difference here is a user must be logged into the backoffice.  If you try to
 
 You can use the `[PluginController()]` attribute as well (like surface controllers) and your code would look like this:
 
-```
+```c#
 using Umbraco.Web.Editors;
 using Umbraco.Web.Mvc;
 
