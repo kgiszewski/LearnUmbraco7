@@ -11,7 +11,7 @@ PetaPoco requires a model (the POCO) to represent a row in a table.  So let's cr
 
 Our sample model below will represent a page view for a wiki article in a previous created table called `Wiki_Views`.  It has four columns and it's primary key column is `Id`.
 
-```
+```c#
 using System;
 using Umbraco.Core.Persistence;
 
@@ -33,7 +33,7 @@ namespace MyNamespace
 
 Let's create a helper class to do some of the CRUD operations:
 
-```
+```c#
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -101,7 +101,7 @@ namespace MyNamespace
 
 Then finally let's call the helper from a controller, view or wherever:
 
-```
+```c#
     var helper = new WikiHelper();
     
     var view = helper.AddView(Model.Content);
