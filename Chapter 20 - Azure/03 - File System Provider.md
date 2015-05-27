@@ -6,7 +6,7 @@ To do so you will need to install the [Azure Blob File System provider](https://
 
 After installing, you will need to create a new file (or rename the sample) called `~/config/FileSystemProvidersAzure.config`.  You will then need to configure the file with your Azure Blob Storage information:
 
-```
+```xml
 <?xml version="1.0"?>
 <FileSystemProviders>
   <Provider alias="media" type="idseefeld.de.UmbracoAzure.AzureBlobFileSystem, idseefeld.de.UmbracoAzure">
@@ -28,7 +28,7 @@ Next, go to your Azure Blob storage account and create a new `container` called 
 
 Finally, since I don't want my local dev to store images in Azure but I DO want them to be stored in Azure when for production/preprod, I need to setup a web transform.  Add this bit to your `Web.Azure-Prod.config` file:
 
-```
+```xml
 <configuration>
   <umbracoConfiguration>
     <FileSystemProviders configSource="config\FileSystemProvidersAzure.config" xdt:Transform="SetAttributes(configSource)"/>
