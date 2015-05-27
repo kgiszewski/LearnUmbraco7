@@ -6,7 +6,7 @@ Please see the [MVC forms section](/Chapter 07 - Forms/01 - Integrating Umbraco 
 
 To create a quick web service you can do the following:
 
-```
+```c#
 using System.Collections.Generic;
 using System.Web.Mvc;
 using Umbraco.Web.Mvc;
@@ -29,13 +29,13 @@ namespace MyNamespace
 You can hit that web service at it's default URL: `/umbraco/surface/mynamesurface/getnames`
 
 Which will send back:
-```
+```js
 ["Warren","Bob","Tom"]
 ```
 
-If you would like the url to be a little nicer, you can add an area for routing by adding a `PluginController` attribute like so:
+If you would like the URL to be a little nicer, you can add an area for routing by adding a `PluginController` attribute like so:
 
-```
+```c#
 using System.Collections.Generic;
 using System.Web.Mvc;
 using Umbraco.Web.Mvc;
@@ -59,7 +59,7 @@ You would then be able to get to the service with this URL: `/umbraco/MyNameThin
 
 Of course the URL is public and if you want to restrict access to members only, you can add another attribute like so:
 
-```
+```c#
 using System.Collections.Generic;
 using System.Web.Mvc;
 using Umbraco.Web.Mvc;
