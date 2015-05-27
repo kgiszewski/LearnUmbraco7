@@ -15,7 +15,7 @@ You can suppress errors from hitting the log based on level by altering the sett
 ##Logging Sample##
 The `LogHelper` takes a class name as it's argument and will appear in the written log to assist where the error is coming from.  When logger with the `Error` level, you will send the exception class as well.
 
-```
+```c#
 using System;
 using Umbraco.Core.Logging;
 
