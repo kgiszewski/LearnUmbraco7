@@ -6,7 +6,7 @@ RSS in Umbraco can be done a number of ways, one way is to take advantage of the
 * Open the file that is created located at `~/Views/rss.cshtml`
 * Add the following code and modify as desired:
 
-```
+```c#
 @using Archetype.Models
 @inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
