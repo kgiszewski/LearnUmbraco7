@@ -61,7 +61,7 @@ The example above shows a few things:
 * You need to inject a service into your controller
 * You can then do something with that service
 
-##NofiticationsService##
+##NotificationsService##
 Building on the last example, we can use the `NotificationsService` instead:
 
 ```
