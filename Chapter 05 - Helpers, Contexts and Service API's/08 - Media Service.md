@@ -2,7 +2,7 @@
 
 `MediaService` will let you fiddle with the media section in a lot of ways. The `MediaService` works with the `IMedia` interface for all CRUD operations.  One common task is to load a media item into Umbraco from another source:
 
-```
+```c#
 using System.IO;
 using Umbraco.Core;
 using Umbraco.Core.IO;
