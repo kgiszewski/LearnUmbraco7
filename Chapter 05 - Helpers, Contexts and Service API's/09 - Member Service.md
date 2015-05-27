@@ -2,7 +2,7 @@
 
 The `MemberService` is useful if you need to do any member operations.  `MemberServices` works with the `IMember` interface like so:
 
-```
+```c#
 using Umbraco.Core;
 
 namespace MyNamespace
