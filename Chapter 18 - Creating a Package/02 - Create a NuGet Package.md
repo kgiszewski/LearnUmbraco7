@@ -23,7 +23,7 @@ The idea is we will use Grunt to automate the building of our NuGet package.  In
 >For a live example, see the file structure on this project: https://github.com/kgiszewski/UmbracoBookshelf
 
 ###package.json###
-```
+```js
 {
   "name": "MyPackageName",
   "version": "0.0.0",
@@ -62,7 +62,7 @@ The idea is we will use Grunt to automate the building of our NuGet package.  In
 >These are the dependencies Node.js needs.
 
 ###gruntfile.js###
-```
+```js
 module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
   var path = require('path')
@@ -249,7 +249,7 @@ The commands we just registered are:
 
 ###config/meta.json###
 Create this file in a sub-folder called `config`.
-```
+```js
 {
 	"name": "MyPackage",
 	"version": "0.0.1",
@@ -263,7 +263,7 @@ Create this file in a sub-folder called `config`.
 >Grunt will use this file to fill in blanks on templates.  It'll also update your  DLL version numbers based on this file.
 
 ###config/package.nuspec###
-```
+```xml
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
@@ -286,7 +286,7 @@ Create this file in a sub-folder called `config`.
 >This file is used to create the NuGet manifest. Fill this out and some fields will be auto-populated.
 
 ###config/package.xml###
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <umbPackage>
   <info>
