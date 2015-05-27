@@ -6,7 +6,7 @@ The `FileService` will allow for basic file operations related to Umbraco struct
 
 This class isn't used very often in day to day development.  A sample is provided below:
 
-```
+```c#
 using System.Collections.Generic;
 using Umbraco.Core;
 using Umbraco.Core.Models;
