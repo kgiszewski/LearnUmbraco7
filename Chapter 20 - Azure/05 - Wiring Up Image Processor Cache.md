@@ -8,7 +8,7 @@ Next sign up for a CDN account on Azure.  You will have to wait at least an hour
 
 Next setup your `~/config/imageprocessor/cache.config` like so:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <caching currentCache="AzureBlobCache">
   <caches>
@@ -32,7 +32,7 @@ If you want to keep the Azure stuff only on production/preprod, you'll need anot
 
 So `cache.config` would be:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <caching currentCache="DiskCache">
   <caches>
@@ -49,7 +49,7 @@ And then create `cacheAzure.config` with the settings from the previous section.
 
 Finally do a transform inside `Web.Azure-Prod.config`:
 
-```
+```xml
 <configuration>
   <imageProcessor>
     <caching configSource="config\imageprocessor\cacheAzure.config" xdt:Transform="SetAttributes(configSource)"/>
