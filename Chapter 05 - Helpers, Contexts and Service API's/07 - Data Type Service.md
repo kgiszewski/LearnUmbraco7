@@ -3,7 +3,7 @@ Data type service will help you programmatically grab information about your sit
 
 A common use is to get a data type and it's prevalues:
 
-```
+```c#
 using System.Linq;
 using Umbraco.Core;
 using Umbraco.Core.Logging;
