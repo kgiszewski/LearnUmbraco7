@@ -16,7 +16,7 @@ With `IContent` you can do the following:
 
 Operations for `IContent` are made available to you via the `ServicesContext` inside Umbraco.  A reference to the services are automatically included in `SurfaceControllers` but you can also get a reference in any class like so:
 
-```
+```c#
 using Umbraco.Core;
 
 namespace MyNamespace
@@ -33,7 +33,7 @@ namespace MyNamespace
 
 A typical usage of `IContent` involve the `ContentService`.  In the follow example, a new node is created, a property is set and published.
 
-```
+```c#
 using Umbraco.Core;
 
 namespace MyNamespace
