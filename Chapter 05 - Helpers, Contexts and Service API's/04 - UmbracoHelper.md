@@ -11,14 +11,14 @@ For a complete list, see the official Umbraco documentation.
 
 You automatically get a reference to the `UmbracoHelper` in views and can be used like this:
 
-```
+```c#
 @Umbraco.TypedContent(1234).Name
 @Umbraco.TypedMedia(1235).GetCropUrl();
 ```
 
 You get a reference for free in `SurfaceController`'s as well:
 
-```
+```c#
 using Umbraco.Web.Mvc;
 
 namespace MyNamespace
@@ -35,7 +35,7 @@ namespace MyNamespace
 
 You can also get a reference in any class:
 
-```
+```c#
 using Umbraco.Web;
 
 namespace MyNamespace
