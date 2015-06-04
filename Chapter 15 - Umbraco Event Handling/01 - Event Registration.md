@@ -15,6 +15,12 @@ namespace MyNamespace
 
             //register an event here
         }
+        
+        protected override void ApplicationStarting(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext)
+        {
+            base.ApplicationStarting(umbracoApplication, applicationContext);
+            //or here
+        }
 
         protected override void ApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext)
         {
@@ -23,12 +29,6 @@ namespace MyNamespace
             //or here
 
             //this is the usual spot
-        }
-
-        protected override void ApplicationStarting(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext)
-        {
-            base.ApplicationStarting(umbracoApplication, applicationContext);
-            //or here
         }
     }
 }

@@ -8,9 +8,9 @@ You can override this controller by *hijacking* this behavior by document type o
 
 ##Hijack by Document Type##
 
-So the idea is that all requests will be handled by `RenderMvcController` except a document type named `HomePage`.
+So the idea is that all requests will be handled by `RenderMvcController` except a document type named `HomePage` because the following code hijacks any `HomePage` requests:
 
-```
+```c#
 using System.Web.Mvc;
 using Umbraco.Core.Logging;
 using Umbraco.Web.Models;
@@ -33,7 +33,7 @@ namespace MyNamespace
 ###Return a Custom Model###
 So just like before except we send back a custom model.  Our model will have all of the information from the original `RenderModel`, except now we've added a new property.
 
-```
+```c#
 using System.Web.Mvc;
 using Umbraco.Core.Logging;
 using Umbraco.Web.Models;
@@ -66,8 +66,8 @@ namespace MyNamespace
 }
 ```
 
-Then you're view will need to be set up like this:
-```
+Then your view will need to be set up like this:
+```c#
 @inherits Umbraco.Web.Mvc.UmbracoViewPage<MyNamespace.CustomRenderModel>
 @{
     Layout = null;
@@ -80,7 +80,7 @@ Then you're view will need to be set up like this:
 ##Hijack by Template##
 The next example shows how to hijack by template name.  Essentially you just name the method after the template alias:
 
-```
+```c#
 using System.Web.Mvc;
 using Umbraco.Core.Logging;
 using Umbraco.Web.Models;

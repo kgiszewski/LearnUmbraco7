@@ -70,6 +70,16 @@ git init
 //this assumes you are running this command from the root of your new repo
 ```
 
+```
+git branch -D branch_name
+//deletes a local branch, use with caution!
+```
+
+```
+git push origin --delete branch_name
+//deletes a remote branch EXTREME CAUTION, make sure you type it right :)
+```
+
 ##Connecting to GitHub##
 Getting your local repo connected to GitHub is easy, please follow these steps:
 

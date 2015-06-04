@@ -4,7 +4,7 @@ So where `ContentService` is for manipulating `IContent`, `ContentTypeService` i
 
 This services is used for both document types and media types.  This service is useful for finding a document type by alias and several other uses.  Please consult the official documents for a complete set of methods.
 
-```
+```c#
 using System.Linq;
 using Umbraco.Core;
 

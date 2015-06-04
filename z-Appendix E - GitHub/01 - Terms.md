@@ -8,7 +8,7 @@ Some terms that you should know about Git that will help the conversation.
 
 **Commit** - A commit is a logical grouping of changes to your project.  A commit can be one or more lines in a file and can include one or more files.  Think of a commit as block of changes across your project.
 
-**Merge** - When two branches evolve separately, you can move commits from one branch to another through a merge.  Merges are directional meaning if you merge from *branch 1* to *branch 2*, branch two will now include changes made on *branch 1*.  *Branch 1* will not include commits from *branch 2* unless you then merge from *branch 2* to *branch 1*.
+**Merge** - When two branches evolve separately, you can move commits from one branch to another through a merge.  Merges are directional meaning if you merge from *branch 1* to *branch 2*, *branch 2* will now include changes made on *branch 1*.  *Branch 1* will not include commits from *branch 2* unless you then merge from *branch 2* to *branch 1*.
 
 **Cherry Pick** - A cherry pick is when you want to grab a single commit and apply it to a branch.  This differs from a merge that compares and moves all commits to a branch.
 

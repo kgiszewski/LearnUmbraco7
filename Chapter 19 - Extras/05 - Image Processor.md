@@ -29,7 +29,7 @@ Now when you go to view an image in the media section, a blue dot (we'll call it
 
 Finally, go to your template and tell Umbraco to crop an image based on where the hockey puck is and Image Processor will do the rest:
 
-```
+```c#
 @{
    var imageToCrop = Umbraco.TypedMedia(1234);
 }

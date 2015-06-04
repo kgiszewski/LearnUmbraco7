@@ -6,7 +6,7 @@ Next we will define a view or what will show on the document type when this prop
 
 So create a file named `~/App_Plugins/HideTab/hideTab.view.html` and place the following line in it:
 
-```
+```xml
 <hide-tab></hide-tab>
 ```
 
@@ -16,7 +16,7 @@ It's very short and the directive below will make the `<hide-tab>` tag actually 
 
 Next let's create a file called `~/App_Plugins/HideTab/hideTab.directive.js` and place this code in it:
 
-```
+```js
 angular.module('umbraco.directives').directive('hideTab', function($timeout) {
     var linker = function (scope, element, attrs) {
 
@@ -69,10 +69,10 @@ A directive typically just wraps jQuery in AngularJs boilerplate code.  Just rem
 
 There are four main modules that Umbraco uses internally:
 
-* angular.module('umbraco') - Controllers
-* angular.module('umbraco.directives') - Directives
-* angular.module('umbraco.services') - Services
-* angular.module('umbraco.resources') - Resources
+* `angular.module('umbraco')` - Controllers
+* `angular.module('umbraco.directives')` - Directives
+* `angular.module('umbraco.services')` - Services
+* `angular.module('umbraco.resources')` - Resources
 
 When registering functionality with Umbraco, please use the appropriate module.
 

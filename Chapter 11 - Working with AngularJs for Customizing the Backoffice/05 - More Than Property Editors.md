@@ -32,7 +32,7 @@ The snippet above does a few things:
 * Handles the result in a callback
 
 The snippet below is template that will show in the dialog:
-```
+```html
 <div class="umb-dialog" ng-controller="UmbracoBookshelfImageSelectorController">
     <div class="umb-dialog-body" auto-scale="90">
 
