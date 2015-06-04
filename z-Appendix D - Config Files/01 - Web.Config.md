@@ -51,7 +51,7 @@ This is where you'll tell Umbraco where the database lives.  If you want to inco
 ##SMTP##
 If you send emails from Umbraco, be sure to setup the SMTP.  You can use http://sendgrid.net for low volume free SMTP or high volume pay services.
 
-```
+```xml
   <system.net>
     <mailSettings>
       <smtp>
@@ -65,7 +65,7 @@ If you send emails from Umbraco, be sure to setup the SMTP.  You can use http://
 
 This bit is useful for turning custom errors on or off, setting specific URL's on errors and setting values for max upload size and max time a page can execute.
 
-```
+```xml
   <system.web>
     <customErrors mode="Off" defaultRedirect="/server-error/">
       <error statusCode="404" redirect="/page-not-found/" />
