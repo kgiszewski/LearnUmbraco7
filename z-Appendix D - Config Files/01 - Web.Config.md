@@ -3,7 +3,7 @@
 You have a main `Web.config` file located in your web root that will be a file you should at least be somewhat familiar with.  This section will attempt to cover some of the more interesting bits.
 
 ##AppSettings##
-```
+```xml
   <appSettings>
     <add key="umbracoConfigurationStatus" value="x.x.x" />
     <add key="umbracoReservedUrls" value="~/config/splashes/booting.aspx,~/install/default.aspx,~/config/splashes/noNodes.aspx,~/VSEnterpriseHelper.axd" />
@@ -40,7 +40,7 @@ Let's walk through a few of these:
 ##ConnectionStrings##
 This is where you'll tell Umbraco where the database lives.  If you want to incorporate another database connection string, you can just add another `<add>` element to bring in another database resource.
 
-```
+```xml
   <connectionStrings>
     <remove name="umbracoDbDSN" />
     <add name="umbracoDbDSN" connectionString="server=.\SQLEXPRESS;database=myservername;user id=sa;password=1234" providerName="System.Data.SqlClient" />
@@ -51,7 +51,7 @@ This is where you'll tell Umbraco where the database lives.  If you want to inco
 ##SMTP##
 If you send emails from Umbraco, be sure to setup the SMTP.  You can use http://sendgrid.net for low volume free SMTP or high volume pay services.
 
-```
+```xml
   <system.net>
     <mailSettings>
       <smtp>
@@ -65,7 +65,7 @@ If you send emails from Umbraco, be sure to setup the SMTP.  You can use http://
 
 This bit is useful for turning custom errors on or off, setting specific URL's on errors and setting values for max upload size and max time a page can execute.
 
-```
+```xml
   <system.web>
     <customErrors mode="Off" defaultRedirect="/server-error/">
       <error statusCode="404" redirect="/page-not-found/" />
@@ -78,7 +78,7 @@ This bit is useful for turning custom errors on or off, setting specific URL's o
 ##Membership##
 Out of the box, Umbraco is using it's own membership providers for both users and members.  This next section is where you'd add you own providers if you want to alter the login process:
 
-```
+```xml
     <membership defaultProvider="UmbracoMembershipProvider" userIsOnlineTimeWindow="15">
       <providers>
         <clear />
@@ -94,7 +94,7 @@ Out of the box, Umbraco is using it's own membership providers for both users an
 
 Depending on the version of IIS you're running, you may need to update this section for custom errors:
 
-```
+```xml
   <system.webServer>
     
     <httpErrors errorMode="Custom">
@@ -103,3 +103,4 @@ Depending on the version of IIS you're running, you may need to update this sect
       <remove statusCode="500" subStatusCode="-1" />
       <error statusCode="500" prefixLanguageFilePath="" path="/server-error/" responseMode="ExecuteURL" />
     </httpErrors>
+  </system.webServer>
