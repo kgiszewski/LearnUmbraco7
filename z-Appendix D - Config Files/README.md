@@ -4,3 +4,5 @@
 >Photo by: Doug Robar
 
 This section covers some of the basics of the static config files located in `/config` of your install.
+
+[Next> 01 - Web.Config](01 - Web.Config.md)
