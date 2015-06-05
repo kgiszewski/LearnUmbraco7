@@ -4,7 +4,7 @@ A dashboard is a tab that appears on the root of an application (section).  If y
 
 Below is a tiny excerpt from `dashboard.config`:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <dashBoard>
   <section alias="StartupSettingsDashboardSection">
