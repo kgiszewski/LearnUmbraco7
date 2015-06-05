@@ -77,8 +77,6 @@ src/*.Umbraco/imagecache/
 src/*.Umbraco/install/
 src/*.Umbraco/umbraco/
 src/*.Umbraco/umbraco_client/
-src/*.Umbraco/css/themes/
-
 
 pkg/
 
@@ -93,6 +91,6 @@ _ReSharper.*/
 ```
 >Note that you will have to change this file to accomodate your specific project.  Make sure to exclude temporary/runtime data like the ~/App_Data/ folder.
 
-[<Back 01 - Terms](01 - Terms.md)
+[<Back 02 - Branching](02 - Branching.md)
 
-[Next> 03 - Git Extensions](03 - Git Extensions.md)
+[Next> 04 - Git Extensions](04 - Git Extensions.md)

@@ -38,4 +38,4 @@ Some terms that you should know about Git that will help the conversation.
 
 [<Back Overview](README.md)
 
-[Next> 02 - .gitignore](02 - .gitignore.md)
+[Next> 02 - Branching](02 - Branching.md)

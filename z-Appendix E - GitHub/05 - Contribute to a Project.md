@@ -18,6 +18,6 @@ Umbraco is a fast moving project so make sure you have the latest version sync'e
 
 ![issues.png](assets/issues.png)
 
-[<Back 03 - Git Extensions](03 - Git Extensions.md)
+[<Back 04 - Git Extensions](04 - Git Extensions.md)
 
-[Next> 05 - Command Line](05 - Command Line.md)
+[Next> 06 - Command Line](06 - Command Line.md)

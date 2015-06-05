@@ -9,6 +9,6 @@ Git Extensions excels at graphically showing which files have changed and which 
 
 ![git-extensions.png](assets/git-extensions.png)
 
-[<Back 02 - .gitignore](02 - .gitignore.md)
+[<Back 03 - gitignore](03 - gitignore.md)
 
-[Next> 04 - Contribute to a Project](04 - Contribute to a Project.md)
+[Next> 05 - Contribute to a Project](05 - Contribute to a Project.md)
