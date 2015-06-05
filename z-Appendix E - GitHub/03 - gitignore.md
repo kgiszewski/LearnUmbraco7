@@ -1,8 +1,8 @@
 #.gitignore#
 
-Below you will find a `.gitignore` file sample.  It should live at your repo root (but you can have multiple in sub-directories).  You should exlude temporary/runtime files and folders.  Git is also not meant to be a binary storage system so you should exclude `/media` and have a plan on how to back those up.  You can store binary data in Git but it should only be site files like logos.
-
 The idea of this file is to exlude things that should not be in the repo, for example we shouldn't be storing the Umbraco core in the repo as NuGet will restore it for us if your project is setup to do so.
+
+Below you will find a `.gitignore` file sample.  It should live at your repo root (but you can have multiple in sub-directories).  You should exlude temporary/runtime files and folders.  Git is also not meant to be a binary storage system so you should exclude `/media` and have a plan on how to back those up.  You can store binary data in Git but it should only be site files like logos.
 
 ```
 .DS_Store
