@@ -13,7 +13,6 @@ This file is where Umbraco stores section configurations also known as `applicat
   <add alias="member" name="Members" icon="traymember" sortOrder="5"/>
   <add alias="forms" name="Forms" icon="icon-umb-contour" sortOrder="6"/>
   <add alias="translation" name="Translation" icon="traytranslation" sortOrder="7"/>
-  <add alias="UmbracoBookshelf" name="Umbraco Bookshelf" icon="icon-books" sortOrder="15"/>
   <add alias="MyApplication" name="My Section" icon="icon-myicon" sortOrder="15"/>
 </applications>
 ```
