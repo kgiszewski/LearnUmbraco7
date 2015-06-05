@@ -18,6 +18,7 @@ This book is targeted for readers who:
 * Have little or no experience with Umbraco
 * Have some experience with .NET
 * Have some experience with the client languages Javascript, HTML and CSS
+* Need help in deciding whether to take the plunge into Umbraco
 
 This book is not intended for readers who:
 
