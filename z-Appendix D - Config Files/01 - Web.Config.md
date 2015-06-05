@@ -23,7 +23,7 @@ You have a main `Web.config` file located in your web root that will be a file y
 ```
 
 This part of the web.config is where you'll find ways to control certain behaviors of Umbraco.  To modify the behaviors, simply update the value and save.
->Note that any changes saved automatically trigger a application pool restart.
+>Note that any changes saved automatically trigger an application pool restart.
 
 Let's walk through a few of these:
 
@@ -35,7 +35,7 @@ Let's walk through a few of these:
 * **umbracoTimeOutInMinutes** - Set this to a larger value in milliseconds to avoid having the backoffice timeout
 * **umbracoUseSSL** - Set to true and the backoffice will force the user to use SSL (recommended)
 
->Please consult the official Umbraco docs for further details
+>Please consult the official Umbraco docs for further details.
 
 ##ConnectionStrings##
 This is where you'll tell Umbraco where the database lives.  If you want to incorporate another database connection string, you can just add another `<add>` element to bring in another database resource.
