@@ -26,7 +26,7 @@ Some terms that you should know about Git that will help the conversation.
 
 **Staged Files** - Before you can actually commit your changes, you have to *stage* your changes by selecting what is ready.
 
-**Working Changes** - Changes that GitHub has detected but not yet committed.  You will stage some or all of these changes when forming your commit.
+**Working Changes** - Changes that Git has detected but not yet committed.  You will stage some or all of these changes when forming your commit.
 
 **.gitignore** - This is a file that you local Git will use to decide if it will ignore certain files.  By default it will track all files in a repo, but there are many files you should avoid tracking (i.e. NuGet source files, /bin, etc).  There is a sample `.gitignore` file in the next section.
 

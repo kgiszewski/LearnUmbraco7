@@ -1,6 +1,6 @@
 #Command Line#
 
-There are hundreds of Git command resources on the internet and you should probably Google them to learn more.  However below are several common commands you should be aware of.  These commands should be run from your repo directory as they are contextual:
+There are hundreds of Git command resources on the internet and you should probably google them to learn more.  However below are several common commands you should be aware of.  These commands should be run from your repo directory as they are contextual:
 
 ```
 git clone https://github.com/kgiszewski/LearnUmbraco7.git
@@ -78,6 +78,7 @@ git branch -D branch_name
 ```
 git push origin --delete branch_name
 //deletes a remote branch EXTREME CAUTION, make sure you type it right :)
+//best just to do it on the GitHub website :)
 ```
 
 ##Connecting to GitHub##
