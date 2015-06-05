@@ -10,7 +10,7 @@ This repo started as a side project to get some co-workers up to speed on Umbrac
 
 Learn Umbraco 7 is a crowd authored book with the purpose of onboarding new Umbraco developers for free.  This book isn't intended to be a resource guide, please refer to the official Umbraco documentation for that.  This book is a narrative of different topics in the Umbraco 7 realm.
 
-This book is downloadable despite not being complete.  This is being done to encourage more authors to fill in the blanks.  Please consider writing a section :)
+This book is downloadable despite not being complete. It's completeness is hovering around 90% and is updated as new features of Umbraco 7 are released.  Please consider writing a section :)  You can find the TODO list here: https://github.com/kgiszewski/LearnUmbraco7/issues
 
 You can view this book right inside the Umbraco 7 backoffice using [Umbraco Bookshelf](https://our.umbraco.org/projects/backoffice-extensions/bookshelf).  You can also install Bookshelf with [NuGet](https://www.nuget.org/packages/UmbracoBookshelf/).
 
