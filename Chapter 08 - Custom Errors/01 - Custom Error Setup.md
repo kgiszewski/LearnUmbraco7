@@ -57,4 +57,7 @@ A side project that handles this sort of redirection help can be found here: htt
 
 If you need 100's of redirects, you may want to use an Umbraco package built for such a purpose.
 
+##Request Pipeline##
+You can even change the default behavior of the 404 page if you want to do it in a coded way, please visit the [Request Pipeline section](/Chapter 14 - Request Routing/01 - Request Pipeline.md) for more information.
+
 [<Back Overview](README.md)
