@@ -15,7 +15,7 @@ There are a lot of methods and extensions that get imported by default into your
 ###Access the Current Page's Content###
 The normal way to get content from the current page is via `Model.Content`.
 
-```
+```c#
 string pageName = Model.Content.Name;
 int nodeId = Model.Content.Id;
 string documentTypeAlias = Model.Content.DocumentTypeAlias;
@@ -25,7 +25,7 @@ string url = Model.Content.Url;
 
 To get data from the data types living on the current page there are two main ways:
 
-```
+```c#
 //this will return a string by default
 string value = Model.Content.GetPropertyValue("somePropertyAlias");
 
@@ -39,7 +39,7 @@ var value = Model.Content.GetPropertyValue<IEnumberable<IPublishedContent>>("som
 ###Access Data Relative to the Current Page###
 Since Umbraco's content is organized in a hierarchy you can traverse the tree like so:
 
-```
+```c#
 //move from current node to level 2 and return the name
 Model.Content.Ancestor(2).Name 
 
@@ -55,7 +55,7 @@ For the complete set of operations you can do to find your data, please visit th
 ###Access Nodes Other Ways###
 Built into your views is a helper named UmbracoHelper. It can be used to access a node by Id and other ways:
 
-```
+```c#
 IPublishedContent contentById = Umbraco.TypedContent(1234);
 IPublishedContent mediaById = Umbraco.TypedMedia(1234);
 IPublishedContent someRootNode = Umbraco.TypedContentAtRoot().FirstOrDefault(x => x.DocumentTypeAlias == "foo");
@@ -64,7 +64,7 @@ IPublishedContent someRootNode = Umbraco.TypedContentAtRoot().FirstOrDefault(x =
 ###Sample Template###
 Remember that Umbraco is using regular old MVC with a lot of help being given to you.  A sample template might look like this:
 
-```
+```c#
 @inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
     Layout = "base.cshtml";
