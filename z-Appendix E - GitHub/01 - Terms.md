@@ -30,7 +30,7 @@ Some terms that you should know about Git that will help the conversation.
 
 **.gitignore** - This is a file that you local Git will use to decide if it will ignore certain files.  By default it will track all files in a repo, but there are many files you should avoid tracking (i.e. NuGet source files, /bin, etc).  There is a sample `.gitignore` file in the next section.
 
-**Fork** - A fork is the copying of another users repo into your user account.  This is the first step if you want to contribute to another users' project.
+**Fork** - A fork is the copying of another users repo into your user account.  This is the first step if you want to contribute to another users' project.  A reference back to the parent project is kept so you can grab the new changes when the original repo updates.
 
 **Pull Request** - Since you can't directly modify another users' repo (due to permissions), you can *fork* a repo, make changes and then send the changes to the origin repo.  This sending of changes is done by creating a pull request.  A pull request shows a project owner a summary of the proposed changes.  If accepted, the repo owner merges in your changes.
 
