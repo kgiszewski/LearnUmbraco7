@@ -5,6 +5,9 @@
 
 **Work in Progress  - Sections updated regularly.**
 
+##Not Official##
+This repo started as a side project to get some co-workers up to speed on Umbraco as told through another developers point of view limited to the scope of version 7.  The official documentation is located here: https://github.com/umbraco/Umbraco4Docs and should be used as the source of truth.  The official documentation covers other versions of Umbraco as well as version 7.
+
 Learn Umbraco 7 is a crowd authored book with the purpose of onboarding new Umbraco developers for free.  This book isn't intended to be a resource guide, please refer to the official Umbraco documentation for that.  This book is a narrative of different topics in the Umbraco 7 realm.
 
 This book is downloadable despite not being complete.  This is being done to encourage more authors to fill in the blanks.  Please consider writing a section :)
@@ -24,9 +27,6 @@ This book is not intended for readers who:
 
 * Have no web developing experience
 * Are looking for an editor (user) perspective
-
-##Not Official##
-This repo started as a side project to get some co-workers up to speed on Umbraco as told through another developers point of view limited to the scope of version 7.  The official documentation is located here: https://github.com/umbraco/Umbraco4Docs and should be used as the source of truth.  The official documentation covers other versions of Umbraco as well as version 7.
 
 ##Targeted Skills and Technology##
 * Installation of developer tools: Visual Studio Web Express
