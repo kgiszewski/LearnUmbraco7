@@ -96,7 +96,7 @@ Each chapter and section will has TODO lists associated with them as well as gen
 * Photos from the Umbraco World
 * Editing by reading, correcting and clarifying; if it's wrong say so :)
 
-Each person that has been assimilated into Umbraco has a unique opportunity to contribute in some way.
+Each person that has been assimilated into Umbraco has a unique opportunity to contribute in some way.  We have a TODO list here: https://github.com/kgiszewski/LearnUmbraco7/issues
 
 ##A Note to Grammar Nazis##
 Writing narrative text is not our best skill so if you see an issue with overall organization, grammar, spelling and/or other issues; we expect a pull-request to fix the issues :)
