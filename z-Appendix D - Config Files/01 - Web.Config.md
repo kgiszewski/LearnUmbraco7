@@ -108,4 +108,4 @@ Depending on the version of IIS you're running, you may need to update this sect
 
 [<Back Overview](README.md)
 
-[Next> 02 - UrlRewriting](02 - UrlRewriting.md)
+[Next> 02 - UrlRewriting.config](02 - UrlRewriting.config.md)
