@@ -25,6 +25,9 @@ This book is not intended for readers who:
 * Have no web developing experience
 * Are looking for an editor (user) perspective
 
+##Not Official##
+This repo started as a side project to get some co-workers up to speed on Umbraco as told through another developers point of view.  The official documentation is located here: https://github.com/umbraco/Umbraco4Docs and should be used as the source of truth.
+
 ##Targeted Skills and Technology##
 * Installation of developer tools: Visual Studio Web Express
 * Installation of Umbraco via NuGet
