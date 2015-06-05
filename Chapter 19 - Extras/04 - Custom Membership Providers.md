@@ -175,7 +175,7 @@ namespace MyNamespace
 
 Finally we just need to instruct Umbraco to use our providers instead of the built-in ones.  Modify the `Web.Config` and update the provider names:
 
-```
+```xml
 <add name="UmbracoMembershipProvider" type="MyNamespace.MyMemberMembershipProvider, MyAssemblyName" 
 minRequiredNonalphanumericCharacters="0" minRequiredPasswordLength="4" useLegacyEncoding="true" enablePasswordRetrieval="false" 
 enablePasswordReset="false" requiresQuestionAndAnswer="false" defaultMemberTypeAlias="Member" passwordFormat="Hashed" />
