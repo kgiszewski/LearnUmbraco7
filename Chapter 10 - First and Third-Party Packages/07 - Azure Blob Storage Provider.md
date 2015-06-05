@@ -1,5 +1,5 @@
 #Azure Blob Storage Provider#
-##Dirk Seefeld##
+##By Dirk Seefeld##
 
 ###What is it?###
 This package allows Umbraco to change it's local file system to Azure Blob Storage.
