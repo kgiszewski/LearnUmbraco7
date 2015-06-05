@@ -23,4 +23,4 @@ Below is a tiny excerpt from `dashboard.config`:
 
 [<Back 04 - Trees.config](04 - Trees.config.md)
 
-[Next> 06 - FileSystemProviders](06 - FileSystemProviders.md)
+[Next> 06 - FileSystemProviders.config](06 - FileSystemProviders.config.md)
