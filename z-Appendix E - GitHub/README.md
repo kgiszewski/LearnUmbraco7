@@ -11,6 +11,6 @@ GitHub is a website that hosts your repositories (you code) and keeps track of t
 
 When using GitHub, it is important to know that when you make changes on your local machine, GitHub will not know about it until you perform an update (called a *push*).  Similarly, any changes made and pushed to GitHub by your team will not be known to your local machine until you perform a *pull*.
 
-The important concept is you are running Git locally and GitHub is running Git on their servers.
+The important concept here is that you are running Git locally on your machine and GitHub is running Git on their servers.
 
 [Next> 01 - Terms](01 - Terms.md)
