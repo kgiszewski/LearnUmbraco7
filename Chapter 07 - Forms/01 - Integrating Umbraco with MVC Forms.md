@@ -11,7 +11,7 @@ For the following example, we'll do a simple contact form.
 ##The Model##
 The model will need to capture some simple information from the user and is defined like so:
 
-```
+```c#
 using System.ComponentModel.DataAnnotations;
 
 namespace MyNamespace
@@ -32,7 +32,7 @@ namespace MyNamespace
 ##The SurfaceController##
 The `SurfaceController` will handle the submission request and is defined like so:
 
-```
+```c#
 using System.Web.Mvc;
 using Umbraco.Core.Logging;
 using Umbraco.Web;
@@ -77,7 +77,7 @@ namespace MyNamespace
 Next we have to show the form.  The form is split into a view and a partial like so:
 
 ###The Form Markup###
-```
+```c#
 @using MyNamespace
 @inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
@@ -89,7 +89,7 @@ Next we have to show the form.  The form is split into a view and a partial like
 
 ###The Partial###
 Then the partial would have this:
-```
+```c#
 @model MyNamespace.ContactUsModel
 
 @using (var form = Html.BeginUmbracoForm<MyNamespace.ContactFormSurfaceController>("HandleFormSubmit"))
