@@ -1,6 +1,6 @@
 #Branching#
 
-A Git branch is a collection of commits and nothing more.  You'll sometimes here people talking about 'branching strategies'.  All that means is "how do we manage to keep our mission progressing without obstructing independent development and then ship a product with all the blended features when complete?".
+A Git branch is a collection of commits and nothing more.  You'll sometimes hear people talking about 'branching strategies'.  All that means is "how do we manage to keep our mission progressing without obstructing independent development and then ship a product with all the blended features when complete?".
 
 ##A Typical Strategy##
 Every repo has a `master` branch and most have some sort of `develop` or `staging` branch.  These branches are designed to live infinitely.  `Master` is usually meant to house code that is 'always deployable' or even a mirror for what is on production right now.  `develop` is where *completed*  'to-be-released' features accumulate before the next release.
