@@ -78,6 +78,7 @@ git branch -D branch_name
 ```
 git push origin --delete branch_name
 //deletes a remote branch EXTREME CAUTION, make sure you type it right :)
+//best just to do it on the GitHub website :)
 ```
 
 ##Connecting to GitHub##
