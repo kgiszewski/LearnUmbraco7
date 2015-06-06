@@ -81,7 +81,7 @@ git push origin --delete branch_name
 //best just to do it on the GitHub website :)
 ```
 
-##Creating a Repo and Connecting to GitHub##
+##Creating a Local Repo and Connecting it to GitHub##
 Getting your local repo connected to GitHub is easy, please follow these steps:
 
 1. To create a repo locally, run `git init`.  This creates the required Git files.
