@@ -9,6 +9,13 @@ Git Extensions excels at graphically showing which files have changed and which 
 
 ![git-extensions.png](assets/git-extensions.png)
 
+##Commit Something##
+When you open Git Extensions and click `Commit` along the top toolbar, you will see the staging/commit panel.  In order to commit a change, you need to stage one or more files.  You don't have to stage all of the files and may want to split up your changes into multiple commits.  You can even abandon changes by *resetting* a file before you commit it.  When you reset a file you discard all pending changes and nothing will get committed.  You can even reset a file that has been changed line by line.  Conversely you can even stage a file line by line.  For instance if you change your web.config in two spots but only want to commit one part right now, you can click the file in the top right, highlight the lines to commit in the top right, then press `s` to stage *just that line*!
+
+>Resetting and staging by line requires that a change actually is pending on those lines.
+
+Finally once you have staged your changes, enter a commit and it is now committed locally.  When ready to notify GitHub, perform a push.
+
 [<Back 03 - gitignore](03 - gitignore.md)
 
 [Next> 05 - Contribute to a Project](05 - Contribute to a Project.md)
