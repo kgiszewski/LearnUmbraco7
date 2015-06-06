@@ -1,6 +1,6 @@
 #Command Line#
 
-There are hundreds of Git command resources on the internet and you should probably google them to learn more.  However below are several common commands you should be aware of.  These commands should be run from your repo directory as they are contextual:
+There are hundreds of Git command resources on the internet and you should probably google them to learn more.  However below are several common commands you should be aware of despite being able to do all of these in Git Extensions.  In the end many developers prefer using CLI commands as they can be done pretty fast and requires very little mouse interaction. These commands should be run from your repo directory as they are contextual:
 
 ```
 git clone https://github.com/kgiszewski/LearnUmbraco7.git
