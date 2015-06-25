@@ -76,7 +76,7 @@ What happens is this:
 
 To inject an external library into the Umbraco modules, you can use the following syntax to achieve this:
 
-```
+```js
 var app = angular.module("umbraco");
 
 //add external library
