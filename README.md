@@ -5,9 +5,12 @@
 
 **Work in Progress  - Sections updated regularly.**
 
-Learn Umbraco 7 is a crowd authored book with the purpose of onboarding new Umbraco developers for free.  This book isn't intended to be a resource guide, please refer to the official Umbraco documentation for that.  This book is a narrative of different topics in the Umbraco 7 realm.
+##Not Official##
+This repo started as a side project to get some co-workers up to speed on Umbraco as told through another developers point of view limited to the scope of version 7.  The official documentation is located here: https://github.com/umbraco/Umbraco4Docs and should be used as the source of truth.  The official documentation covers other versions of Umbraco as well as version 7.
 
-This book is downloadable despite not being complete.  This is being done to encourage more authors to fill in the blanks.  Please consider writing a section :)
+*Learn Umbraco 7* is a crowd authored book with the purpose of onboarding new Umbraco developers for free.  This book isn't intended to be a resource guide, please refer to the official Umbraco documentation for that.  This book is a narrative of different topics in the Umbraco 7 realm.
+
+This book is downloadable despite not being complete. It's completeness is hovering around 90% and is updated as new features of Umbraco 7 are released.  Please consider writing a section :)  You can find the TODO list here: https://github.com/kgiszewski/LearnUmbraco7/issues
 
 You can view this book right inside the Umbraco 7 backoffice using [Umbraco Bookshelf](https://our.umbraco.org/projects/backoffice-extensions/bookshelf).  You can also install Bookshelf with [NuGet](https://www.nuget.org/packages/UmbracoBookshelf/).
 
@@ -18,6 +21,7 @@ This book is targeted for readers who:
 * Have little or no experience with Umbraco
 * Have some experience with .NET
 * Have some experience with the client languages Javascript, HTML and CSS
+* Need help in deciding whether to take the plunge into Umbraco
 
 This book is not intended for readers who:
 
@@ -92,7 +96,7 @@ Each chapter and section will has TODO lists associated with them as well as gen
 * Photos from the Umbraco World
 * Editing by reading, correcting and clarifying; if it's wrong say so :)
 
-Each person that has been assimilated into Umbraco has a unique opportunity to contribute in some way.
+Each person that has been assimilated into Umbraco has a unique opportunity to contribute in some way.  We have a TODO list here: https://github.com/kgiszewski/LearnUmbraco7/issues
 
 ##A Note to Grammar Nazis##
 Writing narrative text is not our best skill so if you see an issue with overall organization, grammar, spelling and/or other issues; we expect a pull-request to fix the issues :)

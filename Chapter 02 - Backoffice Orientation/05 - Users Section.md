@@ -10,11 +10,11 @@ Add, modify or disable users by selecting `Users` in the tree.  Note that you ca
 
 Each user will need at a minimum:
 
-*Username
-*Login
-*Content Start Node
-*Media Start Node
-*Sections
+* Username
+* Login
+* Content Start Node
+* Media Start Node
+* Sections
 
 This screen determines which sections are available to users.  Most non-admins will only need access to `Content` and `Media`.
 

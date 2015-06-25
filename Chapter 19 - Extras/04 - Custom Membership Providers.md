@@ -175,7 +175,7 @@ namespace MyNamespace
 
 Finally we just need to instruct Umbraco to use our providers instead of the built-in ones.  Modify the `Web.Config` and update the provider names:
 
-```
+```xml
 <add name="UmbracoMembershipProvider" type="MyNamespace.MyMemberMembershipProvider, MyAssemblyName" 
 minRequiredNonalphanumericCharacters="0" minRequiredPasswordLength="4" useLegacyEncoding="true" enablePasswordRetrieval="false" 
 enablePasswordReset="false" requiresQuestionAndAnswer="false" defaultMemberTypeAlias="Member" passwordFormat="Hashed" />
@@ -199,4 +199,4 @@ You should be using SSL regardless even on a default install.
 
 [<Back 03 - RSS](03 - RSS.md)
 
-[Next> 05 - Global.asax](05 - Global.asax.md)
+[Next> 05 - Image Processor](05 - Image Processor.md)

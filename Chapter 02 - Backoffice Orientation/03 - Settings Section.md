@@ -26,10 +26,6 @@ Use the templates tree to register a template with Umbraco.  You can also use th
 
 This lists the file system `~/views/Partial Views` directory.  It is not necessary to register partials with Umbraco.
 
-##Scripts##
-
-TODO: need someone to do write about this as I think it is legacy.
-
 ##Dictionary##
 
 Register dictionary terms here for each language that you have configured (the next section).

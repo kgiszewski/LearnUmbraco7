@@ -9,7 +9,7 @@ The following highlights a few of the services and resources you will likely wan
 #Services#
 As a quick example of using the `editorState` service.  Let's register a controller and a view:
 
-```
+```js
 //manifest
 {
   "propertyEditors": [
@@ -37,14 +37,14 @@ As a quick example of using the `editorState` service.  Let's register a control
 
 ```
 
-```
+```js
 //controller
 angular.module('umbraco').controller('MySampleController', function ($scope, editorState) {
     console.log(editorState.current);
 });
 ```
 
-```
+```html
 <!-- view -->
 <div ng-controller="MySampleController">
 
@@ -61,10 +61,10 @@ The example above shows a few things:
 * You need to inject a service into your controller
 * You can then do something with that service
 
-##NofiticationsService##
+##NotificationsService##
 Building on the last example, we can use the `NotificationsService` instead:
 
-```
+```js
 angular.module('umbraco').controller('MySampleController', function ($scope, notificationsService) {
     notificationsService.success("Hello!", "It was successful");
 });
@@ -79,7 +79,7 @@ The idea is you can combine the different services that Umbraco offers into some
 ##Resources##
 Resources work very similar to services except resources tend to return lists of things from the backoffice.  The following example gets a single item from Umbraco using the `entityResource`.  This example builds on the previous:
 
-```
+```js
 angular.module('umbraco').controller('MySampleController', function ($scope, entityResource) {
     entityResource.getById(5261, "Document").then(function (data) {
         console.log(data);

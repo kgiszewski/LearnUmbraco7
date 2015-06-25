@@ -12,7 +12,7 @@ Go into `~/config/imageprocessor/security.config` and add your storage account t
 
 Next you will need to come up with a way to alter your URL's when serving Azure items.  Perhaps a simple `replace()` or something like the following extension:
 
-```
+```c#
 public static string ToAzureBlobUrl(this string input)
 {
     var domain = HttpContext.Current.Request.Url.Host;

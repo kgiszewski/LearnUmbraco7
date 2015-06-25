@@ -5,7 +5,7 @@ Sitemaps can be done with ease in Umbraco.  By using the alternate template feat
 * Register a new template in `Settings->Templates` named `sitemap`
 * Open the newly created `~/Views/sitemap.cshtml` and add the following:
 
-```
+```c#
 @inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
 

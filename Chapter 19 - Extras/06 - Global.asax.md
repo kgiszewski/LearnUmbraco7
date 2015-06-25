@@ -48,4 +48,4 @@ Next let's tell Umbraco about our new class by editing the `Global.asax` file as
 
 You aren't limited to just the `Application_Error` method, you can override many more as Chris Randall shows us in this gist: https://gist.github.com/csharpforevermore/7bafb204eb5eb093833a
 
-[<Back 04 - Custom Membership Providers](04 - Custom Membership Providers.md)
+[<Back 05 - Image Processor](05 - Image Processor.md)

@@ -1,5 +1,5 @@
 #Custom Error Setup#
-The plan here is to avoid the dreaded YSOD for 500 errors and the default 404 screen that IIS or Umbraco will serve up.  This method will make use of naming your error pages using a convention (that you can choose) so that your error pages should work on any environment.  We'll even touch on a way to handle redirects for your site.
+The plan here is to avoid the dreaded YSOD for 500 errors and the default 404 screen that IIS or Umbraco will serve up.  This method of implementing custom errors will make use of naming your error pages using a convention (that you can choose) so that your error pages should work on any environment.  We'll even touch on a way to handle redirects for your site.
 
 ##The Web.Config##
 A few things need to be fiddled with here.  First let's turn on custom errors.  You can set this value on your normal `Web.Config` file or better yet, set up a transform that on turns on custom errors in a production environment.
@@ -8,7 +8,7 @@ The edits we make should cover IIS6+, so there is some settings redundancy that 
 
 Find your `<system.webServer>` section and add this:
 
-```
+```xml
     <httpErrors errorMode="Custom">
       <remove statusCode="404" subStatusCode="-1" />
       <error statusCode="404" prefixLanguageFilePath="" path="/page-not-found/" responseMode="ExecuteURL" />
@@ -18,7 +18,7 @@ Find your `<system.webServer>` section and add this:
 ```
 
 Now find your `<system.web>` section and update it to this:
-```
+```xml
     <customErrors mode="On" defaultRedirect="/server-error/">
       <error statusCode="404" redirect="/page-not-found/" />
       <error statusCode="500" redirect="/server-error/" />
@@ -30,7 +30,7 @@ Let's pause a second and digest what we added:
 * The first block tells the web app to handle both 404 and 500 responses by redirecting to the paths listed.  This block handles newer versions of IIS.
 * The second block is similar to the first except the `mode` attribute handles whether errors are turned on or not.  This attribute needs to be set to `On` in production (and for testing).  If you use a web transform, the transform entry would look like this:
 
-```
+```xml
     <customErrors mode="On" xdt:Transform="SetAttributes(mode)">
     </customErrors>
 ```
@@ -46,7 +46,7 @@ From a multi-site setup standpoint, each of your sites will then have to have an
 So one side effect of doing your custom errors this way is the response code from your web app will be `200 OK` which is not acceptable.  One way around this is to specifically set your HTTP status code on the template (or hijack the controller).
 
 The code to set the status is below:
-```
+```c#
  HttpContext.Current.Response.StatusCode = 404;
 ```
 
@@ -56,5 +56,8 @@ Now that we have a way to capture 404's (and 500's), a positive side-effect is t
 A side project that handles this sort of redirection help can be found here: https://github.com/kgiszewski/G42.UmbracoGrease
 
 If you need 100's of redirects, you may want to use an Umbraco package built for such a purpose.
+
+##Request Pipeline##
+You can even change the default behavior of the 404 page if you want to do it in a coded way, please visit the [Request Pipeline section](/Chapter 14 - Request Routing/01 - Request Pipeline.md) for more information.
 
 [<Back Overview](README.md)

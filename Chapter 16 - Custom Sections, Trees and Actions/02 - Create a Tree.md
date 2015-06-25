@@ -72,7 +72,7 @@ First let's look at our config file with the some of the core stuff included alo
 Our bookshelf project will use another type of built-in tree controller, the `FileTreeController` like so:
 
 
-```
+```c#
 using System;
 using System.IO;
 using System.Linq;
