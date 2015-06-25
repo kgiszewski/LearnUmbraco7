@@ -54,7 +54,7 @@ So what is happening in that custom view engine? Essentially we're reading the `
 
 We can then refer to layouts easily like so:
 
-```c#
+```
 //Site1Home.cshtml
 @{
    Layout = "Site1Base.cshtml"
@@ -82,4 +82,8 @@ namespace MyNamespace
 }
 ```
 
-One alternative to this approach would be to hijack each document type via custom controller and handle which view is returned. This approach would require a lot of controllers however.
+This is just one of many approaches you can do by registering your custom view engine. This only works one level deep but you can adjust and modify as necessary.
+
+One side-effect of this is if you save a template in the backoffice, it won't find your views in the default location and a new one will be generated. If you get a blank screen, try checking the `~/masterpages` folder and remove everything from there as they will get served first and never try to find your nicely organized views. This can easily happen if you use uSync to deploy your templates.
+
+>One alternative to this approach would be to hijack each document type via custom controller and handle which view is returned. This approach would require a lot of controllers however.
