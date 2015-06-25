@@ -72,4 +72,21 @@ What happens is this:
 * The dialog template is loaded with it's own controller that handles how and what to display
 * Clicking an image causes the `$scope.submit()` method to fire which sends back the data to the original callback in the first controller
 
+##Injecting External AngularJs Libs##
+
+To inject an external library into the Umbraco modules, you can use the following syntax to achieve this:
+
+```
+var app = angular.module("umbraco");
+
+//add external library
+app.requires.push('ui.foo'); 
+
+app.controller("MyController", function ($scope, $location, somethingFromUiFoo) {
+    //carry on with your work
+    somethingFromUiFoo.doSomething();
+});
+```
+>Thanks to Warren Buckley for posting this in the forum: https://our.umbraco.org/forum/umbraco-7/developing-umbraco-7-packages/47905-Including-an-angular-module#comment-209557
+
 [<Back 04 - URL Picker Property Editor](04 - URL Picker Property Editor.md)
