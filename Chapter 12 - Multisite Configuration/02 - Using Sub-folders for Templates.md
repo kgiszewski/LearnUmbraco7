@@ -87,3 +87,5 @@ This is just one of many approaches you can do by registering your custom view e
 One side-effect of this is if you save a template in the backoffice, it won't find your views in the default location and a new one will be generated. If you get a blank screen, try checking the `~/masterpages` folder and remove everything from there as they will get served first and never try to find your nicely organized views. This can easily happen if you use uSync to deploy your templates.
 
 >One alternative to this approach would be to hijack each document type via custom controller and handle which view is returned. This approach would require a lot of controllers however.
+
+[<Back 01 - Domain Setup](01 - Domain Setup.md)
