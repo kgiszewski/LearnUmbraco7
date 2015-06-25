@@ -16,3 +16,5 @@ The standard Umbraco way to do multilingual sites is to assign a culture to the 
 Visit the `Settings->Languages` section to add new cultures that will be selectable in the domain setup dialog.
 
 [<Back Overview](README.md)
+
+[Next> 02 - Using Sub-folders for Templates](02 - Using Sub-folders for Templates.md)
