@@ -54,7 +54,7 @@ So what is happening in that custom view engine? Essentially we're reading the `
 
 We can then refer to layouts easily like so:
 
-```
+```c#
 //Site1Home.cshtml
 @{
    Layout = "Site1Base.cshtml"
