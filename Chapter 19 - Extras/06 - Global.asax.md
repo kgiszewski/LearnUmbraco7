@@ -4,7 +4,7 @@ The `Global.asax` file in Umbraco overrides the typical MVC implementation that 
 
 If we peek into the default implementation of that file we see this:
 
-```
+```xml
 <%@ Application Inherits="Umbraco.Web.UmbracoApplication" Language="C#" %>
 ```
 
@@ -16,7 +16,7 @@ To do so you will need to generate a new class that inherits from `UmbracoApplic
 
 First let's create a class that inherits from `UmbracoApplication`, this allows us to preserve core functionality and then gives us an opportunity to chuck some code in.
 
-```
+```c#
 using System;
 using Umbraco.Web;
 
@@ -42,7 +42,7 @@ namespace MyNamespace
 
 Next let's tell Umbraco about our new class by editing the `Global.asax` file as such:
 
-```
+```xml
 <%@ Application Inherits="MyNamespace.MyApplication" Language="C#" %>
 ```
 
