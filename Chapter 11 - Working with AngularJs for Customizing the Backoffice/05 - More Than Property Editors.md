@@ -90,3 +90,5 @@ app.controller("MyController", function ($scope, $location, somethingFromUiFoo) 
 >Thanks to Warren Buckley for posting this in the forum: https://our.umbraco.org/forum/umbraco-7/developing-umbraco-7-packages/47905-Including-an-angular-module#comment-209557
 
 [<Back 04 - URL Picker Property Editor](04 - URL Picker Property Editor.md)
+
+[Next> 06 - Interceptors](06 - Interceptors.md)
