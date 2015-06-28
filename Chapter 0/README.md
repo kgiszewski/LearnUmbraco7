@@ -13,6 +13,13 @@ Kevin is employed as a Senior Web Developer by the University of Notre Dame Mend
 You can follow Kevin on Twitter at: http://twitter.com/kevingiszewski
 
 ###Mark Kimmet###
+University of Notre Dame, South Bend, IN
+https://twitter.com/mkimmet
+
+###Alex Lindgren###
+Flightpath, New York, NY
+https://twitter.com/alexlindgren
+http://www.flightpath.com/
 
 ##Photos##
 All of the photography in this book is copyrighted and provided as a courtesy by [Doug Robar](https://twitter.com/drobar) who is the official Umbraco Photographer.  Thank you Doug for allowing them to be used #h5yr!
