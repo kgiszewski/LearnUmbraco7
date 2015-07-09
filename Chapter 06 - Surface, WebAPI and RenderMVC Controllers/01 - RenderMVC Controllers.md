@@ -1,6 +1,6 @@
 #RenderMvcController#
 
-This controller is the default controller whenever any content in Umbraco is requested.  It will automatically get the correct view based on what is selected in the content tree.  By default the model will be `RenderModel` which is the the representation of your document types' data types.
+This controller is the default controller whenever any content in Umbraco is requested.  It will automatically use the view defined by the content node's template property.  By default the model will be `RenderModel` which is the representation of the content node.
 
 You can override this controller by *hijacking* this behavior by document type or by template.
 
@@ -8,7 +8,7 @@ You can override this controller by *hijacking* this behavior by document type o
 
 ##Hijack by Document Type##
 
-So the idea is that all requests will be handled by `RenderMvcController` except a document type named `HomePage` because the following code hijacks any `HomePage` requests:
+To hijack a route by document type, create a class that extends `RenderMvcController` with a name that starts with the document type name and ends with `Controller`.  This example will hijack requests for content of the document type named `HomePage`:
 
 ```c#
 using System.Web.Mvc;
@@ -31,7 +31,7 @@ namespace MyNamespace
 }
 ```
 ###Return a Custom Model###
-So just like before except we send back a custom model.  Our model will have all of the information from the original `RenderModel`, except now we've added a new property.
+You can use hijacking to send back a custom model.  Our model will have all of the information from the original `RenderModel`, except now we've added a new property.
 
 ```c#
 using System.Web.Mvc;
@@ -76,6 +76,8 @@ Then your view will need to be set up like this:
 <div>@Model.MyNewProperty</div>
 
 ```
+
+>This technique can be used to create strongly typed view models. There are a few packages, such as [UmbracoMapper](https://our.umbraco.org/projects/developer-tools/umbraco-mapper/) and [Ditto](https://our.umbraco.org/projects/developer-tools/ditto/), that can be used for creating strongly typed view models.
 
 ##Hijack by Template##
 The next example shows how to hijack by template name.  Essentially you just name the method after the template alias:
