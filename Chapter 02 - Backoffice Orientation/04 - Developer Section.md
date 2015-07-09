@@ -1,9 +1,9 @@
 #Developer Section
 The developer section is where you'll go to create datatypes, install packages and tinker with Examine among other things.
 
-When building an MVC site, you won't really be using macros so for the purposes of this documentation they won't be talked about but you can find more information from the official core documentation.
+![mediasection.png](assets/mediasection.png)
 
-![developer.png](assets/developer.png)
+When building an MVC site, you won't really be using macros so for the purposes of this documentation they won't be talked about but you can find more information from the official core documentation.
 
 ##Data Types
 Data types live on document types.  They are designed to be the user interaction controls between the editor and Umbraco.  Out of the box the core comes with most of what you need.

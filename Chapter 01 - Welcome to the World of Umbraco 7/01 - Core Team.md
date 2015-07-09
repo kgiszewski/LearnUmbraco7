@@ -49,7 +49,6 @@ Stephan is always tinkering with new things and is a very entertaining presenter
 
 *More information can be found on their website at: http://umbraco.com/about-us/team*
 
-
 [<Back Overview](README.md)
 
-[Next> 02 - History](02 - History.md)
+[Next> 02 - Community](02 - Community.md)
