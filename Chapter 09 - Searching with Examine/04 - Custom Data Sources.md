@@ -37,7 +37,7 @@ namespace MyNamespace
                 RowData = new Dictionary<string, string>()
                 {
                     //this is a simple dictionary based on the ~/config/ExamineIndex.config file
-                    //you can custom this however you want but the config should match this dictionary
+                    //you can customize this however you want but the config should match this dictionary
                     {"book", "A Book"},
                     {"path", "/path/to/book"},
                     {"title", "All about that bass"},
@@ -107,5 +107,13 @@ var searcher = ExamineManager.Instance.SearchProviderCollection["BookshelfSearch
 ```
 
 Then you would of course have to alter the query in that file to search the new fields like this: https://github.com/kgiszewski/UmbracoBookshelf/blob/master/src/Examine/BookshelfSearcher.cs
+
+##Rebuilding the Index##
+Naturally there may be times that you need to have the index rebuilt from your code, to do so, add the following code to a method that gets called whenever you want it rebuilt:
+```
+ExamineManager.Instance.IndexProviderCollection["NameOfIndexer"].RebuildIndex();
+```
+
+That will handle a full rebuild of the index. You can also update individual index entries but for that please see the [Examine documentation](https://github.com/Shazwazza/Examine/wiki).
 
 [<Back 03 - Debugging with Luke](03 - Debugging with Luke.md)
