@@ -34,7 +34,7 @@ Let's pause a second and digest what we added:
     <customErrors mode="On" xdt:Transform="SetAttributes(mode)">
     </customErrors>
 ```
->If you are unfamiliar with transforms, it's definitely worth a Google as it's standard .NET web app material.
+>If you are unfamiliar with transforms, it's definitely worth a Google as it's standard .NET web app material. For more in relation to Umbraco, please see this [bit](/z-Appendix D - Config Files/10 - Environment Specific Configs.md).
 
 So now that we've told the web app to go to specific URL's when a 404 and a 500 happen, we then need to create those in our content tree.  When you create those it's probably best to create their own document type such as `ErrorPage` or whatever.  Add whatever you want to your document types such as a rich text editor for a message to be displayed by your template.
 
