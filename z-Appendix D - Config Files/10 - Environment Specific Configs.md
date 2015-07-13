@@ -10,10 +10,13 @@ So .NET offers us a nice and easy way to *transform* the `web.config` based on a
 For this example we will use an Azure transformation. You can add a new transformation several ways, this method is the manual way:
 
 1. Edit your VS project file and add this:
+
 ```xml
 <None Include="Web.Azure.config">
       <DependentUpon>Web.config</DependentUpon>
-    </None>```
+</None>
+```
+
 2. Next create `Web.Azure.config` and place it next to  your web.config on the file system.
 
 Inside that file place the following:
