@@ -55,7 +55,7 @@ namespace MyNamespace
 
 
 ##Config Files##
-So let's tell Umbraco/Examine about data service and new seqarcher by editing two config files:
+So let's tell Umbraco/Examine about data service and new searcher by editing two config files:
 
 **~/config/ExamineSettings.config**
 ```xml
