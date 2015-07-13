@@ -10,7 +10,7 @@ So .NET offers us a nice and easy way to *transform* the `web.config` based on a
 For this example we will use an Azure transformation. You can add a new transformation several ways, this method is the manual way:
 
 1. Edit your VS project file and add this:
-```
+```xml
 <None Include="Web.Azure.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>```
@@ -46,7 +46,7 @@ At first glance, you may have figured out that you cannot transform this file di
 
 So if we created `UmbracoSettingsAzure.config` and wanted to use that instead of the default one (but only on Azure), your `Web.Azure.config` file would then look like this:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- For more information on using web.config transformation visit http://go.microsoft.com/fwlink/?LinkId=125889 -->
