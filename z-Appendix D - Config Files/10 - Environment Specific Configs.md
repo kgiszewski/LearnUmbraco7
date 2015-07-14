@@ -92,6 +92,6 @@ Using the previous example with the `umbracoSettings.config`, you would no longe
 
 You can even preview the changes before having to push them to the server.
 
->Thank you to Stefan Kip for pointing out this plugin to use.
+>Thank you to Stefan Kip and Sebastiaan Janssen for pointing out this plugin to use.
 
 [<Back 09 - Others](09 - Others.md)
