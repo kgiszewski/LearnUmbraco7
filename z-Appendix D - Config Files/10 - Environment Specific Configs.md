@@ -83,6 +83,7 @@ Using transforms allows you to work with custom errors off without SSL locally a
 So after understanding how transforms are configured manually, you might be wondering if there has got to be a better way?
 
 Enter [SlowCheetah](https://visualstudiogallery.msdn.microsoft.com/69023d00-a4f9-4a34-a6cd-7e854ba318b5) which is a Visual Studio plugin that is presently in maintenance mode only (no future plans).
+>Microsoft may be picking this functionality up in VS2015.
 
 SlowCheetah bypasses the restriction that transforms can only be done on the `Web.Config`. This means you can simply right click on *any* `config` file and transforms will be created and performed just like the `Web.config`. 
 
