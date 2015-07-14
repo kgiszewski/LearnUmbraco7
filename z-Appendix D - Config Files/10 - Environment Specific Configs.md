@@ -76,4 +76,19 @@ So what is happening here? Well we are simply saying, "use this file instead" fo
 
 Using transforms allows you to work with custom errors off without SSL locally and ensures they are all turned on in a specific environment.
 
+##A Better Way##
+So after understanding how transforms are configured manually, you might be wondering if there has got to be a better way?
+
+Enter [SlowCheetah](https://visualstudiogallery.msdn.microsoft.com/69023d00-a4f9-4a34-a6cd-7e854ba318b5) which is a Visual Studio plugin that is presently in maintenance mode only (no future plans).
+
+SlowCheetah bypasses the restriction that transforms can only be done on the `Web.Config`. This means you can simply right click on *any* `config` file and transforms will be created and performed just like the `Web.config`. 
+
+Using the previous example with the `umbracoSettings.config`, you would no longer have to swap out the entire file. You could perform all the normal transformations on the file itself.
+
+![slowcheetah.png](assets/slowcheetah.png)
+
+You can even preview the changes before having to push them to the server.
+
+>Thank you to Stephan Kip for pointing out this plugin to use.
+
 [<Back 09 - Others](09 - Others.md)
