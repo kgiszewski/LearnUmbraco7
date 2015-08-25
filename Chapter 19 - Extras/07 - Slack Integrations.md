@@ -112,3 +112,5 @@ Finally you just need to tell Umbraco to use your new class by updating the `Glo
 Be sure to update the URL and channel name in the code above to use the URL that Slack provided you. You can use any of the emoji's and don't forget to give your bot a great name!
 
 >Pro tip, your channel should have a hash tag on it i.e. `#umbraco` or you can send it to a user `@someuser`
+
+>Pro tip #2, as Warren Buckely points out, be sure to filter/ignore to desired taste otherwise it could get noisy in that room.
