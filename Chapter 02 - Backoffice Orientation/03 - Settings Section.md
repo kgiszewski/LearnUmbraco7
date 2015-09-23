@@ -48,7 +48,7 @@ This is one of the most import spots in Umbraco.  This section is where you'll d
 
 Document types are the logical units that content is derived from.  A document type is where a developer would do the following:
 
-* Add data typesthat are presented to an editor
+* Add data types that are presented to an editor
 * Create tabs to organize data types
 * Assign one or more templates
 * Inherit other document type properties
