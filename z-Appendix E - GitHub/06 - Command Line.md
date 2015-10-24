@@ -12,7 +12,7 @@ git clone https://github.com/kgiszewski/LearnUmbraco7.git
 ```
 git fetch --all
 
-//this grabs branches from the GitHub not yet on your machine
+//this grabs commits and branches from the GitHub not yet on your machine. It does not merge them.
 ```
 
 ```
