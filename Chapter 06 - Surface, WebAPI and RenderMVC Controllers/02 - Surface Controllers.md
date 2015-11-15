@@ -84,6 +84,8 @@ namespace MyNamespace
 
 Surface controllers follow MVC convention for naming and routing.  Please reference official Umbraco and Microsoft documentation.
 
+>Note: The latest versions of Umbraco allow you to drop the `surface` from the name of the class to make your URL much nicer.
+
 [<Back 01 - RenderMVC Controllers](01 - RenderMVC Controllers.md)
 
 [Next> 03 - WebAPI Controllers](03 - WebAPI Controllers.md)
