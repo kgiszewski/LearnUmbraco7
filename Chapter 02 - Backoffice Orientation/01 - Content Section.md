@@ -51,7 +51,7 @@ A content node...
     * Document type identification
 
 ##Controlled Experience##
-Based on node permissions, the user can be restricted as to what they can see.  Typically a users is assigned a content root node in the [Users Section](/Chapter 02 - Backoffice Orientation/05 - Users Section.md) and they will only be able to navigate underneath (and including) the node selected.  You can also assign other restrictions as well (i.e. context menu options).
+Based on node permissions, the user can be restricted as to what they can see.  Typically a user is assigned a content root node in the [Users Section](/Chapter 02 - Backoffice Orientation/05 - Users Section.md) and they will only be able to navigate underneath (and including) the node selected.  You can also assign other restrictions as well (i.e. context menu options).
 
 ##Context Menu##
 
