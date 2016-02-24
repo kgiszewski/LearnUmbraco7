@@ -89,7 +89,7 @@ Need to call something out?  Use a blockquote.
 Use code blocks when showing code.  Always include namespaces for C#.
 
 ##So what should you contribute?##
-Each chapter and section will has TODO lists associated with them as well as general outlines of future content. Feel free to tackle any of those or submit other TODOs.  Here are some other examples of what you can contribute:
+Each chapter and section has TODO lists associated with them as well as general outlines of future content. Feel free to tackle any of those or submit other TODOs.  Here are some other examples of what you can contribute:
 
 * Sample Code
 * Diagrams
