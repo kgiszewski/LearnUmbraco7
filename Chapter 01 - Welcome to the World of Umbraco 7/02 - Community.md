@@ -52,8 +52,8 @@ A weekly Umbraco magazine: http://skrift.io
 
 A very popular blog by Tim Geysens from the core team.  This is always full of good stuff: http://www.nibble.be/
 
-[<Back 01 - Core Team](01 - Core Team.md)
-
 ##umbracians.chat
 
 [Umbracians chat](http://umbracians.chat) is slack channel for the Umbraco community to help, guide and grow one and other: http://umbracians.chat
+
+[<Back 01 - Core Team](01 - Core Team.md)
