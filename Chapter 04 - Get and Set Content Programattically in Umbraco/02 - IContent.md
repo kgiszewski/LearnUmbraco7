@@ -31,7 +31,7 @@ namespace MyNamespace
 }
 ```
 
-A typical usage of `IContent` involve the `ContentService`.  In the follow example, a new node is created, a property is set and published.
+A typical usage of `IContent` involves the `ContentService`.  In the following example, a new node is created, a property is set and published.
 
 ```c#
 using Umbraco.Core;
