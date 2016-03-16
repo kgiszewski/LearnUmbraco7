@@ -41,7 +41,7 @@ A content node...
 * May have 0 or more templates associated with it
 * May be published or unpublished (denoted by greyed out)
 * Can only nest under each other if the parent node allows the child document type
-* Don't have to be pages as it is common to use a node as a data holder
+* Doesn't have to be pages as it's common to use a node as a data holder
 * Will be rendered by the RenderMVC controller by default and will return a view  based on what the node has set as a template
 * Has an auto- generated tab called `Properties` which handles a few things like: 
     * Display node ID

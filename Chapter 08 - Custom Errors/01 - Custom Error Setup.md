@@ -2,7 +2,7 @@
 The plan here is to avoid the dreaded YSOD for 500 errors and the default 404 screen that IIS or Umbraco will serve up.  This method of implementing custom errors will make use of naming your error pages using a convention (that you can choose) so that your error pages should work on any environment.  We'll even touch on a way to handle redirects for your site.
 
 ##The Web.Config##
-A few things need to be fiddled with here.  First let's turn on custom errors.  You can set this value on your normal `Web.Config` file or better yet, set up a transform that on turns on custom errors in a production environment.
+A few things need to be fiddled with here.  First let's turn on custom errors.  You can set this value on your normal `Web.Config` file or better yet, set up a transform that turns on custom errors in a production environment.
 
 The edits we make should cover IIS6+, so there is some settings redundancy that is required.
 
