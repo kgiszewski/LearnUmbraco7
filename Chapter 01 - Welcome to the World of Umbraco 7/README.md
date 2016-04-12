@@ -7,7 +7,7 @@ Umbraco is a content management system created by Niels Hartvig and is headquart
 
 ##Umbraco 7 features at a glance##
 * The backend is mainly built on .NET C# MVC.  There are some leftovers of web forms still in the core, but they are being weeded out.
-* The frontend is powered by Google's AngularJS.  Umbraco has a robust set of directives, services and resources which make extending functionality easy.
+* The frontend (called the backoffice) is powered by Google's AngularJS.  Umbraco has a robust set of directives, services and resources which make extending functionality easy.
 * Support for SQL CE and MSSQL is robust.  There is also some support for MySQL.
 * Umbraco can host a single website or several.
 * There is support for caching and load-balancing.
