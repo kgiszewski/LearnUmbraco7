@@ -1,4 +1,4 @@
-#Slots#
+# Slots
 
 What is an Azure slot?  An Azure slot is essentially a website that is mapped to a URL, a DB, some settings and a code repository.  Functionally speaking, it is very advantageous to be able to push to your `master` branch on GitHub and have it auto deploy to Azure.  But deploying directly from `master` and displaying to the public is somewhat dangerous.  So Microsoft has a feature called `swap`.  It swaps one slot for another.
 

@@ -1,4 +1,4 @@
-#Alternate Templates#
+# Alternate Templates
 
 Sort of a lesser known feature of Umbraco is the concept of 'alternate templates'.  Alternate templates allow you to take a normal URL like `http://mydomain.local/foo/bar` and append a template name to the end like so `http://mydomain.local/foo/bar/rss` and the content will render with a completely different template.
 

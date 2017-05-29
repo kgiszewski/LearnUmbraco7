@@ -1,4 +1,4 @@
-#Azure Configuration#
+# Azure Configuration
 The following bits are things you will need to consider or setup if you'd like to implement the topology from section 1.
 
 ##DB Connection String

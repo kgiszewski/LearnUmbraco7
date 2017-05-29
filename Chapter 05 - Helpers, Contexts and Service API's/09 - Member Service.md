@@ -1,4 +1,4 @@
-#MemberService#
+# MemberService
 
 The `MemberService` is useful if you need to do any member operations.  `MemberServices` works with the `IMember` interface like so:
 

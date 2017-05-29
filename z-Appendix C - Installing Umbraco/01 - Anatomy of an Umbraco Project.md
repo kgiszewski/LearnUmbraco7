@@ -1,4 +1,4 @@
-#Anatomy of an Umbraco Project#
+# Anatomy of an Umbraco Project
 
 Managing multiple technologies in one Visual Studio solution can be a bit intimidating. There are an infinite number of ways to organize these files/folders. What follows next is a case study of how one project is organizing the following:
 
@@ -10,7 +10,7 @@ Managing multiple technologies in one Visual Studio solution can be a bit intimi
 * GitHub files
 * Vendor files
 
-##The Root##
+## The Root
 
 At the top level of this project, we find several technologies.  The root level will house these files/folders:
 
@@ -22,7 +22,7 @@ At the top level of this project, we find several technologies.  The root level 
 
 ![root.png](assets/root.png)
 
-##/src##
+## /src
 In this folder we will find the following:
 
 * `/.nuget` holds the`NuGet.exe` that is automatically installed if the NuGet auto-restore option is installed.
@@ -31,7 +31,7 @@ In this folder we will find the following:
 
 ![src.png](assets/src.png)
 
-##Solution Organization##
+## Solution Organization
 
 Below you will find our solution in Visual Studio.  We installed Umbraco into the first project with NuGet and we installed `UmbracoCms.Core` from NuGet into the second project.
 

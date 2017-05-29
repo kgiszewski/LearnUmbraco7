@@ -1,4 +1,4 @@
-#Log4Net.config#
+# Log4Net.config
 
 Log4Net is a third-party text file logging plugin that logs information to `~/App_Data/Logs`.  You can control the behavior by altering this file. 
 

@@ -1,4 +1,4 @@
-#FileSystemProviders.config#
+# FileSystemProviders.config
 
 This file holds the configuration for file system providers.  In Umbraco it is possible to change where references to files live.  For instance you can change your media to live on Azure.  The following is the normal out of the box config:
 

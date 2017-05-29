@@ -1,4 +1,4 @@
-#UrlRewriting.config#
+# UrlRewriting.config
 
 This config file is a really for a third-party plugin hosted on GitHub:  https://github.com/aspnetde/UrlRewritingNet.  There is a PDF with more documentation in that repo.
 
@@ -27,7 +27,7 @@ Here's another example:
 
 The above entry rewrites any URL starting with `/foo` and executes a surface controller.
 
-##Caution##
+## Caution
 You should be aware that any changes to this file on a server causes the application pool to restart.  Also if you find yourself adding a lot of things in this file, consider extending the [request pipeline](https://github.com/kgiszewski/LearnUmbraco7/tree/master/Chapter%2014%20-%20Request%20Routing).
 
 [<Back 01 - Web.Config](01 - Web.Config.md)

@@ -1,8 +1,8 @@
-#Interceptors#
+# Interceptors
 
 Every now and again some things in Umbraco aren't neatly overridden. Take for example the search box at the top left of the backoffice. The normal behavior for this is to use the internal Examine search and give results. However when you are not in the `content` section you may want that box to return custom search results.
 
-##Intercept a View Request##
+## Intercept a View Request
 
 AngularJs provides a way for us to examine `$http` requests to the server which allows us to listen for a request, modify it and return the results back to the browser. The example below allows us to switch out the entire left panel normally found at `views/directives/umb-navigation.html` with a custom view located at `/App_Plugins/UmbracoBookshelf/Views/navigation.html`.
 

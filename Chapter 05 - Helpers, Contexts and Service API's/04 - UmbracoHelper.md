@@ -1,4 +1,4 @@
-#UmbracoHelper#
+# UmbracoHelper
 
 The `UmbracoHelper` is the class that enables easy access to `IPublishedContent` content.  Here are some of the things you can do:
 

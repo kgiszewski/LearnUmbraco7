@@ -1,15 +1,15 @@
-#Azure Blob Storage Provider#
-##By Dirk Seefeld##
+# Azure Blob Storage Provider
+## By Dirk Seefeld
 
-###What is it?###
+### What is it?
 This package allows Umbraco to change it's local file system to Azure Blob Storage.
 
-###Why should I use it?###
+### Why should I use it?
 This package allows a developer to abstract media to a third party storage mechanism to keep things in sync when swapping Azure slots.
 
 Be sure to read about an Azure case-study [here](/Chapter 20 - Azure/README.md).
 
-###Where do I get it?###
+### Where do I get it?
 
 **Our Umbraco:** https://our.umbraco.org/projects/backoffice-extensions/azure-blob-storage-provider
 

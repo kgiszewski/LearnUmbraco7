@@ -1,4 +1,4 @@
-#UmbracoContext#
+# UmbracoContext
 
 The `UmbracoContext` is a reference to Umbraco in code.  This class isn't used directly all that much, but the following class illustrates some possible uses:
 

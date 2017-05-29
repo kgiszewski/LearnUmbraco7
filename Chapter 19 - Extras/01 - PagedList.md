@@ -1,4 +1,4 @@
-#PagedList#
+# PagedList
 
 Very often sites require the need for pagination of content like the image below:
 

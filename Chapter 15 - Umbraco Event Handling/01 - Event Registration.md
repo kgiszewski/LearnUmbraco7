@@ -1,4 +1,4 @@
-#Event Registration#
+# Event Registration
 
 You have three opportunities at different points in time to register an event from your code.  You will register these events by extending the `ApplicationEventHandler` class like so:
 

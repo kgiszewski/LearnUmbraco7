@@ -1,4 +1,4 @@
-#Manifest#
+# Manifest
 
 All items in our plugin should reside in the `~/App_Plugins/` folder.  To make things well organized, create a subfolder under that called: `HideTab`.
 

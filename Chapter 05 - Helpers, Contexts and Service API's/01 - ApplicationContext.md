@@ -1,4 +1,4 @@
-#ApplicationContext#
+# ApplicationContext
 
 `ApplicationContext` is representation of the application layer in Umbraco.  Typically this class is going to be where you'll get references to the backoffice Service API (`ContentService`, `ContentTypeService`, etc) and the `DatabaseContext`.  Additionally this class handles some app-wide caching.
 

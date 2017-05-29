@@ -1,4 +1,4 @@
-#Create a Custom Section#
+# Create a Custom Section
 Creating a custom section involves editing the `~/config/applications.config`.  If we look into that file we can see the core sections defined already plus the last entry for our new section:
 
 ```xml

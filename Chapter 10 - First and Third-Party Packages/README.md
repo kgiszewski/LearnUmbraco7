@@ -1,4 +1,4 @@
-#Overview#
+# Overview
 
 ![9026574602_d1d9d142bb_o.jpg](assets/9026574602_d1d9d142bb_o.jpg)
 >Photo by Doug Robar
@@ -14,21 +14,21 @@ Packages are available in two spots:
 
 >NuGet is increasingly becoming more popular for package installations.
 
-##Installing from Nuget##
+## Installing from Nuget
 To install from NuGet, you just have to open the NuGet `Package Manager Console` and type `install-package <packageName>`.  The example below will install the package `urlpicker` (at the bottom of the image).
 
 For more information about NuGet, please consult: http://nuget.org
 
 ![nuget](assets/nuget.png)
 
-##Installing from Inside Umbraco##
+## Installing from Inside Umbraco
 The *normal* way to install packages is through the `Developer->Packages` section of the backoffice.
 
 ![package-install](assets/package-install.png)
 
 >Just remember if you install through the Umbraco backoffice, you'll need to create a separate folder for any files (like .dll's) that need to be included in your source control.
 
-##Tons of Packages##
+## Tons of Packages
 There are tons of packages on the web compatible with Umbraco 7.  If you use one you really like, consider contributing to this chapter.
 
 [Next> 01 - Core Property Value Converters](01 - Core Property Value Converters.md)

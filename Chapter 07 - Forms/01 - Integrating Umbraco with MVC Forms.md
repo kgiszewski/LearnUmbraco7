@@ -1,4 +1,4 @@
-#MVC Forms Inside Umbraco#
+# MVC Forms Inside Umbraco
 
 If you need to have full control over your forms, you may want to implement your own forms.  To do forms in Umbraco with MVC is easy, but you'll need some of the basic elements:
 
@@ -8,7 +8,7 @@ If you need to have full control over your forms, you may want to implement your
 
 For the following example, we'll do a simple contact form.
 
-##The Model##
+## The Model
 The model will need to capture some simple information from the user and is defined like so:
 
 ```c#
@@ -29,7 +29,7 @@ namespace MyNamespace
 ```
 >Notice how we can decorate properties with validators.
 
-##The SurfaceController##
+## The SurfaceController
 The `SurfaceController` will handle the submission request and is defined like so:
 
 ```c#
@@ -73,10 +73,10 @@ namespace MyNamespace
 }
 ```
 
-##The View##
+## The View
 Next we have to show the form.  The form is split into a view and a partial like so:
 
-###The Form Markup###
+### The Form Markup
 ```c#
 @using MyNamespace
 @inherits Umbraco.Web.Mvc.UmbracoTemplatePage
@@ -87,7 +87,7 @@ Next we have to show the form.  The form is split into a view and a partial like
 @Html.Partial("~/Views/Partials/ContactForm.cshtml", new ContactUsModel())
 ```
 
-###The Partial###
+### The Partial
 Then the partial would have this:
 ```c#
 @model MyNamespace.ContactUsModel

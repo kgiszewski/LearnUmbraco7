@@ -1,4 +1,4 @@
-#Custom Data Sources#
+# Custom Data Sources
 
 Examine is a really fast and powerful provider of the Lucene search engine. What makes it even more amazing is the ease of creating an index from any data source. For instance if you wanted to return search results based on database records or file system files, you can.
 
@@ -8,7 +8,7 @@ The idea is that we will create a completely new index in Umbraco that returns s
 2. Edit the config files to tell Umbraco/Examine about our new stuff
 3. Search it
 
-##Implement ISimpleDataService##
+## Implement ISimpleDataService
 Implementing `ISimpleDataService` involves creating a class like so:
 ```c#
 using System.Collections.Generic;
@@ -54,7 +54,7 @@ namespace MyNamespace
 >For the full example, please visit here: https://github.com/kgiszewski/UmbracoBookshelf/blob/master/src/Examine/BookshelfExamineDataService.cs
 
 
-##Config Files##
+## Config Files
 So let's tell Umbraco/Examine about data service and new searcher by editing two config files:
 
 **~/config/ExamineSettings.config**
@@ -97,7 +97,7 @@ So let's tell Umbraco/Examine about data service and new searcher by editing two
 
 >Much of this information was derived from Shannon Deminick's blog post which you can find here: http://shazwazza.com/post/using-examine-to-index-search-with-any-data-source/ 
 
-##Search##
+## Search
 Nothing special here except make sure you use the correct searcher in your search class that actually performs the search.
 
 So taking [this example](/Chapter 09 - Searching with Examine/02 - Search Results.md), the `ExamineManager` call would actually be the following:
@@ -108,7 +108,7 @@ var searcher = ExamineManager.Instance.SearchProviderCollection["BookshelfSearch
 
 Then you would of course have to alter the query in that file to search the new fields like this: https://github.com/kgiszewski/UmbracoBookshelf/blob/master/src/Examine/BookshelfSearcher.cs
 
-##Rebuilding the Index##
+## Rebuilding the Index
 Naturally there may be times that you need to have the index rebuilt from your code, to do so, add the following code to a method that gets called whenever you want it rebuilt:
 ```
 ExamineManager.Instance.IndexProviderCollection["NameOfIndexer"].RebuildIndex();

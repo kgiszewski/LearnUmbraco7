@@ -1,10 +1,10 @@
-#Core Property Value Converters#
-##By Jeavon Leopold##
+# Core Property Value Converters
+## By Jeavon Leopold
 
-###What is it?###
+### What is it?
 It is a package that takes advantage of some of the core's internal plumbing to return useful objects as opposed to simple identifiers.
 
-###Why should I use it?###
+### Why should I use it?
 An example would be retrieving stored data from the multinode tree picker data type.  Normally that data type will return a comma separated list of node Id's that then need to be parsed into `IPublishedContent` items like so:
 
 ```c#
@@ -34,7 +34,7 @@ With this package you could rewrite it as such:
 
 There are several of these conversions that will happen when this package is installed.  Please consult the package documentation for more details.
 
-###Where do I get it?###
+### Where do I get it?
 
 **NuGet:** https://www.nuget.org/packages/Our.Umbraco.CoreValueConverters/
 

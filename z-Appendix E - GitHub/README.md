@@ -1,11 +1,11 @@
-#GitHub#
+# GitHub
 
 ![16683508582_3ca71d1946_o.jpg](assets/16683508582_3ca71d1946_o.jpg)
 >Photo by Doug Robar
 
 GitHub has become the defacto version control tool that the Umbraco core team uses.  As such it is probably a good idea to give a brief immersion into what GitHub is and what it can do for you.  If you are not using any sort of version control, start today, you won't regret it.
 
-##What is GitHub?##
+## What is GitHub?
 
 GitHub is a website that hosts your repositories (your code) and keeps track of things in a nice visual way.  GitHub uses [Git](http://en.wikipedia.org/wiki/Git_%28software%29), a technology created by Linux creator [Linus Torvalds](http://en.wikipedia.org/wiki/Linus_Torvalds).  GitHub does a great job of visually showing you differences in your code over time and manages merging independent effort on the same project (branches).
 

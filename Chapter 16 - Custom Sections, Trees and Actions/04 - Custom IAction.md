@@ -1,4 +1,4 @@
-#Custom IAction#
+# Custom IAction
 
 Umbraco provides most of the actions you'll ever need, but if you ever find the need to create your own, you'll simply just have to implement the `IAction` interface:
 

@@ -1,4 +1,4 @@
-#Umbraco AngularJs Services and Resources#
+# Umbraco AngularJs Services and Resources
 
 Umbraco has a great API for working with things on the server in C#.  Umbraco also has a great set of resources and services that you can call from Angular that calls the server side API by proxy.
 
@@ -6,7 +6,7 @@ A full is of these services and resources can be found here: http://umbraco.gith
 
 The following highlights a few of the services and resources you will likely want to use.
 
-#Services#
+# Services
 As a quick example of using the `editorState` service.  Let's register a controller and a view:
 
 ```js
@@ -61,7 +61,7 @@ The example above shows a few things:
 * You need to inject a service into your controller
 * You can then do something with that service
 
-##NotificationsService##
+## NotificationsService
 Building on the last example, we can use the `NotificationsService` instead:
 
 ```js
@@ -76,7 +76,7 @@ Which will then show up like the image below:
 
 The idea is you can combine the different services that Umbraco offers into some really awesome plugins.
 
-##Resources##
+## Resources
 Resources work very similar to services except resources tend to return lists of things from the backoffice.  The following example gets a single item from Umbraco using the `entityResource`.  This example builds on the previous:
 
 ```js

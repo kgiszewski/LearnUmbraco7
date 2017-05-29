@@ -1,4 +1,4 @@
-#ContentService#
+# ContentService
 
 Content service is an API interface for manipulating content.  Specifically `ContentService` works with the `IContent` class.
 

@@ -1,4 +1,4 @@
-#MemberTypeService and MemberGroupService#
+# MemberTypeService and MemberGroupService
 
 The `MemberTypeService` and `MemberGroupService`'s are where you need to be if you need to get or set member type and group data.
 

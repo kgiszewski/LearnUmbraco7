@@ -1,4 +1,4 @@
-#Create a Tree#
+# Create a Tree
 Creating a tree in Umbraco can be fairly tricky because of some of the references are hard to grasp.
 
 There are three main types of trees found in Umbraco:
@@ -35,7 +35,7 @@ namespace UmbracoBookshelf.Controllers
 
 The method `MenuItemCollection()` will be where you'll put context menu items relevant to the node in question (we'll look at it in the next section).  The `GetTreeNodes()` method determines which nodes appear under the provided node identified by the `id` parameter.
 
-##GetTreeNodes()##
+## GetTreeNodes()
 The trick to this method is to only return the nodes that should be under the node with the provided `id`.  So an example might be:
 
 ```C#
@@ -52,7 +52,7 @@ protected override TreeNodeCollection GetTreeNodes(string id, FormDataCollection
 
 Making the nodes show the content you want dynamically will probably be more useful.
 
-##Trees.config##
+## Trees.config
 Similar to our `applications.config` we need to update our `~/config/trees.config` file to register our tree for our section.
 
 First let's look at our config file with the some of the core stuff included along with our new tree:
@@ -68,7 +68,7 @@ First let's look at our config file with the some of the core stuff included alo
 ```
 >Same thing as the `application.config` applies here.  We'll use an attribute to add the tree registration.  You can de-register it here by removing the line manually.
 
-##FileTreeController##
+## FileTreeController
 Our bookshelf project will use another type of built-in tree controller, the `FileTreeController` like so:
 
 

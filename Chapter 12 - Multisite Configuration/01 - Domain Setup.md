@@ -1,4 +1,4 @@
-#Domain Setup#
+# Domain Setup
 Assign a domain by right clicking on the node that will be the point of entry to your site.  Typically this will be the home page.  By assigning a domain name right to a node, the node's domain will simply be `/`.
 
 ![menu](assets/domain-menu.png)

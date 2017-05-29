@@ -1,7 +1,7 @@
-#Custom Error Setup#
+# Custom Error Setup
 The plan here is to avoid the dreaded YSOD for 500 errors and the default 404 screen that IIS or Umbraco will serve up.  This method of implementing custom errors will make use of naming your error pages using a convention (that you can choose) so that your error pages should work on any environment.  We'll even touch on a way to handle redirects for your site.
 
-##The Web.Config##
+## The Web.Config
 A few things need to be fiddled with here.  First let's turn on custom errors.  You can set this value on your normal `Web.Config` file or better yet, set up a transform that turns on custom errors in a production environment.
 
 The edits we make should cover IIS6+, so there is some settings redundancy that is required.
@@ -42,7 +42,7 @@ From a multi-site setup standpoint, each of your sites will then have to have an
 
 ![custom-errors.png](assets/custom-errors.png)
 
-##Proper Status Code##
+## Proper Status Code
 So one side effect of doing your custom errors this way is the response code from your web app will be `200 OK` which is not acceptable.  One way around this is to specifically set your HTTP status code on the template (or hijack the controller).
 
 The code to set the status is below:
@@ -50,14 +50,14 @@ The code to set the status is below:
  HttpContext.Current.Response.StatusCode = 404;
 ```
 
-##Redirects##
+## Redirects
 Now that we have a way to capture 404's (and 500's), a positive side-effect is that we now have a extension point for redirects.  The idea is if Umbraco was normally going to issue a 404, we can preempt it and run through a lists of known redirects.  If after we run through our list of redirects, we don't find a match, we can let the 404 happen.
 
 A side project that handles this sort of redirection help can be found here: https://github.com/kgiszewski/G42.UmbracoGrease
 
 If you need 100's of redirects, you may want to use an Umbraco package built for such a purpose.
 
-##Request Pipeline##
+## Request Pipeline
 You can even change the default behavior of the 404 page if you want to do it in a coded way, please visit the [Request Pipeline section](/Chapter 14 - Request Routing/01 - Request Pipeline.md) for more information.
 
 [<Back Overview](README.md)

@@ -1,4 +1,4 @@
-#Wiring Up Image Processor Cache#
+# Wiring Up Image Processor Cache
 
 Image Processor stores cached crops in the `~/app_data/cache` folder by default, but you can send this into the storage as well.  The advantage is that when you swap production and preprod, then the crops are already generated and don't have to redo the work.
 

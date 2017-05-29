@@ -1,4 +1,4 @@
-#Command Line#
+# Command Line
 
 There are hundreds of Git command resources on the internet and you should probably google them to learn more.  However below are several common commands you should be aware of despite being able to do all of these in Git Extensions.  In the end many developers prefer using CLI commands as they can be done pretty fast and requires very little mouse interaction. These commands should be run from your repo directory as they are contextual:
 
@@ -81,7 +81,7 @@ git push origin --delete branch_name
 //best just to do it on the GitHub website :)
 ```
 
-##Creating a Local Repo and Connecting it to GitHub##
+## Creating a Local Repo and Connecting it to GitHub
 Getting your local repo connected to GitHub is easy, please follow these steps:
 
 1. To create a repo locally, run `git init`.  This creates the required Git files.

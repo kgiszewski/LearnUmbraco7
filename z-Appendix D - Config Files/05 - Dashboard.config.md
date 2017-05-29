@@ -1,4 +1,4 @@
-#Dashboard.config#
+# Dashboard.config
 
 A dashboard is a tab that appears on the root of an application (section).  If you want to create a dashboard, simply modify this file and point it to your shiny new AngularJs dashboard.
 

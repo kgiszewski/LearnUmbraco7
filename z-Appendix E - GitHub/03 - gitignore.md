@@ -1,4 +1,4 @@
-#.gitignore#
+# .gitignore
 
 The idea of this file is to exlude things that should not be in the repo, for example we shouldn't be storing the Umbraco core in the repo as NuGet will restore it for us if your project is setup to do so.
 
