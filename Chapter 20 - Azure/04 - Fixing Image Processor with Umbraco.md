@@ -3,7 +3,7 @@ So using the Azure File System package unwittingly breaks Image Processor's abil
 
 There is a fun discussion here if you'd like to read further: https://our.umbraco.org/projects/backoffice-extensions/azure-blob-storage-provider/your-remarks,-ideas-etc/64307-Image-CropperImage-Processor-Crops
 
-##The Fix
+## The Fix
 First you will need to update your `ImageProcessor.Web` (https://www.nuget.org/packages/ImageProcessor.Web/) to the latest version.  At the moment, NuGet is your safest (only?) option.
 
 Next install `ImageProcessor.Web.Config` (https://www.nuget.org/packages/ImageProcessor.Web.Config/)

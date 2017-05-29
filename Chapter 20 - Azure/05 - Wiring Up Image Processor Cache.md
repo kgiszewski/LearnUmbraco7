@@ -27,7 +27,7 @@ Next setup your `~/config/imageprocessor/cache.config` like so:
 
 Just make sure to mind which container names you used if you changed them.  Also be sure to add in the CDN  URL.
 
-##Different for Local and Dev
+## Different for Local and Dev
 If you want to keep the Azure stuff only on production/preprod, you'll need another transform.  You will also want to have a separate cache config file.
 
 So `cache.config` would be:
