@@ -1,4 +1,4 @@
-#Applications.config#
+# Applications.config
 
 This file is where Umbraco stores section configurations also known as `applications`.
 

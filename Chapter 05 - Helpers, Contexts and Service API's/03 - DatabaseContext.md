@@ -1,10 +1,10 @@
-#DatabaseContext#
+# DatabaseContext
 
 The `DatabaseContext` holds a reference to the underlying SQL provider.  The SQL provider can be MSSQL, MySQL and SQL CE.  Under the covers, the Database context is using PetaPoco which is a micro-ORM.  For more information regarding PetaPoco, please visit this: http://www.toptensoftware.com/petapoco/.
 
 You will only use the `DatabaseContext` object if you need to do database operations outside of the Umbraco API.  You should not be using this context to alter the core tables, please use the built-in `IContent` or `IPublishedContent` API's if that is your aim.
 
-##Sample Usage##
+## Sample Usage
 >The examples that follow work with MSSQL but may not work with the other providers.
 
 PetaPoco requires a model (the POCO) to represent a row in a table.  So let's create a model for that purpose.  

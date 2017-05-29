@@ -1,4 +1,4 @@
-#Other Config Files#
+# Other Config Files
 
 There are a number of other config files that you should be aware that exist, rather than list them here, please visit your `~/config` directory.
 

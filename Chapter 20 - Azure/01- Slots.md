@@ -1,4 +1,4 @@
-#Slots#
+# Slots
 
 What is an Azure slot?  An Azure slot is essentially a website that is mapped to a URL, a DB, some settings and a code repository.  Functionally speaking, it is very advantageous to be able to push to your `master` branch on GitHub and have it auto deploy to Azure.  But deploying directly from `master` and displaying to the public is somewhat dangerous.  So Microsoft has a feature called `swap`.  It swaps one slot for another.
 
@@ -25,7 +25,7 @@ Scale settings
 WebJobs schedulers
 ```
 
-##Topology
+## Topology
 
 In order to keep some sort of order and synchronization with your media, you will need to setup your topology as follows:
 
@@ -43,7 +43,7 @@ The reason for the preprod and production being connected to the same media and 
 >You should probably disable auto sync stuff such as uSync.  Perform import operations manaully using those packages instead.
 
 
-##Repo Sanity Check
+## Repo Sanity Check
 You should go out of your way to make sure you're not storing more code than you need to.  To get the most out of Azure, you should be using NuGet packages wherever possible and turn on 'Enable NuGet Package Restore' in Visual Studio.
 
 If you do this properly, you won't actually store any of Umbraco in your repo (or any other NuGet items).  When your repo gets deployed to Azure, all of your NuGet packages will be downloaded from NuGet and deployed with your project automatically.  A lean repo is a clean and tidy repo.  It's a bit magical.  If you're not using the NuGet command `install-package umbracocms` when you install Umbraco, you're doing more work than you should. 

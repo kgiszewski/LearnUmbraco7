@@ -1,4 +1,4 @@
-#Umbraco WebAPI#
+# Umbraco WebAPI
 Umbraco also uses WebAPI and these are more suited for getting information from the backoffice as opposed to surface controllers which are mainly for public information/interactions. You can restrict access to these controllers easily whereas `SurfaceControllers` you cannot.
 
 To use an WebApi with Umbraco, you can do the following:

@@ -1,4 +1,4 @@
-#ContentTypeService#
+# ContentTypeService
 
 So where `ContentService` is for manipulating `IContent`, `ContentTypeService` is used to manipulate backoffice document types via the `IContentType` interface.
 

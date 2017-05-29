@@ -1,4 +1,4 @@
-#MediaService#
+# MediaService
 
 `MediaService` will let you fiddle with the media section in a lot of ways. The `MediaService` works with the `IMedia` interface for all CRUD operations.  One common task is to load a media item into Umbraco from another source:
 
@@ -40,10 +40,10 @@ namespace MyNamespace
 }
 ```
 
-##Methods##
+## Methods
 There are various methods to be able to grab media such as: `IMedia mediaItem = mediaService.GetById(1234);`.  For a complete list, please consult the official Umbraco docs.
 
-##Reserved Properties##
+## Reserved Properties
 Umbraco has several reserved properties that are being used by default by several of the `MediaType`'s.  They are as follows:
 
 * `umbracoFile` - Holds the web path to a file in the `~/media` folder

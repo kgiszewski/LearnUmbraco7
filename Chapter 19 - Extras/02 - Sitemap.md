@@ -1,4 +1,4 @@
-#Sitemap#
+# Sitemap
 
 Sitemaps can be done with ease in Umbraco.  By using the alternate template feature in Umbraco we can create a simple site map like so:
 

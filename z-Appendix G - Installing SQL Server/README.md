@@ -1,4 +1,4 @@
-#Installing SQL Server#
+# Installing SQL Server
 
 ![14451635585_a9830652f7_h.jpg](assets/14451635585_a9830652f7_h.jpg)
 >Photo By: Doug Robar

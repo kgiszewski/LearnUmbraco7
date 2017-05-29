@@ -1,8 +1,8 @@
-#Image Processor#
+# Image Processor
 
 [Image Processor](http://imageprocessor.org/) is a third-party product that is included with Umbraco. It was created by [James South](https://twitter.com/james_m_south) and the project is free and open-source on [GitHub](https://github.com/JimBobSquarePants/ImageProcessor/blob/V2/README.md).
 
-##What does it do for Umbraco?##
+## What does it do for Umbraco?
 It is implemented as an ASP.NET HttpModule and intercepts all image requests.  The Umbraco backoffice uses it to provide on-the-fly cached crops of media items.  For instance if you were to view a media item located at: `http://mydomain.local/media/1001/foo.jpg`, the image would show in it's native form as you would expect.
 
 However, if you add some query string parameters like the below example, you would get a crop in return:
@@ -14,10 +14,10 @@ Image Processor does this by intercepting the image request and attempting to ap
 
 >For a complete list of features, please visit the Image Processor site.
 
-##Upgradeable##
+## Upgradeable
 Since Image Processor will evolve with new features faster than Umbraco may adopt newer versions, you can even upgrade Image Processor separately to take advantage of bug fixes and features immediately.
 
-##Image Cropper and Template Usage##
+## Image Cropper and Template Usage
 One way to get usage out of Image Processor is to switch out the `Media Types` data type for images to `Image Cropper` (shown below):
 
 ![image-cropper.png](assets/image-cropper.png)

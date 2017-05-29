@@ -1,4 +1,4 @@
-#IPublishedContent#
+# IPublishedContent
 
 This interface is responsible for delivering cached published content to your views.  This interface is `read only` so if you need to manipulate your data please see the section on `IContent`.
 

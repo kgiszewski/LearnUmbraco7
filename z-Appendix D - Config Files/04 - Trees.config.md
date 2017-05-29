@@ -1,4 +1,4 @@
-#Trees.config#
+# Trees.config
 
 This file is where you would register a custom tree that lives in a section.  The trees can get added to an existing section, or it can get added to your shiny new section.  The following is a brief excerpt:
 

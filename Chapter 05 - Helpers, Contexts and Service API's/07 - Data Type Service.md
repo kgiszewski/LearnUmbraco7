@@ -1,4 +1,4 @@
-#DataTypeService#
+# DataTypeService
 Data type service will help you programmatically grab information about your site's configured property editors.
 
 A common use is to get a data type and it's prevalues:

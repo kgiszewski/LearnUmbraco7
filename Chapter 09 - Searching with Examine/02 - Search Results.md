@@ -1,4 +1,4 @@
-#Search Results#
+# Search Results
 To perform a query and then show the results, we simply can just create a searcher and call it from a view.  We will first need to define a searcher.  Inside this searcher we need to generate Lucene query commands as you'll see in the example:
 
 ```c#
@@ -55,7 +55,7 @@ namespace MyNamespace
 
 >Examine also has a fluid API to use if you don't want to use raw Lucene syntax.  Learning the Lucene syntax makes for more targeted results but is yet another thing to learn and some prefer the fluid syntax instead. For more on this please consult the official documentation.
 
-##Call the Searcher##
+## Call the Searcher
 You can call the searcher right from a view or from a controller.  The example below is from a view:
 
 ```c#

@@ -1,12 +1,12 @@
-#Custom Membership Providers
+# Custom Membership Providers
 One great way to extend Umbraco is to use custom membership providers.  In the examples below, we will use Umbraco to manage everything except checking a backoffice users and frontend users (members) passwords.
 
 >Note: This only works with versions prior to v7.3.0. Please consult the official Umbraco docs for v7.3.0+.
 
-##The Idea
+## The Idea
 The idea is that when a user hits the Umbraco login screen for the backoffice, we want the user to be able to enter in an LDAP password.  Umbraco will still control access to sections, starting nodes and the like.  We will also use the same approach for members logging in to the frontend.  This setup is great when you just need to manage access and not to manage passwords and the overall LDAP.
 
-##Create a Classes to Check Password with LDAP
+## Create a Classes to Check Password with LDAP
 We need a class to authenticate to the server:
 ```c#
 using System;
@@ -189,12 +189,12 @@ enablePasswordReset="false" requiresQuestionAndAnswer="false" passwordFormat="Ha
 
 It's probably best to just comment out the default providers.  Pay close attention to all of the naming.
 
-##Recap
+## Recap
 So this setup will allow Umbraco to handle everything except user/password validation.  Membership types and groups all work inside Umbraco as normal.  This is also friendly with the `Public Access` feature of Umbraco.  This setup does not import users from the third-party LDAP.  You will still need to add users (with the same username as LDAP) for them to be able to login.
 
 >You may need to adjust classes based on your LDAP setup as this is a general guide. 
 
-##Use SSL or Risk Security Threats
+## Use SSL or Risk Security Threats
 You should be using SSL for ALL communications handling passwords (backoffice and members).  Since this setup handles passwords being transmitted over the interwebs, mishandling the passwords here could create security issues elsewhere in your system.
 
 You should be using SSL regardless even on a default install.

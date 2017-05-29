@@ -1,4 +1,4 @@
-##Data Types##
+## Data Types
 Data types are the rendered *controls* that editors will use to input their data into Umbraco.  They are managed via the `Developer->Data Types` section of the backoffice.
 
 ![Data Types](assets/datatypes.png)

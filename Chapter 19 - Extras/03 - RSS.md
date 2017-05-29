@@ -1,4 +1,4 @@
-#RSS#
+# RSS
 
 RSS in Umbraco can be done a number of ways, one way is to take advantage of the alternate template scheme.  To create an RSS feed, do the following:
 

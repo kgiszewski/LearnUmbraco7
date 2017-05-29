@@ -1,10 +1,10 @@
-#Environment Specific Configs#
+# Environment Specific Configs
 
 Often you will need to specify a certain setting for one environment versus the other, take the [classic example](/Chapter 08 - Custom Errors/01 - Custom Error Setup.md) of the `customError` setting.
 
 We usually want that set to `Off` for local development and set to `On` for production. Without a mechanism to ensure that setting gets updated correctly when deploying code, we're prone to accidentally leaving it set to `Off`.
 
-##Web Transforms##
+## Web Transforms
 So .NET offers us a nice and easy way to *transform* the `web.config` based on an environment. This process requires at least two files, the `web.config` and a transform file. When the `web.config` is loaded, the transform changes certain attributes and values.
 
 For this example we will use an Azure transformation. You can add a new transformation several ways, this method is the manual way:
@@ -44,7 +44,7 @@ The value = `-p:PublishProfile=Azure`
 
 You can also use `WebDeploy` for if you are hosting on AWS and select the appropriate transform when creating a publishing profile.
 
-##Transforming UmbracoSettings.config##
+## Transforming UmbracoSettings.config
 At first glance, you may have figured out that you cannot transform this file directly. Instead we will just trade out this file altogether because it is referenced in the `Web.config`
 
 So if we created `UmbracoSettingsAzure.config` and wanted to use that instead of the default one (but only on Azure), your `Web.Azure.config` file would then look like this:
@@ -79,7 +79,7 @@ So what is happening here? Well we are simply saying, "use this file instead" fo
 
 Using transforms allows you to work with custom errors off without SSL locally and ensures they are all turned on in a specific environment.
 
-##A Better Way##
+## A Better Way
 So after understanding how transforms are configured manually, you might be wondering if there has got to be a better way?
 
 Enter [SlowCheetah](https://visualstudiogallery.msdn.microsoft.com/69023d00-a4f9-4a34-a6cd-7e854ba318b5) which is a Visual Studio plugin that is presently in maintenance mode only (no future plans).

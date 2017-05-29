@@ -1,7 +1,7 @@
-#The View and Directive#
+# The View and Directive
 So Angular can seem weird at first, but we're just adding new functionality to HTML.
 
-##The View##
+## The View
 Next we will define a view or what will show on the document type when this property editor is rendered.
 
 So create a file named `~/App_Plugins/HideTab/hideTab.view.html` and place the following line in it:
@@ -12,7 +12,7 @@ So create a file named `~/App_Plugins/HideTab/hideTab.view.html` and place the f
 
 It's very short and the directive below will make the `<hide-tab>` tag actually do something.
 
-##The Directive##
+## The Directive
 
 Next let's create a file called `~/App_Plugins/HideTab/hideTab.directive.js` and place this code in it:
 
@@ -58,7 +58,7 @@ If we save all the files and restart Umbraco, we should now have a new property 
 
 ![hidetab](assets/hidetab.png)
 
-##Recap##
+## Recap
 So that was a lot of things happening without much explanation so let's recap where we're at:
 
 * The `package.manifest` registered a view, some JS and some CSS with Umbraco.

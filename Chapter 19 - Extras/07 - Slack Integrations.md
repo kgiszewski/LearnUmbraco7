@@ -1,4 +1,4 @@
-#Slack Integrations#
+# Slack Integrations
 
 Use Slack? In this section we will cover how to send a message to Slack from Umbraco whenever an unhandled exception occurs.
 
@@ -9,10 +9,10 @@ It will involve four easy steps:
 * Extend the UmbracoApplication class
 * Update your Global.asax
 
-##Create your custom Slack integration##
+## Create your custom Slack integration
 Simply go to your Slack application and add a new integration. Select `Inbound` integration. Fill out the required fields. We will need the hook URL that Slack will provide you.
 
-##Create a model##
+## Create a model
 
 Create a class that handles the variables we'll be sending to Slack like so:
 
@@ -41,7 +41,7 @@ namespace MyNamespace
 }
 ```
 
-##Create a new class that extends UmbracoApplication##
+## Create a new class that extends UmbracoApplication
 This class extends the `UmbracoApplication` which has already extended the usual `Global.asax.cs` file. We do this to hook into the `Application_Error` method as an extension point to grab unhandled errors. I've created two helper methods that can be used to facilitate the actual sending of the data.
 
 ```c#
@@ -99,7 +99,7 @@ namespace MyNamespace
 }
 ```
 
-##Update your Global.asax file##
+## Update your Global.asax file
 
 Finally you just need to tell Umbraco to use your new class by updating the `Global.asax` file located on your web root like so:
 
@@ -108,7 +108,7 @@ Finally you just need to tell Umbraco to use your new class by updating the `Glo
           
 ```
 
-##Summary##
+## Summary
 Be sure to update the URL and channel name in the code above to use the URL that Slack provided you. You can use any of the emoji's and don't forget to give your bot a great name!
 
 >Pro tip, your channel should have a hash tag on it i.e. `#umbraco` or you can send it to a user `@someuser`

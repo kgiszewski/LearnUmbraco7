@@ -1,4 +1,4 @@
-#Media Section#
+# Media Section
 
 The media section is where all of the media files will live.  Items dragged and dropped into the `Media Section` will get written to your web root `~/media` folder.  During the import process, image thumbnails are generated and they get assigned a unique folder to avoid accidental overwrites.
 

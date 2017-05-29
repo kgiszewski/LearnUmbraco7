@@ -1,4 +1,4 @@
-#File System Provider#
+# File System Provider
 
 So the goal here is to tell Umbraco to stop placing media in `~/media` and to store and serve it from the cloud.
 

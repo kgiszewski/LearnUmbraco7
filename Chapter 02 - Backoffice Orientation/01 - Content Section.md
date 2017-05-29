@@ -1,4 +1,4 @@
-#Content Section#
+# Content Section
 
 The content section is where all of the content (not media) is added to an Umbraco site.   During a fresh install, the only node that will be in your content tree will be the `Recycle Bin`.  All other pieces of content will need to be defined by a [document type](/Chapter 03 - Document Types, Templates and Data Types/01 - Document Types.md).  The content section also will have a few dashboards by default like: `Get Started` and `Change Password`.
 
@@ -6,7 +6,7 @@ The content section is where all of the content (not media) is added to an Umbra
 
 ![Content Section](assets/backoffice.png)
 
-##Content Tree##
+## Content Tree
 
 The content tree is a hierarchy of document types and each one is affectionately called a node.  By nesting content nodes underneath each other, Umbraco builds the default URL based on the structure.
 
@@ -31,7 +31,7 @@ See how the URL's would be generated below as both a single site or a multi-site
                     |---- Contact Us "/contact-us
                             |----- "Inquiry Form" /contact-us/inquiry-form
 
-##A content node is the basic content building block in Umbraco##
+## A content node is the basic content building block in Umbraco
 
 A content node...
 
@@ -50,10 +50,10 @@ A content node...
     * The URL to the node from the users perspective
     * Document type identification
 
-##Controlled Experience##
+## Controlled Experience
 Based on node permissions, the user can be restricted as to what they can see.  Typically a user is assigned a content root node in the [Users Section](/Chapter 02 - Backoffice Orientation/05 - Users Section.md) and they will only be able to navigate underneath (and including) the node selected.  You can also assign other restrictions as well (i.e. context menu options).
 
-##Context Menu##
+## Context Menu
 
 Each node can be right-clicked on and a set of context menus options will be presented to the user.
 

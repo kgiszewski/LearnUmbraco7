@@ -1,4 +1,4 @@
-#RenderMvcController#
+# RenderMvcController
 
 This controller is the default controller whenever any content in Umbraco is requested.  It will automatically use the view defined by the content node's template property.  By default the model will be `RenderModel` which is the representation of the content node.
 
@@ -6,7 +6,7 @@ You can override this controller by *hijacking* this behavior by document type o
 
 >When considering to hijack a route (by doctype or template), understand that you can achieve custom behavior by simply adding some logic to a view instead.  While this will not keep the MVC God's happy, it will result in much less code if you have a lot of document types.
 
-##Hijack by Document Type##
+## Hijack by Document Type
 
 To hijack a route by document type, create a class that extends `RenderMvcController` with a name that starts with the document type name and ends with `Controller`.  This example will hijack requests for content of the document type named `HomePage`:
 
@@ -30,7 +30,7 @@ namespace MyNamespace
     }
 }
 ```
-###Return a Custom Model###
+### Return a Custom Model
 You can use hijacking to send back a custom model.  Our model will have all of the information from the original `RenderModel`, except now we've added a new property.
 
 ```c#
@@ -79,7 +79,7 @@ Then your view will need to be set up like this:
 
 >This technique can be used to create strongly typed view models. There are a few packages, such as [UmbracoMapper](https://our.umbraco.org/projects/developer-tools/umbraco-mapper/) and [Ditto](https://our.umbraco.org/projects/developer-tools/ditto/), that can be used for creating strongly typed view models.
 
-##Hijack by Template##
+## Hijack by Template
 The next example shows how to hijack by template name.  Essentially you just name the method after the template alias:
 
 ```c#
@@ -123,7 +123,7 @@ namespace MyNamespace
 }
 ```
 
-##Global Replacement of the RenderMvcController##
+## Global Replacement of the RenderMvcController
 You can even replace the default controller if you want.  If you need to do that, please consult the official Umbraco documents.
 
 [<Back Overview](README.md)

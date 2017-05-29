@@ -1,4 +1,4 @@
-#Create a NuGet Package#
+# Create a NuGet Package
 
 First and foremost, creating a NuGet package isn't a trivial task the first time you do it.  However the benefits of creating a NuGet package are very much worth the learning curve pains you'll have to overcome.  The main benefits are below:
 
@@ -9,20 +9,20 @@ First and foremost, creating a NuGet package isn't a trivial task the first time
 
 What follows next is a guide on how to a process to create packages on demand.
 
-##NuGet Package Format##
+## NuGet Package Format
 As with the built-in method, a NuGet package is pretty much just files and a manifest zipped together into a `.nupkg` file. 
 >If you were to rename a `.nupkg` file and add `.zip` to the end, you can look inside one and get a feel for what's in it.
 
 We will have to address certain formatting of the file structure/manifest aspects of creating a NuGet package.  Fortunately there are some tools we can use to get to that point.
 >Please note that there are a few ways to create a NuGet package, this is just one method
 
-##Node.js/Grunt##
+## Node.js/Grunt
 So if you're already using Node.js and/or Grunt, this will be familiar to you. If not, please visit the [Appendix](/z-Appendix F - Node.js/README.md) to learn how to install these tools.
 
 The idea is we will use Grunt to automate the building of our NuGet package.  In your repo root (not in your web root), create these files:
 >For a live example, see the file structure on this project: https://github.com/kgiszewski/UmbracoBookshelf
 
-###package.json###
+### package.json
 ```js
 {
   "name": "MyPackageName",
@@ -61,7 +61,7 @@ The idea is we will use Grunt to automate the building of our NuGet package.  In
 ```
 >These are the dependencies Node.js needs.
 
-###gruntfile.js###
+### gruntfile.js
 ```js
 module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
@@ -247,7 +247,7 @@ The commands we just registered are:
 
 >We will run these commands from the CLI and they will package up everything.
 
-###config/meta.json###
+### config/meta.json
 Create this file in a sub-folder called `config`.
 ```js
 {
@@ -262,7 +262,7 @@ Create this file in a sub-folder called `config`.
 ```
 >Grunt will use this file to fill in blanks on templates.  It'll also update your  DLL version numbers based on this file.
 
-###config/package.nuspec###
+### config/package.nuspec
 ```xml
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
@@ -285,7 +285,7 @@ Create this file in a sub-folder called `config`.
 ```
 >This file is used to create the NuGet manifest. Fill this out and some fields will be auto-populated.
 
-###config/package.xml###
+### config/package.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <umbPackage>
@@ -330,10 +330,10 @@ Create this file in a sub-folder called `config`.
 ```
 >This file is used to generate the built-in package.  Nothing to change here as this is all auto-populated.
 
-###config/readme.txt###
+### config/readme.txt
 Create this file and put in what you'd like to appear in the built-in package manifest.  This will show in the backoffice when someone clicks on the package details.
 
-##Wow##
+## Wow
 OK that seemed like a lot of configuration (because it was).  Next we need to install Node.js dependencies.  To do so, open a command prompt and go to the same directory as the `package.json`.  Type in `npm install`.  If it's running properly you'll get some stuff that downloads.
 
 Next choose a command to run.
@@ -344,7 +344,7 @@ Run `grunt package` to get both the NuGet and Umbraco built-in packages to be cr
 
 Note that the file names of the packages are already generated with a version name.
 
-##Troubleshooting##
+## Troubleshooting
 If you are getting any errors (like Node cannot be found), try reinstalling Node and make sure Node is in your Windows environment path.
 
 If you are getting "Grunt isn't a command", try installing again like so: `npm install -g grunt-cli.  You will have to be running the cmd prompt as admin.
@@ -355,17 +355,17 @@ If you need to update the operations that run in Grunt, you will need to update 
 
 You can run commands with the `-verbose` tag to get more specific errors (i.e. `grunt -verbose`)
 
-##Source Injection##
+## Source Injection
 Tom Fulton added a cool feature that allows the output of running your commands to end up in a separate install.
 
 For instance if you run `grunt --target="c:\dev\myproject\umbracofolder"`, any changes to my package solution will get injected into the target solution.  This happens because when grunt runs it normally ends up in `/dist` and then the package files are created and land in `/pkg`. By specifying a target, we are changing where the output goes (instead of `/dist`).
 
 Addtionally if you run `grunt watch`, grunt will listen for changes to certain files and run the tasks you decide.
 
-##Yo Umbraco!##
+## Yo Umbraco!
 There is also a Node.js based tool to help get Umbraco property editors off the ground and into NuGet quickly.  It's called Yo Umbraco (http://creativewebspecialist.co.uk/2014/03/24/yo-umbraco/) and was developed by Warren Buckley and others. Yo Umbraco scaffolds what you need quickly and includes NuGet packaging functionality.
 
-##Special Thanks##
+## Special Thanks
 Special thanks to Tom Fulton for authoring the Node Umbraco packager (https://www.npmjs.com/package/grunt-umbraco-package) and creating this workflow #h5yr!
 
 [<Back 01 - Built-In](01 - Built-In.md)

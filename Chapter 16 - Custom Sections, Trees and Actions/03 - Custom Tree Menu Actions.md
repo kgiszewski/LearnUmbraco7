@@ -1,4 +1,4 @@
-#Custom Tree Menu Actions#
+# Custom Tree Menu Actions
 
 Umbraco allows developers to add custom actions to nodes.  What that means is you can add items to the context menu that opens like the image below:
 
@@ -48,7 +48,7 @@ namespace MyNamespace
 }
 ```
 
-##Action Routing##
+## Action Routing
 By clicking on the 'Create' action, the user will be led to a predetermined URL.  In the case of our example, they'll be sent to:
 
 `http://mydomain.local/umbraco/#/UmbracoBookshelf/UmbracoBookshelfTree/edit/1234`

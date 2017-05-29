@@ -1,4 +1,4 @@
-#Global.asax#
+# Global.asax
 
 The `Global.asax` file in Umbraco overrides the typical MVC implementation that usually takes the form of the `Global.asax.cs` code-behind file.
 

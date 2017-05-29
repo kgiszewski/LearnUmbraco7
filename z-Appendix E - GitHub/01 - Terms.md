@@ -1,4 +1,4 @@
-#Terms#
+# Terms
 
 Some terms that you should know about Git that will help the conversation.
 

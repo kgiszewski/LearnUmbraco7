@@ -1,4 +1,4 @@
-#Built-in Functionality#
+# Built-in Functionality
 Examine has three indexers built-in to Umbraco.  What are indexers?  Indexers are sets of searchable indexes that will return different types of results.  The three built-in indexers are:
 
 * `InternalIndexer` - Used to power the backoffice search (top left).
@@ -18,7 +18,7 @@ The index is built on application start up if the index directories are empty (p
 
 The better way to force a rebuilding of the index is to use the Examine dashboard which is located in the Umbraco backoffice on the `Developer` dashboard.
 
-##Examine Dashboard##
+## Examine Dashboard
 The examine dashboard is a web GUI that allows you to rebuild the index for a particular indexer and it also provides a test searcher for each index:
 
 ![rebuild](assets/examine-rebuild.png)
@@ -27,7 +27,7 @@ When testing with the Examine search tool, you can see the fields that Examine i
 
 ![search tool](assets/examine-search-tool.png)
 
-##Updating the Indexes##
+## Updating the Indexes
 Whenever a node is saved and published, the index files are automatically updated.  If you need to do some direct index manipulation, there are a few events that you can use to hook into the pipeline.  The most used event is probably `GatheringNodeData` and can be implemented like so:
 
 ```c#
@@ -57,7 +57,7 @@ After the index is rebuilt or the node is save/published, you can return to the 
 
 ![events](assets/examine-events.png)
 
-##Complex Property Values##
+## Complex Property Values
 Sometimes the property contains complex data and might need to be deserialized into individual fields or munged into one large field.  The example below uses Archetype and creates a field per fieldset:
 
 ```C#

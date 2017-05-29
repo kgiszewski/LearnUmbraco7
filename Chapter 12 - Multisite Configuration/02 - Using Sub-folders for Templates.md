@@ -1,4 +1,4 @@
-#Using Sub-folders for Templates#
+# Using Sub-folders for Templates
 
 By default, Umbraco wants to store all of the views for your websites in the `~/views` folder of your web root. Normally this isn't an issue but when you run multiple websites on one install this starts to get very unorganized quickly. Out of the box, Umbraco doesn't support using sub-folders to keep everything nice and tidy. You can however add this functionality yourself by registering a custom view engine like so the following.
 

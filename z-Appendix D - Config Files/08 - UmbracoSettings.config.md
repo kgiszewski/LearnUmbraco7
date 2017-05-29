@@ -1,4 +1,4 @@
-#UmbracoSettings.config#
+# UmbracoSettings.config
 
 This file handles some of the internal plumbing in Umbraco but many items are still kept in the [web.config](/z-Appendix D - Config Files/01 - Web.Config.md).
 
