@@ -38,7 +38,7 @@ http://uhangout.co.uk/
 
 An annual community contributed blog about Umbraco tips and tricks.
 
-http://24days.in/umbraco
+http://24days.in/umbraco-cms/
 
 To contribute please tweet to: http://twitter.com/greystate
 
