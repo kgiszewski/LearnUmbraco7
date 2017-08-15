@@ -17,6 +17,8 @@ using Umbraco.Web.Trees;
 
 namespace UmbracoBookshelf.Controllers
 {
+
+    [Tree("appAlias", "alias", "Title", sortOrder: 0)]
     public class MyTreeController : TreeController
     {
         protected override MenuItemCollection GetMenuForNode(string id, FormDataCollection queryStrings)
