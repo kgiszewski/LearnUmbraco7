@@ -31,4 +31,4 @@ The *normal* way to install packages is through the `Developer->Packages` sectio
 ## Tons of Packages
 There are tons of packages on the web compatible with Umbraco 7.  If you use one you really like, consider contributing to this chapter.
 
-[Next> 01 - Core Property Value Converters](01 - Core Property Value Converters.md)
+[Next> 01 - Core Property Value Converters](01%20-%20Core%20Property%20Value%20Converters.md)

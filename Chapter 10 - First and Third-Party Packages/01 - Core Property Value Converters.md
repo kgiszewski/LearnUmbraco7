@@ -42,4 +42,4 @@ There are several of these conversions that will happen when this package is ins
 
 [<Back Overview](README.md)
 
-[Next> 02 - uSync](02 - uSync.md)
+[Next> 02 - uSync](02%20-%20uSync.md)

@@ -40,6 +40,6 @@ Finally, since I don't want my local dev to store images in Azure but I DO want 
 
 It is important to know that using this file system provider will break Image Processor's `GetCropUrl()` functionality within Umbraco.  The next section covers how to fix it.
 
-[<Back 02 - Azure Configuration](02 - Azure Configuration.md)
+[<Back 02 - Azure Configuration](02%20-%20Azure%20Configuration.md)
 
-[Next> 04 - Fixing Image Processor with Umbraco](04 - Fixing Image Processor with Umbraco.md)
+[Next> 04 - Fixing Image Processor with Umbraco](04%20-%20Fixing%20Image%20Processor%20with%20Umbraco.md)

@@ -21,6 +21,6 @@ Below is a tiny excerpt from `dashboard.config`:
 </dashBoard>
 ```
 
-[<Back 04 - Trees.config](04 - Trees.config.md)
+[<Back 04 - Trees.config](04%20-%20Trees.config.md)
 
-[Next> 06 - FileSystemProviders.config](06 - FileSystemProviders.config.md)
+[Next> 06 - FileSystemProviders.config](06%20-%20FileSystemProviders.config.md)

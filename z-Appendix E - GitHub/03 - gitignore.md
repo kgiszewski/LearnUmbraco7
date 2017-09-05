@@ -91,6 +91,6 @@ _ReSharper.*/
 ```
 >Note that you will have to change this file to accomodate your specific project.  Make sure to exclude temporary/runtime data like the ~/App_Data/ folder.
 
-[<Back 02 - Branching](02 - Branching.md)
+[<Back 02 - Branching](02%20-%20Branching.md)
 
-[Next> 04 - Git Extensions](04 - Git Extensions.md)
+[Next> 04 - Git Extensions](04%20-%20Git%20Extensions.md)

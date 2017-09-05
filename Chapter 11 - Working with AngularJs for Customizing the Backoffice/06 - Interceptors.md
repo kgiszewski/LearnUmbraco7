@@ -28,4 +28,4 @@ While this is probably considered a hacky nuclear option, it *does* provide a wa
 
 The best part? We didn't modify the core at all! Just remove your code and the normal functionality returns.
 
-[<Back 05 - More Than Property Editors](05 - More Than Property Editors.md)
+[<Back 05 - More Than Property Editors](05%20-%20More%20Than%20Property%20Editors.md)

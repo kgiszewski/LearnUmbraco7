@@ -80,6 +80,6 @@ If you examine the directive code, the directive simply crawls the DOM and hides
 
 We'll cover another property editor later on.
 
-[<Back 01 - Manifest](01 - Manifest.md)
+[<Back 01 - Manifest](01%20-%20Manifest.md)
 
-[Next> 03 - AngularJs Umbraco Services and Resources](03 - AngularJs Umbraco Services and Resources.md)
+[Next> 03 - AngularJs Umbraco Services and Resources](03%20-%20AngularJs%20Umbraco%20Services%20and%20Resources.md)

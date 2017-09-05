@@ -7,4 +7,4 @@ Forms can be done manually via the usual MVC patterns or you can take advantage 
 
 The Forms Section that comes built-in Umbraco is GUI based and is highly extensible.  You will need a license, but it provides an incredible code-free form experience.  For more information, please consult the the official Umbraco documentation.
 
-[Next> 01 - Integrating Umbraco with MVC Forms](01 - Integrating Umbraco with MVC Forms.md)
+[Next> 01 - Integrating Umbraco with MVC Forms](01%20-%20Integrating%20Umbraco%20with%20MVC%20Forms.md)

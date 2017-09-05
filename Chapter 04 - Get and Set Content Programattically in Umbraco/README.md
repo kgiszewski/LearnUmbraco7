@@ -16,4 +16,4 @@ The backoffice data is delivered via the `IContent` class.  This is where you'll
 
 >Remember, if you're just needing to get published content, use the `IPublishedContent` class family.  If you need to do any other CRUD operations, use `IContent`.
 
-[Next> 01 - IPublishedContent](01 - IPublishedContent.md)
+[Next> 01 - IPublishedContent](01%20-%20IPublishedContent.md)

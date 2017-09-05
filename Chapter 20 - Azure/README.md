@@ -20,4 +20,4 @@ Azure provides a bunch of things that may cut a lot of dev ops costs (i.e. TeamC
 
 ![azure.png](assets/azure.png)
 
-[Next> 01- Slots](01- Slots.md)
+[Next> 01- Slots](01-%20Slots.md)

@@ -2,7 +2,7 @@
 
 `SurfaceControllers` are Umbraco's way to provide quick MVC routes for custom behavior. These are mostly used to handle form requests but can also return text, JSON, XML and views.
 
-Please see the [MVC forms section](/Chapter 07 - Forms/01 - Integrating Umbraco with MVC Forms.md) for using `SurfaceControllers` with forms.
+Please see the [MVC forms section](/Chapter%2007%20-%20Forms/01%20-%20Integrating%20Umbraco%20with%20MVC%20Forms.md) for using `SurfaceControllers` with forms.
 
 To create a quick web service you can do the following:
 
@@ -89,6 +89,6 @@ Surface controllers are a little different than normal controllers in that they 
 
 >Note: The latest versions of Umbraco allow you to drop the `surface` from the name of the class to make your URL much nicer.
 
-[<Back 01 - RenderMVC Controllers](01 - RenderMVC Controllers.md)
+[<Back 01 - RenderMVC Controllers](01%20-%20RenderMVC%20Controllers.md)
 
-[Next> 03 - WebAPI Controllers](03 - WebAPI Controllers.md)
+[Next> 03 - WebAPI Controllers](03%20-%20WebAPI%20Controllers.md)

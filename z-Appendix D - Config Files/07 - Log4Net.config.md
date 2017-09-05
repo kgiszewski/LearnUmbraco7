@@ -33,6 +33,6 @@ Log4Net is a third-party text file logging plugin that logs information to `~/Ap
 
 For more information about Log4Net, please visit the [official documentation](https://logging.apache.org/log4net/).
 
-[<Back 06 - FileSystemProviders.config](06 - FileSystemProviders.config.md)
+[<Back 06 - FileSystemProviders.config](06%20-%20FileSystemProviders.config.md)
 
-[Next> 08 - UmbracoSettings.config](08 - UmbracoSettings.config.md)
+[Next> 08 - UmbracoSettings.config](08%20-%20UmbracoSettings.config.md)

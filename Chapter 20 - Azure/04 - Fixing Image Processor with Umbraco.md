@@ -28,6 +28,6 @@ The idea is that you are inserting `remote.axd` into the url which tells Image P
 
 Usage would be: `someImageIPublishedContent.GetCropUrl().ToAzureBlogUrl()`.
 
-[<Back 03 - File System Provider](03 - File System Provider.md)
+[<Back 03 - File System Provider](03%20-%20File%20System%20Provider.md)
 
-[Next> 05 - Wiring Up Image Processor Cache](05 - Wiring Up Image Processor Cache.md)
+[Next> 05 - Wiring Up Image Processor Cache](05%20-%20Wiring%20Up%20Image%20Processor%20Cache.md)

@@ -13,4 +13,4 @@ When using GitHub, it is important to know that when you make changes on your lo
 
 The important concept here is that you are running Git locally on your machine and GitHub is running Git on their servers.
 
-[Next> 01 - Terms](01 - Terms.md)
+[Next> 01 - Terms](01%20-%20Terms.md)

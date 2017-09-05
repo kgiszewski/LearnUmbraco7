@@ -15,6 +15,6 @@ It's a free OSS way to get ecommerce into the hands of small business owners.
 
 **Our Umbraco:**  https://our.umbraco.org/projects/collaboration/merchello
 
-[<Back 03 - Archetype](03 - Archetype.md)
+[<Back 03 - Archetype](03%20-%20Archetype.md)
 
-[Next> 05 - Courier](05 - Courier.md)
+[Next> 05 - Courier](05%20-%20Courier.md)

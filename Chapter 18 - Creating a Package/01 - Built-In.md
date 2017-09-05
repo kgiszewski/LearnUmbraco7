@@ -26,4 +26,4 @@ That's it!  You can now upload it to http://our.umbraco.org and share it with th
 
 [<Back Overview](README.md)
 
-[Next> 02 - Create a NuGet Package](02 - Create a NuGet Package.md)
+[Next> 02 - Create a NuGet Package](02%20-%20Create%20a%20NuGet%20Package.md)

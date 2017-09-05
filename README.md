@@ -68,10 +68,10 @@ Everything should be written in markdown and not HTML.  If you are not familiar 
 * https://help.github.com/articles/github-flavored-markdown/
 
 #### Do Use Root Relative, Current Relative or External Links
-Use links that are rooted from the top level like so `[click me](/LearnUmbraco7/01 - Chapter 0/readme.md)`.
+Use links that are rooted from the top level like so `[click me](/LearnUmbraco7/01%20-%20Chapter%200/readme.md)`.
 
 #### Do Not Use Relative Paths with Double Dots
-These type of links `[click me](../01 - Chapter 0/readme.md)` are useful normally, but create a security issue when downloaded into things like [Umbraco Bookshelf](https://github.com/kgiszewski/UmbracoBookshelf).
+These type of links `[click me](../01%20-%20Chapter%200/readme.md)` are useful normally, but create a security issue when downloaded into things like [Umbraco Bookshelf](https://github.com/kgiszewski/UmbracoBookshelf).
 >Side note, Umbraco Bookshelf ignores these types of links.
 
 #### Do Split Things Up

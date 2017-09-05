@@ -100,7 +100,7 @@ So let's tell Umbraco/Examine about data service and new searcher by editing two
 ## Search
 Nothing special here except make sure you use the correct searcher in your search class that actually performs the search.
 
-So taking [this example](/Chapter 09 - Searching with Examine/02 - Search Results.md), the `ExamineManager` call would actually be the following:
+So taking [this example](/Chapter%2009%20-%20Searching%20with%20Examine/02%20-%20Search%20Results.md), the `ExamineManager` call would actually be the following:
 
 ```c#
 var searcher = ExamineManager.Instance.SearchProviderCollection["BookshelfSearcher"];
@@ -116,4 +116,4 @@ ExamineManager.Instance.IndexProviderCollection["NameOfIndexer"].RebuildIndex();
 
 That will handle a full rebuild of the index. You can also update individual index entries but for that please see the [Examine documentation](https://github.com/Shazwazza/Examine/wiki).
 
-[<Back 03 - Debugging with Luke](03 - Debugging with Luke.md)
+[<Back 03 - Debugging with Luke](03%20-%20Debugging%20with%20Luke.md)

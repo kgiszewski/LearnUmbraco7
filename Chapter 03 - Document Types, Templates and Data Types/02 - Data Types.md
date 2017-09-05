@@ -11,6 +11,6 @@ Some data types allow for nesting of data structures such as other data types an
 
 For more information regarding core data types, please refer to the official documentation.
 
-[<Back 01 - Document Types](01 - Document Types.md)
+[<Back 01 - Document Types](01%20-%20Document%20Types.md)
 
-[Next> 03 - Templates](03 - Templates.md)
+[Next> 03 - Templates](03%20-%20Templates.md)

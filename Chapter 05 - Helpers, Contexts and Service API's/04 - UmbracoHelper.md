@@ -52,6 +52,6 @@ namespace MyNamespace
 }
 ```
 
-[<Back 03 - DatabaseContext](03 - DatabaseContext.md)
+[<Back 03 - DatabaseContext](03%20-%20DatabaseContext.md)
 
-[Next> 05 - Content Service](05 - Content Service.md)
+[Next> 05 - Content Service](05%20-%20Content%20Service.md)

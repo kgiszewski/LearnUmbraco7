@@ -26,6 +26,6 @@ There are lots of methods to be able to get members by group or whatever like so
 
 Please consult the official Umbraco docs for a full list of methods.
 
-[<Back 08 - Media Service](08 - Media Service.md)
+[<Back 08 - Media Service](08%20-%20Media%20Service.md)
 
-[Next> 10 - Member Type and Member Group Services](10 - Member Type and Member Group Services.md)
+[Next> 10 - Member Type and Member Group Services](10%20-%20Member%20Type%20and%20Member%20Group%20Services.md)

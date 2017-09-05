@@ -101,4 +101,4 @@ The pager will have it's URL's in the following format:
 
 [<Back Overview](README.md)
 
-[Next> 02 - Sitemap](02 - Sitemap.md)
+[Next> 02 - Sitemap](02%20-%20Sitemap.md)

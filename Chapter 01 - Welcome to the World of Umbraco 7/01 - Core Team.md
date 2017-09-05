@@ -51,4 +51,4 @@ Stephan is always tinkering with new things and is a very entertaining presenter
 
 [<Back Overview](README.md)
 
-[Next> 02 - Community](02 - Community.md)
+[Next> 02 - Community](02%20-%20Community.md)

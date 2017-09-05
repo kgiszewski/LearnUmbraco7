@@ -28,6 +28,6 @@ You need to sign up for these services as well:
 * CDN - For Image processor caching
 * Azure Storage - For Image Processor caching and media
 
-[<Back 01- Slots](01- Slots.md)
+[<Back 01- Slots](01-%20Slots.md)
 
-[Next> 03 - File System Provider](03 - File System Provider.md)
+[Next> 03 - File System Provider](03%20-%20File%20System%20Provider.md)

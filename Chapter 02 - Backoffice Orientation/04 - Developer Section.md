@@ -20,6 +20,6 @@ One popular use of the package system is to create a package solely for exportin
 ## Dashboard
 Finally, the dashboard in the developer section is where you'll find a management tool for Examine.  For more information on Examine, please see Chapter 9.
 
-[<Back 03 - Settings Section](03 - Settings Section.md)
+[<Back 03 - Settings Section](03%20-%20Settings%20Section.md)
 
-[Next> 05 - Users Section](05 - Users Section.md)
+[Next> 05 - Users Section](05%20-%20Users%20Section.md)

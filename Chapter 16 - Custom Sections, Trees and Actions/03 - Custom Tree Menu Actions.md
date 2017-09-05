@@ -113,6 +113,6 @@ To wire all this up, you'll need to create a web structure in your `App_Plugins`
 
 Please visit the Bookshelf project for further details: https://github.com/kgiszewski/UmbracoBookshelf/tree/master/src/App_Plugins/UmbracoBookshelf
 
-[<Back 02 - Create a Tree](02 - Create a Tree.md)
+[<Back 02 - Create a Tree](02%20-%20Create%20a%20Tree.md)
 
-[Next> 04 - Custom IAction](04 - Custom IAction.md)
+[Next> 04 - Custom IAction](04%20-%20Custom%20IAction.md)

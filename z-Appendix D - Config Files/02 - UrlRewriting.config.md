@@ -30,6 +30,6 @@ The above entry rewrites any URL starting with `/foo` and executes a surface con
 ## Caution
 You should be aware that any changes to this file on a server causes the application pool to restart.  Also if you find yourself adding a lot of things in this file, consider extending the [request pipeline](https://github.com/kgiszewski/LearnUmbraco7/tree/master/Chapter%2014%20-%20Request%20Routing).
 
-[<Back 01 - Web.Config](01 - Web.Config.md)
+[<Back 01 - Web.Config](01%20-%20Web.Config.md)
 
-[Next> 03 - Applications.config](03 - Applications.config.md)
+[Next> 03 - Applications.config](03%20-%20Applications.config.md)

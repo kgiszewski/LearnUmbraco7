@@ -88,4 +88,4 @@ One side-effect of this is if you save a template in the backoffice, it won't fi
 
 >One alternative to this approach would be to hijack each document type via custom controller and handle which view is returned. This approach would require a lot of controllers however.
 
-[<Back 01 - Domain Setup](01 - Domain Setup.md)
+[<Back 01 - Domain Setup](01%20-%20Domain%20Setup.md)

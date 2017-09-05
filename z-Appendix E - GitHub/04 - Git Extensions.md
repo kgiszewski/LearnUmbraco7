@@ -16,6 +16,6 @@ When you open Git Extensions and click `Commit` along the top toolbar, you will 
 
 Finally once you have staged your changes, enter a commit and it is now committed locally.  When ready to notify GitHub, perform a push.
 
-[<Back 03 - gitignore](03 - gitignore.md)
+[<Back 03 - gitignore](03%20-%20gitignore.md)
 
-[Next> 05 - Contribute to a Project](05 - Contribute to a Project.md)
+[Next> 05 - Contribute to a Project](05%20-%20Contribute%20to%20a%20Project.md)

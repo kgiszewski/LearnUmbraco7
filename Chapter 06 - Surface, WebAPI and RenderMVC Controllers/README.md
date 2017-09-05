@@ -11,4 +11,4 @@ By default the `RenderMvcController` delivers content (model) with a view (templ
 
 Finally, `UmbracoApiController`'s allow you to use WebAPI with Umbraco services and contexts made available to you.
 
-[Next> 01 - RenderMVC Controllers](01 - RenderMVC Controllers.md)
+[Next> 01 - RenderMVC Controllers](01%20-%20RenderMVC%20Controllers.md)

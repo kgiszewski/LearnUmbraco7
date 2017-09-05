@@ -57,4 +57,4 @@ Finally do a transform inside `Web.Azure-Prod.config`:
 </configuration>
 ```
 
-[<Back 04 - Fixing Image Processor with Umbraco](04 - Fixing Image Processor with Umbraco.md)
+[<Back 04 - Fixing Image Processor with Umbraco](04%20-%20Fixing%20Image%20Processor%20with%20Umbraco.md)

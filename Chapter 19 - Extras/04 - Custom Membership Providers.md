@@ -199,6 +199,6 @@ You should be using SSL for ALL communications handling passwords (backoffice an
 
 You should be using SSL regardless even on a default install.
 
-[<Back 03 - RSS](03 - RSS.md)
+[<Back 03 - RSS](03%20-%20RSS.md)
 
-[Next> 05 - Image Processor](05 - Image Processor.md)
+[Next> 05 - Image Processor](05%20-%20Image%20Processor.md)

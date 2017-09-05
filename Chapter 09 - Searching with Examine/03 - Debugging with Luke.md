@@ -3,6 +3,6 @@ Luke is a free Java app that you can use to debug the Lucene indexes quickly and
 
 Luke can be downloaded here: https://code.google.com/p/luke/downloads/list
 
-[<Back 02 - Search Results](02 - Search Results.md)
+[<Back 02 - Search Results](02%20-%20Search%20Results.md)
 
-[Next> 04 - Custom Data Sources](04 - Custom Data Sources.md)
+[Next> 04 - Custom Data Sources](04%20-%20Custom%20Data%20Sources.md)

@@ -24,6 +24,6 @@ Here you can setup default context menu load outs that can then be selected in t
 ## User Permissions
 Restrict access on a per node/user basis.
 
-[<Back 04 - Developer Section](04 - Developer Section.md)
+[<Back 04 - Developer Section](04%20-%20Developer%20Section.md)
 
-[Next> 06 - Members Section](06 - Members Section.md)
+[Next> 06 - Members Section](06%20-%20Members%20Section.md)

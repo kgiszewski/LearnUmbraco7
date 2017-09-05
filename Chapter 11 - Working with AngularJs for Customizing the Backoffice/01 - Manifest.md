@@ -37,4 +37,4 @@ The manifest file declares that we have a single property editor named `HideTab`
 
 [<Back Overview](README.md)
 
-[Next> 02 - The View and Directive](02 - The View and Directive.md)
+[Next> 02 - The View and Directive](02%20-%20The%20View%20and%20Directive.md)

@@ -38,7 +38,7 @@ Tell Umbraco about the locales you are using.  Among other things, these languag
 
 ## Media Types
 
-As discussed in the [media section](02 - Media Section.md), this is where you'll configure your different types of media.  Typically you won't need to change anything here.  Sometimes the `Image` is modified to allow for different inputs such as an `alt` tag value or meta keywords for search results.
+As discussed in the [media section](02%20-%20Media%20Section.md), this is where you'll configure your different types of media.  Typically you won't need to change anything here.  Sometimes the `Image` is modified to allow for different inputs such as an `alt` tag value or meta keywords for search results.
 
 ## Document Types
 
@@ -59,6 +59,6 @@ Document types are the logical units that content is derived from.  A document t
 >NOTE: The terms `Data Type` and `Property Editor` are used interchangeably.  Data types are the inputs editors will be keying data into.
 The success of an Umbraco install can be greatly influenced by how the document types, data types and templates are architected.  A whole [chapter](/Chapter 03 - Document Types, Templates and Data Types) is dedicated to this concept.
 
-[<Back 02 - Media Section](02 - Media Section.md)
+[<Back 02 - Media Section](02%20-%20Media%20Section.md)
 
-[Next> 04 - Developer Section](04 - Developer Section.md)
+[Next> 04 - Developer Section](04%20-%20Developer%20Section.md)

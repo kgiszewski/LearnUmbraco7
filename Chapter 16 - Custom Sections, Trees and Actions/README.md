@@ -15,4 +15,4 @@ The final product will look like this:
 
 ![custom-section](assets/custom-section.png)
 
-[Next> 01 - Create a Section](01 - Create a Section.md)
+[Next> 01 - Create a Section](01%20-%20Create%20a%20Section.md)

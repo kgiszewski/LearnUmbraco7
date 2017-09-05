@@ -26,6 +26,6 @@ The feed will show all items with a template associated and exclude any items th
 
 You can visit the sitemap by pointing your browser to: http://mysite.local/sitemap
 
-[<Back 01 - PagedList](01 - PagedList.md)
+[<Back 01 - PagedList](01%20-%20PagedList.md)
 
-[Next> 03 - RSS](03 - RSS.md)
+[Next> 03 - RSS](03%20-%20RSS.md)
