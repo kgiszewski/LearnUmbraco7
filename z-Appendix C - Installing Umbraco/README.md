@@ -4,7 +4,7 @@
 ![14435732345_b3d6799cff_o.jpg](assets/14435732345_b3d6799cff_o.jpg)
 >Photo by Doug Robar
 
-Here's a quickstart video: https://www.youtube.com/watch?v=bktKMEd0cDQ&t=18s, or you can keep reading.
+Here's a quickstart video: https://www.youtube.com/watch?v=bktKMEd0cDQ, or you can keep reading.
 
 If you haven't set up IIS with a website and Visual Studio, see Appendices A and B first.  After you have these set up you can continue on to install Umbraco.
 
