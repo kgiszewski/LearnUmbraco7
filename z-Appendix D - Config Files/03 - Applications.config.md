@@ -17,8 +17,8 @@ This file is where Umbraco stores section configurations also known as `applicat
 </applications>
 ```
 
-While you can edit this section manually to add a section, most developers use the attribute for an application class instead.  Please see the [custom section](/Chapter 16 - Custom Sections, Trees and Actions/01 - Create a Section.md) area.
+While you can edit this section manually to add a section, most developers use the attribute for an application class instead.  Please see the [custom section](/Chapter%2016%20-%20Custom%20Sections,%20Trees%20and%20Actions/01%20-%20Create%20a%20Section.md) area.
 
-[<Back 02 - UrlRewriting.config](02 - UrlRewriting.config.md)
+[<Back 02 - UrlRewriting.config](02%20-%20UrlRewriting.config.md)
 
-[Next> 04 - Trees.config](04 - Trees.config.md)
+[Next> 04 - Trees.config](04%20-%20Trees.config.md)

@@ -3,7 +3,7 @@
 If you need to have full control over your forms, you may want to implement your own forms.  To do forms in Umbraco with MVC is easy, but you'll need some of the basic elements:
 
 * A Model - The form fields as a POCO
-* [A Surface Controller](/Chapter 06 - Surface, WebAPI and RenderMVC Controllers/02 - Surface Controllers.md) - The controller that handles the form submission
+* [A Surface Controller](/Chapter%2006%20-%20Surface,%20WebAPI%20and%20RenderMVC%20Controllers/02%20-%20Surface%20Controllers.md) - The controller that handles the form submission
 * A View - The form markup
 
 For the following example, we'll do a simple contact form.

@@ -1,6 +1,6 @@
 # Content Section
 
-The content section is where all of the content (not media) is added to an Umbraco site.   During a fresh install, the only node that will be in your content tree will be the `Recycle Bin`.  All other pieces of content will need to be defined by a [document type](/Chapter 03 - Document Types, Templates and Data Types/01 - Document Types.md).  The content section also will have a few dashboards by default like: `Get Started` and `Change Password`.
+The content section is where all of the content (not%20media)%20is%20added%20to%20an%20Umbraco%20site.%20%20%20During%20a%20fresh%20install,%20the%20only%20node%20that%20will%20be%20in%20your%20content%20tree%20will%20be%20the%20`Recycle%20Bin`.%20%20All%20other%20pieces%20of%20content%20will%20need%20to%20be%20defined%20by%20a%20[document%20type](/Chapter%2003%20-%20Document%20Types,%20Templates%20and%20Data%20Types/01%20-%20Document%20Types.md).  The content section also will have a few dashboards by default like: `Get Started` and `Change Password`.
 
 *If you installed a starter kit when you installed Umbraco, you will have some content (and document types) already.*
 
@@ -51,7 +51,7 @@ A content node...
     * Document type identification
 
 ## Controlled Experience
-Based on node permissions, the user can be restricted as to what they can see.  Typically a user is assigned a content root node in the [Users Section](/Chapter 02 - Backoffice Orientation/05 - Users Section.md) and they will only be able to navigate underneath (and including) the node selected.  You can also assign other restrictions as well (i.e. context menu options).
+Based on node permissions, the user can be restricted as to what they can see.  Typically a user is assigned a content root node in the [Users Section](/Chapter%2002%20-%20Backoffice%20Orientation/05%20-%20Users%20Section.md) and they will only be able to navigate underneath (and including) the node selected.  You can also assign other restrictions as well (i.e. context menu options).
 
 ## Context Menu
 
@@ -79,4 +79,4 @@ The default context menu items are as follows:
 
 [<Back Overview](README.md)
 
-[Next> 02 - Media Section](02 - Media Section.md)
+[Next> 02 - Media Section](02%20-%20Media%20Section.md)

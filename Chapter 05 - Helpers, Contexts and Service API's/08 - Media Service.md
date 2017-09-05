@@ -50,6 +50,6 @@ Umbraco has several reserved properties that are being used by default by severa
 * `umbracoBytes` - Holds the file size in bytes
 * `umbracoExtensions` - Holds the extension (without the dot) of the file type
 
-[<Back 07 - Data Type Service](07 - Data Type Service.md)
+[<Back 07 - Data Type Service](07%20-%20Data%20Type%20Service.md)
 
-[Next> 09 - Member Service](09 - Member Service.md)
+[Next> 09 - Member Service](09%20-%20Member%20Service.md)

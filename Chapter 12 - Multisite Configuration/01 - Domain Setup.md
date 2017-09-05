@@ -17,4 +17,4 @@ Visit the `Settings->Languages` section to add new cultures that will be selecta
 
 [<Back Overview](README.md)
 
-[Next> 02 - Using Sub-folders for Templates](02 - Using Sub-folders for Templates.md)
+[Next> 02 - Using Sub-folders for Templates](02%20-%20Using%20Sub-folders%20for%20Templates.md)

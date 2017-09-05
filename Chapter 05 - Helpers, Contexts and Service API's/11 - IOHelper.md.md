@@ -17,6 +17,6 @@ namespace MyNamespace
 }
 ```
 
-[<Back 10 - Member Type and Member Group Services](10 - Member Type and Member Group Services.md)
+[<Back 10 - Member Type and Member Group Services](10%20-%20Member%20Type%20and%20Member%20Group%20Services.md)
 
-[Next> 12 - LogHelper](12 - LogHelper.md)
+[Next> 12 - LogHelper](12%20-%20LogHelper.md)

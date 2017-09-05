@@ -6,8 +6,8 @@ Content service is an API interface for manipulating content.  Specifically `Con
 
 `ContentService` is best used to create, move, sort, update backoffice data programmatically.
 
-Please see a simple demonstration in the [IContent Section](/Chapter 04 - Get and Set Content Programattically in Umbraco/02 - IContent.md).
+Please see a simple demonstration in the [IContent Section](/Chapter%2004%20-%20Get%20and%20Set%20Content%20Programattically%20in%20Umbraco/02%20-%20IContent.md).
 
-[<Back 04 - UmbracoHelper](04 - UmbracoHelper.md)
+[<Back 04 - UmbracoHelper](04%20-%20UmbracoHelper.md)
 
-[Next> 06 - Content Type Service](06 - Content Type Service.md)
+[Next> 06 - Content Type Service](06%20-%20Content%20Type%20Service.md)

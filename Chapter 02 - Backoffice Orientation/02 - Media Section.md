@@ -34,6 +34,6 @@ Umbraco also is compatible with using virtual directories and custom file provid
 
 >IMPORTANT: All media files are open to the public.  To make any media files private, you will have to implement a custom or use a 3rd party package.
 
-[<Back 01 - Content Section](01 - Content Section.md)
+[<Back 01 - Content Section](01%20-%20Content%20Section.md)
 
-[Next> 03 - Settings Section](03 - Settings Section.md)
+[Next> 03 - Settings Section](03%20-%20Settings%20Section.md)

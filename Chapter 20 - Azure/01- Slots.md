@@ -50,4 +50,4 @@ If you do this properly, you won't actually store any of Umbraco in your repo (o
 
 [<Back Overview](README.md)
 
-[Next> 02 - Azure Configuration](02 - Azure Configuration.md)
+[Next> 02 - Azure Configuration](02%20-%20Azure%20Configuration.md)

@@ -21,6 +21,6 @@ The URL Picker is a simple property editor that does all of what we've covered i
 
 This package can be installed with NuGet at: https://www.nuget.org/packages/UrlPicker/
 
-[<Back 03 - AngularJs Umbraco Services and Resources](03 - AngularJs Umbraco Services and Resources.md)
+[<Back 03 - AngularJs Umbraco Services and Resources](03%20-%20AngularJs%20Umbraco%20Services%20and%20Resources.md)
 
-[Next> 05 - More Than Property Editors](05 - More Than Property Editors.md)
+[Next> 05 - More Than Property Editors](05%20-%20More%20Than%20Property%20Editors.md)

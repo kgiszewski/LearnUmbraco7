@@ -1,6 +1,6 @@
 # Environment Specific Configs
 
-Often you will need to specify a certain setting for one environment versus the other, take the [classic example](/Chapter 08 - Custom Errors/01 - Custom Error Setup.md) of the `customError` setting.
+Often you will need to specify a certain setting for one environment versus the other, take the [classic example](/Chapter%2008%20-%20Custom%20Errors/01%20-%20Custom%20Error%20Setup.md) of the `customError` setting.
 
 We usually want that set to `Off` for local development and set to `On` for production. Without a mechanism to ensure that setting gets updated correctly when deploying code, we're prone to accidentally leaving it set to `Off`.
 
@@ -95,4 +95,4 @@ You can even preview the changes before having to push them to the server.
 
 >Thank you to Stefan Kip and Sebastiaan Janssen for pointing out this plugin to use.
 
-[<Back 09 - Others](09 - Others.md)
+[<Back 09 - Others](09%20-%20Others.md)

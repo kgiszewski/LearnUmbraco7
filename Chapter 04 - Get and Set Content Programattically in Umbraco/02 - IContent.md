@@ -62,4 +62,4 @@ namespace MyNamespace
 
 For more on the `ServicesContext`, please see [Chapter 05](/Chapter 05 - Helpers, Contexts and Service API's).
 
-[<Back 01 - IPublishedContent](01 - IPublishedContent.md)
+[<Back 01 - IPublishedContent](01%20-%20IPublishedContent.md)

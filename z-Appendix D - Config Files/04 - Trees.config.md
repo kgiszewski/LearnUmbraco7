@@ -14,8 +14,8 @@ This file is where you would register a custom tree that lives in a section.  Th
 </trees>
 ```
 
-Same thing applies with trees as does with applications (section), you can manually edit this file or use an [attribute in code](/Chapter 16 - Custom Sections, Trees and Actions/02 - Create a Tree.md).
+Same thing applies with trees as does with applications (section),%20you%20can%20manually%20edit%20this%20file%20or%20use%20an%20[attribute%20in%20code](/Chapter%2016%20-%20Custom%20Sections,%20Trees%20and%20Actions/02%20-%20Create%20a%20Tree.md).
 
-[<Back 03 - Applications.config](03 - Applications.config.md)
+[<Back 03 - Applications.config](03%20-%20Applications.config.md)
 
-[Next> 05 - Dashboard.config](05 - Dashboard.config.md)
+[Next> 05 - Dashboard.config](05%20-%20Dashboard.config.md)

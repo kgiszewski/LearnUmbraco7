@@ -32,6 +32,6 @@ You can set information programmatically as well but consider just using the GUI
 
 For more information regarding these services, please consult the official docs.
 
-[<Back 09 - Member Service](09 - Member Service.md)
+[<Back 09 - Member Service](09%20-%20Member%20Service.md)
 
-[Next> 11 - IOHelper.md](11 - IOHelper.md.md)
+[Next> 11 - IOHelper.md](11%20-%20IOHelper.md.md)

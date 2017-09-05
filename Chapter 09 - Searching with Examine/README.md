@@ -7,4 +7,4 @@ Umbraco comes with a built-in search index powered by [Examine](https://github.c
 
 In a few short steps, you can have a search up and running.
 
-[Next> 01 - Built-in Functionality](01 - Built-in Functionality.md)
+[Next> 01 - Built-in Functionality](01%20-%20Built-in%20Functionality.md)

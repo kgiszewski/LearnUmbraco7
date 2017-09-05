@@ -11,4 +11,4 @@ Also, keep in mind that the items in this chapter are in regards to C# functiona
 
 >For the record you can still use Entity Framework in parallel with PetaPoco.
 
-[Next> 01 - ApplicationContext](01 - ApplicationContext.md)
+[Next> 01 - ApplicationContext](01%20-%20ApplicationContext.md)

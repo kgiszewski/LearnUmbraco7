@@ -26,6 +26,6 @@ namespace MyNamespace
 }
 ```
 
-[<Back 12 - LogHelper](12 - LogHelper.md)
+[<Back 12 - LogHelper](12%20-%20LogHelper.md)
 
-[Next> 14 - Other Services](14 - Other Services.md)
+[Next> 14 - Other Services](14%20-%20Other%20Services.md)

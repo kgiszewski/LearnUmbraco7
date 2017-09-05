@@ -15,6 +15,6 @@ It's extremely useful for production boxes where access to the box may not be ea
 
 **NuGet:** http://www.nuget.org/packages/DiploTraceLogViewer/
 
-[<Back 05 - Courier](05 - Courier.md)
+[<Back 05 - Courier](05%20-%20Courier.md)
 
-[Next> 07 - Azure Blob Storage Provider](07 - Azure Blob Storage Provider.md)
+[Next> 07 - Azure Blob Storage Provider](07%20-%20Azure%20Blob%20Storage%20Provider.md)

@@ -42,6 +42,6 @@ namespace MyNamespace
 
 >Note: By default un-handled errors are sent to the log for you.
 
-[<Back 11 - IOHelper.md](11 - IOHelper.md.md)
+[<Back 11 - IOHelper.md](11%20-%20IOHelper.md.md)
 
-[Next> 13 - File Service](13 - File Service.md)
+[Next> 13 - File Service](13%20-%20File%20Service.md)

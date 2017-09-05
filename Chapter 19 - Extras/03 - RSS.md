@@ -46,6 +46,6 @@ Now that you've got a basic RSS feed going, you can check it out by visiting: ht
 
 >If you use Internet Explorer, it'll format the response in a human readable feed.
 
-[<Back 02 - Sitemap](02 - Sitemap.md)
+[<Back 02 - Sitemap](02%20-%20Sitemap.md)
 
-[Next> 04 - Custom Membership Providers](04 - Custom Membership Providers.md)
+[Next> 04 - Custom Membership Providers](04%20-%20Custom%20Membership%20Providers.md)

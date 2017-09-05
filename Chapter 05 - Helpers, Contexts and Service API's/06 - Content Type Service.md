@@ -25,6 +25,6 @@ namespace MyNamespace
 }
 ```
 
-[<Back 05 - Content Service](05 - Content Service.md)
+[<Back 05 - Content Service](05%20-%20Content%20Service.md)
 
-[Next> 07 - Data Type Service](07 - Data Type Service.md)
+[Next> 07 - Data Type Service](07%20-%20Data%20Type%20Service.md)

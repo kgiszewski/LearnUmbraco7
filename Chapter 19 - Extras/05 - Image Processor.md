@@ -1,6 +1,6 @@
 # Image Processor
 
-[Image Processor](http://imageprocessor.org/) is a third-party product that is included with Umbraco. It was created by [James South](https://twitter.com/james_m_south) and the project is free and open-source on [GitHub](https://github.com/JimBobSquarePants/ImageProcessor/blob/V2/README.md).
+[Image Processor](http://imageprocessor.org/)%20is%20a%20third-party%20product%20that%20is%20included%20with%20Umbraco.%20It%20was%20created%20by%20[James%20South](https://twitter.com/james_m_south)%20and%20the%20project%20is%20free%20and%20open-source%20on%20[GitHub](https://github.com/JimBobSquarePants/ImageProcessor/blob/V2/README.md).
 
 ## What does it do for Umbraco?
 It is implemented as an ASP.NET HttpModule and intercepts all image requests.  The Umbraco backoffice uses it to provide on-the-fly cached crops of media items.  For instance if you were to view a media item located at: `http://mydomain.local/media/1001/foo.jpg`, the image would show in it's native form as you would expect.
@@ -39,6 +39,6 @@ Finally, go to your template and tell Umbraco to crop an image based on where th
 
 This works great when you need to use an image in landscape for a hero banner and a square image for a thumbnail.  By using this method you can use a single picture for both types of crops.  The hockey puck position decides which part of the image will be used for the crop.
 
-[<Back 04 - Custom Membership Providers](04 - Custom Membership Providers.md)
+[<Back 04 - Custom Membership Providers](04%20-%20Custom%20Membership%20Providers.md)
 
-[Next> 06 - Global.asax](06 - Global.asax.md)
+[Next> 06 - Global.asax](06%20-%20Global.asax.md)

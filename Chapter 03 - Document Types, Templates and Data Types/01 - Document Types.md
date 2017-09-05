@@ -39,4 +39,4 @@ Here is where you'll manage your tabs for your documents' data types.  Tabs are 
 
 [<Back Overview](README.md)
 
-[Next> 02 - Data Types](02 - Data Types.md)
+[Next> 02 - Data Types](02%20-%20Data%20Types.md)

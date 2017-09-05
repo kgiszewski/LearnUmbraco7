@@ -17,7 +17,7 @@ We will have to address certain formatting of the file structure/manifest aspect
 >Please note that there are a few ways to create a NuGet package, this is just one method
 
 ## Node.js/Grunt
-So if you're already using Node.js and/or Grunt, this will be familiar to you. If not, please visit the [Appendix](/z-Appendix F - Node.js/README.md) to learn how to install these tools.
+So if you're already using Node.js and/or Grunt, this will be familiar to you. If not, please visit the [Appendix](/z-Appendix%20F%20-%20Node.js/README.md) to learn how to install these tools.
 
 The idea is we will use Grunt to automate the building of our NuGet package.  In your repo root (not in your web root), create these files:
 >For a live example, see the file structure on this project: https://github.com/kgiszewski/UmbracoBookshelf
@@ -368,4 +368,4 @@ There is also a Node.js based tool to help get Umbraco property editors off the 
 ## Special Thanks
 Special thanks to Tom Fulton for authoring the Node Umbraco packager (https://www.npmjs.com/package/grunt-umbraco-package) and creating this workflow #h5yr!
 
-[<Back 01 - Built-In](01 - Built-In.md)
+[<Back 01 - Built-In](01%20-%20Built-In.md)

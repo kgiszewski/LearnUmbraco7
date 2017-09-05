@@ -34,7 +34,7 @@ Let's pause a second and digest what we added:
     <customErrors mode="On" xdt:Transform="SetAttributes(mode)">
     </customErrors>
 ```
->If you are unfamiliar with transforms, it's definitely worth a Google as it's standard .NET web app material. For more in relation to Umbraco, please see this [bit](/z-Appendix D - Config Files/10 - Environment Specific Configs.md).
+>If you are unfamiliar with transforms, it's definitely worth a Google as it's standard .NET web app material. For more in relation to Umbraco, please see this [bit](/z-Appendix%20D%20-%20Config%20Files/10%20-%20Environment%20Specific%20Configs.md).
 
 So now that we've told the web app to go to specific URL's when a 404 and a 500 happen, we then need to create those in our content tree.  When you create those it's probably best to create their own document type such as `ErrorPage` or whatever.  Add whatever you want to your document types such as a rich text editor for a message to be displayed by your template.
 
@@ -58,6 +58,6 @@ A side project that handles this sort of redirection help can be found here: htt
 If you need 100's of redirects, you may want to use an Umbraco package built for such a purpose.
 
 ## Request Pipeline
-You can even change the default behavior of the 404 page if you want to do it in a coded way, please visit the [Request Pipeline section](/Chapter 14 - Request Routing/01 - Request Pipeline.md) for more information.
+You can even change the default behavior of the 404 page if you want to do it in a coded way, please visit the [Request Pipeline section](/Chapter%2014%20-%20Request%20Routing/01%20-%20Request%20Pipeline.md) for more information.
 
 [<Back Overview](README.md)
