@@ -14,16 +14,6 @@ Twitter: http://twitter.com/pploug
 
 Per has been responsible for the Umbraco evolution from web forms to AngularJs.
 
-## Tim Geyssens
-Twitter: http://twitter.com/timgeyssens
-
-Tim is from Belgium and provides great things like http://umbraco.tv and Umbraco Contour.  His blog is a must read: http://www.nibble.be/
-
-## Paul Sterling
-Twitter: http://twitter.com/paulsterling
-
-Paul is the United States contact for North American Gold Partners.  He also co-wrote "Umbraco User's Guide" and handles a wide variety of tasks at Umbraco.
-
 ## Morten Christensen
 Twitter: http://twitter.com/sitereactor
 
@@ -38,9 +28,6 @@ Shannon is a legend in the web world and is the main C# programmer at Umbraco.  
 Twitter: http://twitter.com/cultiv
 
 Sebastiaan is the project manager at Umbraco and you can usually catch a conversation with him on the Umbraco Issue Tracker (http://issues.umbraco.org).
-
-## Andrew Barta
-Probably hanging around with Paul and doing great stuff.
 
 ## Stephan Gay
 Twitter: http://twitter.com/zpqrtbnk 
