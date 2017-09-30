@@ -1,7 +1,7 @@
 # More Than Property Editors
 AngularJs is used for more than just property editors.  You can use the manifest file to register javascript for custom trees, sections and context menus items as well.
 
-Make sure to checkout the special section on [Custom Sections, Trees and Actions](/Chapter 16 - Custom Sections, Trees and Actions).
+Make sure to checkout the special section on [Custom Sections, Trees and Actions](/Chapter%2016%20-%20Custom%20Sections,%20Trees%20and%20Actions).
 
 ## Custom Dialogs
 One cool feature of working with AnuglarJs and Umbraco is using custom dialogs.  For instance, it would be super awesome if you could click a button and custom dialog appeared.  Then when the user performed an action, the dialog closes and sends an object back to the calling controller.

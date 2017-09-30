@@ -1,6 +1,6 @@
 # Image Processor
 
-[Image Processor](http://imageprocessor.org/)%20is%20a%20third-party%20product%20that%20is%20included%20with%20Umbraco.%20It%20was%20created%20by%20[James%20South](https://twitter.com/james_m_south)%20and%20the%20project%20is%20free%20and%20open-source%20on%20[GitHub](https://github.com/JimBobSquarePants/ImageProcessor/blob/V2/README.md).
+[Image Processor](http://imageprocessor.org/) is a third-party product that is included with Umbraco. It was created by [James South](https://twitter.com/james_m_south) and the project is free and open-source on [GitHub](https://github.com/JimBobSquarePants/ImageProcessor/blob/V2/README.md).
 
 ## What does it do for Umbraco?
 It is implemented as an ASP.NET HttpModule and intercepts all image requests.  The Umbraco backoffice uses it to provide on-the-fly cached crops of media items.  For instance if you were to view a media item located at: `http://mydomain.local/media/1001/foo.jpg`, the image would show in it's native form as you would expect.

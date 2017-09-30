@@ -60,6 +60,6 @@ namespace MyNamespace
 
 >Just remember that `IContent` is considerably slower than `IPublishedContent` due to the database hits.  However it is the interface you should use to create and manipulate content.
 
-For more on the `ServicesContext`, please see [Chapter 05](/Chapter 05 - Helpers, Contexts and Service API's).
+For more on the `ServicesContext`, please see [Chapter 05](/Chapter%2005%20-%20Helpers,%20Contexts%20and%20Service%20API's).
 
 [<Back 01 - IPublishedContent](01%20-%20IPublishedContent.md)
