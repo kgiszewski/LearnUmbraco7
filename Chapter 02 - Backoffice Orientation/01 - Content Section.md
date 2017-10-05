@@ -1,6 +1,6 @@
 # Content Section
 
-The content section is where all of the content (not%20media)%20is%20added%20to%20an%20Umbraco%20site.%20%20%20During%20a%20fresh%20install,%20the%20only%20node%20that%20will%20be%20in%20your%20content%20tree%20will%20be%20the%20`Recycle%20Bin`.%20%20All%20other%20pieces%20of%20content%20will%20need%20to%20be%20defined%20by%20a%20[document%20type](/Chapter%2003%20-%20Document%20Types,%20Templates%20and%20Data%20Types/01%20-%20Document%20Types.md).  The content section also will have a few dashboards by default like: `Get Started` and `Change Password`.
+The content section is where all of the content (not media) is added to an Umbraco site.   During a fresh install, the only node that will be in your content tree will be the `Recycle Bin`.  All other pieces of content will need to be defined by a [document type](/Chapter%2003%20-%20Document%20Types,%20Templates%20and%20Data%20Types/01%20-%20Document%20Types.md).  The content section also will have a few dashboards by default like: `Get Started` and `Change Password`.
 
 *If you installed a starter kit when you installed Umbraco, you will have some content (and document types) already.*
 
@@ -18,7 +18,7 @@ See how the URL's would be generated below as both a single site or a multi-site
     |---- About Us "/about-us"
     |---- Contact Us "/contact-us"
    
-**Multi-site setup ([see chapter on multi-site configuration](/Chapter 12 - Multisite Configuration))**
+**Multi-site setup ([see chapter on multi-site configuration](/Chapter%2012%20-%20Multisite%20Configuration))**
 
     Sites
     |----Site 1
