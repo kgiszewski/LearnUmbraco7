@@ -171,9 +171,9 @@ namespace Demo.Core.Events
 }
 ```
 
-And when you return to the search tool, you'll now see the new fields each representing an Archetype fieldset:
+And when you return to the search tool, you'll now see our new munged field:
 
-![complex](assets/examine-complex.png)
+![complex](assets/munged.png)
 
 [<Back Overview](README.md)
 
