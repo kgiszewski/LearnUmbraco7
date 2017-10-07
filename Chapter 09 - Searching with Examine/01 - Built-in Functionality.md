@@ -175,6 +175,8 @@ And when you return to the search tool, you'll now see our new munged field:
 
 ![complex](assets/munged.png)
 
+There is a video demonstration here! https://youtu.be/526X0B_sqFw
+
 [<Back Overview](README.md)
 
 [Next> 02 - Search Results](02%20-%20Search%20Results.md)
