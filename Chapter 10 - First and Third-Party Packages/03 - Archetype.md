@@ -18,6 +18,8 @@ A sample of getting the data out and onto templates looks like so:
 ### Why should I use it?
 It is an alternative to the MNTP pattern for trivial data such as carousel slides, etc.
 
+It also works as a great 'page builder' as seen here: https://youtu.be/79LksNwGjLk.
+
 ### Where do I get it?
 
 **NuGet:** http://www.nuget.org/packages/archetype
