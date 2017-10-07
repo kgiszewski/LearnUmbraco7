@@ -58,63 +58,113 @@ After the index is rebuilt or the node is save/published, you can return to the 
 ![events](assets/examine-events.png)
 
 ## Complex Property Values
-Sometimes the property contains complex data and might need to be deserialized into individual fields or munged into one large field.  The example below uses Archetype and creates a field per fieldset:
+Sometimes the property contains complex data and might need to be deserialized into individual fields or munged into one large field.  The example below uses Archetype:
 
 ```C#
 using System;
+using System.Text;
 using Archetype.Models;
 using Examine;
 using Newtonsoft.Json;
 using Umbraco.Core;
 using Umbraco.Core.Logging;
 
-namespace MyNamespace
+namespace Demo.Core.Events
 {
-    public class ExamineStuff : ApplicationEventHandler
+    public class ExamineMunger : ApplicationEventHandler
     {
         protected override void ApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext)
         {
-            base.ApplicationStarted(umbracoApplication, applicationContext);
-
-            ExamineManager.Instance.IndexProviderCollection["ExternalIndexer"].GatheringNodeData += MyGatheringNodeDataMethod;
+            ExamineManager.Instance.IndexProviderCollection["ExternalIndexer"].GatheringNodeData += ExamineMunger_GatheringNodeData;
         }
 
-        private void MyGatheringNodeDataMethod(object sender, IndexingNodeDataEventArgs nodeData)
+        private void ExamineMunger_GatheringNodeData(object sender, IndexingNodeDataEventArgs nodeData)
         {
             try
             {
-                var docTypeAliasField = nodeData.Fields["nodeTypeAlias"];
+                var sb = new StringBuilder();
 
-                if (docTypeAliasField == "BizmagArticlePage")
+                //now let's handle those darn harder property types like the page builder
+                if (nodeData.Fields.ContainsKey("modules"))
                 {
-                    //modules is the name of the property alias for the archetype
-                    if (nodeData.Fields.ContainsKey("modules"))
+                    _handlePageBuilderModules(sb, nodeData);
+                }
+
+                _updateMungedField(nodeData, sb.ToString());
+            }
+            catch (Exception ex)
+            {
+                LogHelper.Info<ExamineMunger>(string.Format("Exception while munging nodeId: {0}", nodeData.NodeId));
+                LogHelper.Error<ExamineMunger>(ex.Message, ex);
+            }
+        }
+
+        private static void _handlePageBuilderModules(StringBuilder sb, IndexingNodeDataEventArgs nodeData)
+        {
+            var currentModuleAlias = string.Empty;
+
+            try
+            {
+                if (nodeData.Fields.ContainsKey("modules"))
+                {
+                    var archetypeValueAsString = nodeData.Fields["modules"];
+
+                    var modules = JsonConvert.DeserializeObject<ArchetypeModel>(archetypeValueAsString);
+
+                    foreach (var module in modules)
                     {
-                        var archetypeValueAsString = nodeData.Fields["modules"];
+                        currentModuleAlias = module.Alias;
 
-                        if (!string.IsNullOrEmpty(archetypeValueAsString))
+                        switch (module.Alias)
                         {
-                            var archetype = JsonConvert.DeserializeObject<ArchetypeModel>(archetypeValueAsString);
+                            case "richtext":
+                                sb.Append(" " + _getSafeString(module, "headline"));
+                                sb.Append(" " + _getSafeString(module, "text"));
 
-                            var index = 0;
-
-                            foreach (var fieldset in archetype)
-                            {
-                                var value = fieldset.GetValue<string>("text");
-
-                                if (value != null)
-                                {
-                                    nodeData.Fields.Add(string.Format("archetype-{0}-{1}", fieldset.Alias, index), value);
-                                    index++;
-                                }
-                            }
+                                break;
                         }
                     }
                 }
             }
             catch (Exception ex)
             {
-                LogHelper.Error<Exception>(ex.Message, ex);
+                LogHelper.Info<ExamineMunger>(string.Format("Exception for current module type: {0}", currentModuleAlias));
+                LogHelper.Error<ExamineMunger>(ex.Message, ex);
+            }
+        }
+
+        //this method gets us a safe string to use without HTML
+        private static string _getSafeString(ArchetypeFieldsetModel module, string alias)
+        {
+            var value = module.GetValue<string>(alias);
+
+            if (value == null)
+            {
+                return string.Empty;
+            }
+
+            return value.StripHtml();
+        }
+
+        //this method updates our 'mungedField' that will be used in the searcher later 
+        private static void _updateMungedField(IndexingNodeDataEventArgs nodeData, string value)
+        {
+            if (string.IsNullOrEmpty(value))
+            {
+                return;
+            }
+
+            if (nodeData.Fields.ContainsKey("mungedField"))
+            {
+                nodeData.Fields["mungedField"] += " " + value;
+
+                LogHelper.Info<ExamineMunger>(nodeData.Fields["nodeName"] + " - Updating...");
+            }
+            else
+            {
+                nodeData.Fields.Add("mungedField", value);
+
+                LogHelper.Info<ExamineMunger>(nodeData.Fields["nodeName"] + " - Creating...");
             }
         }
     }
