@@ -7,6 +7,7 @@ As stated before, a document type (sometimes called content type) represents an 
 * It can have one or more tabs that hold one or more data types
 * It controls which children document types can be added underneath in the content tree
 * It is identified by an alias
+* Can use inheritance or composition
 
 The way you setup your document types can make or break your editors experience and overall design of your website.  They are managed via `Settings->Document Types` in the backoffice.
 
@@ -14,10 +15,9 @@ In general you should follow these guidelines:
 
 * One document type for one template
 * Split up associated data types with tabs
-* Use inheritance where document types are similar with respect to data types
-* Consider creating a base document type to which everything inherits
-* Consider creating a base web page type that includes properties like `keywords`, `description`, `hide from search`, etc.
-* Consider creating a base document type for entities not meant to be pages (i.e. something that is picked by a mult-node tree picker).
+* Prefer using compositions rather than inheritance
+* Consider creating a base SEO and\or common doc types that includes properties like `keywords`, `description`, `hide from search`, etc.
+* Consider creating document types for entities not meant to be pages (i.e. something that is picked by a mult-node tree picker). These types will have no templates.
 
 ## Info Tab
 The `Info` tab is where you'll set the document types human and machine (alias) name.  You'll also set the icon that represents this document type in the content tree along with zero or more templates that are associated with this content type.
