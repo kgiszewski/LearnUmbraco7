@@ -2,6 +2,8 @@
 
 The settings section is similar to the content and media trees except this section is usually hidden from editors.  You can configure and edit a lot of Umbraco items.
 
+If a video is more your style, here's the Settings Section in detail: https://www.youtube.com/watch?v=EopnnkIaiRI
+
 ## Stylesheets
 
 This section is used to define styles that can be linked to a rich text editor (in the Developer>Datatypes section).
