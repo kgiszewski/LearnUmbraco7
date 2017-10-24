@@ -21,23 +21,6 @@ In general you should follow these guidelines:
 
 A lot has changed in Umbraco (a good thing) and here's a video for version 7.7.x to fast-forward you along: https://www.youtube.com/watch?v=EopnnkIaiRI
 
-## Info Tab
-The `Info` tab is where you'll set the document types human and machine (alias) name.  You'll also set the icon that represents this document type in the content tree along with zero or more templates that are associated with this content type.
-
-## Structure Tab
-The structure tabs is where you'll indicate what document types can be created underneath this type of document while in the `Content` section.  You can also indicate if this document is able to be created at the very root of the content section along with setting `List View` for child nodes instead of listing children in the tree.
-
-> Please note that if a document type is meant to be a single instance (i.e. the home page), be sure to come back to this section after the first node is created to disable further instances of a particular document type.
-
-## Generic Properties
-This is where you'll define tabs and data types that will appear on a document type while editing in the `Content` section.  You should avoid putting items on the `Generic Properties` tab, instead create a tab named something like `Content`.  
-
->Below is a sample document type setup that shows everything inherits off of one document type `base`.  Then it branches into entities that represent pages and entities that represent just pieces of data.  The items under `Base Data` will have no templates associated as they are not meant to represent viewable pages.
-
-![Doctypes](assets/doctypes2.png)
-
-## Tabs Tab
-Here is where you'll manage your tabs for your documents' data types.  Tabs are inherited, so often you'll see a `Content` tab placed on a base document type up the chain.
 
 [<Back Overview](README.md)
 
