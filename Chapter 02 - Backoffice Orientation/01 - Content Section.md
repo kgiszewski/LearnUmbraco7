@@ -4,6 +4,8 @@ The content section is where all of the content (not media) is added to an Umbra
 
 *If you installed a starter kit when you installed Umbraco, you will have some content (and document types) already.*
 
+If you prefer videos, click here for a tour of Umbraco 7.7.x: https://www.youtube.com/watch?v=bwqZ5b_ZVKo
+
 ![Content Section](assets/backoffice.png)
 
 ## Content Tree
