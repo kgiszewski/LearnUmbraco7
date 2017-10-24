@@ -2,6 +2,8 @@
 
 The media section is where all of the media files will live.  Items dragged and dropped into the `Media Section` will get written to your web root `~/media` folder.  During the import process, image thumbnails are generated and they get assigned a unique folder to avoid accidental overwrites.
 
+If you prefer videos, check out this tour with Umbraco 7.7.x: https://www.youtube.com/watch?v=moidI5Dgomw
+
 ![Media Section](assets/mediasection.png)
 
 The media section works very similar to the content section with limited context menu options.  Out of the box the media section ships with three media types:
