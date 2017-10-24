@@ -19,6 +19,8 @@ In general you should follow these guidelines:
 * Consider creating a base SEO and\or common doc types that includes properties like `keywords`, `description`, `hide from search`, etc.
 * Consider creating document types for entities not meant to be pages (i.e. something that is picked by a mult-node tree picker). These types will have no templates.
 
+A lot has changed in Umbraco (a good thing) and here's a video for version 7.7.x to fast-forward you along: https://www.youtube.com/watch?v=EopnnkIaiRI
+
 ## Info Tab
 The `Info` tab is where you'll set the document types human and machine (alias) name.  You'll also set the icon that represents this document type in the content tree along with zero or more templates that are associated with this content type.
 
