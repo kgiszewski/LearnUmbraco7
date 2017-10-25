@@ -1,6 +1,8 @@
 # Developer Section
 The developer section is where you'll go to create datatypes, install packages and tinker with Examine among other things.
 
+I would recommend you watching this video for a detailed look at the developer section: https://www.youtube.com/watch?v=SaGNt9-xgnA
+
 ![mediasection.png](assets/mediasection.png)
 
 When building an MVC site, you won't really be using macros so for the purposes of this documentation they won't be talked about but you can find more information from the official core documentation.
