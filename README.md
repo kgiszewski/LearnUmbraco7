@@ -39,6 +39,12 @@ This book is not intended for readers who:
 * Data: SQL CE, MSSQL Express and SSMS
 * Hosting: Internet Information Services (IIS), Win Server
 
+## A video to get you started!
+
+Click the image below to begin a series of videos to get you immersed into the Umbraco backoffice!
+
+[![Get started video](assets/content.jpg)](https://youtu.be/bwqZ5b_ZVKo)
+
 ## License
 Content in this repository is freely available to read and use for non-commercial uses. It may not be reproduced or used for commercial use without consent. All rights are reserved and copyrighted by the contributors.  All images and files are copyrighted by their respective owners.  All logos are trademarked by their respective owners.  Please seek permission to use before using any materials for any other purposes.
 
