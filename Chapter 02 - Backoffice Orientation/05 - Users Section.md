@@ -6,6 +6,8 @@ The users section is where you'll manage users who are meant to log into the Umb
 
 Beginning with Umbraco 7.7.x, the User's section is completely different take a tour here: https://www.youtube.com/watch?v=KUrhw_Ad2kw
 
+For a deeper dive, here's another: https://www.youtube.com/watch?v=LTXHM8UJSTA
+
 ## User Management
 
 Add, modify or disable users by selecting `Users` in the tree.  Note that you cannot delete users due to audit trail reasons.
