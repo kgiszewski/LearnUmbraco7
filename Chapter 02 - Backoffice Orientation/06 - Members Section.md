@@ -4,6 +4,8 @@ Members are users who will be visiting the frontend of your website and need to 
 
 ![members.png](assets/members.png)
 
+Here's a video that will shed some light on how members work in Umbraco: https://www.youtube.com/watch?v=LWCQnnuohdo
+
 ## Member Management
 The first tree node is where you want to be to manage users.  In this section you can set usernames, group (role) membership and more.
 
