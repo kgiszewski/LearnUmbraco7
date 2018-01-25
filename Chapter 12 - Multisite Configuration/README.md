@@ -11,7 +11,7 @@ Setting up Umbraco to handle more than one website is easy to do.  Below is a li
 * Assign a domain to each `Home` node.
 * Consider creating a `Site Settings` document type to hold settings for each website.
 
-Here is a video about a sample install, you should give it watch if visuals are your thing: https://www.youtube.com/watch?v=0H2o_mwhRhI&t=19s
+Here is a video about a sample install, you should give it watch if visuals are your thing: https://www.youtube.com/watch?v=0H2o_mwhRhI
 
 ![multisite](assets/multisite.png)
 
