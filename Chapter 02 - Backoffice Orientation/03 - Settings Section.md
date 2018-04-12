@@ -44,7 +44,7 @@ As discussed in the [media section](02%20-%20Media%20Section.md), this is where 
 
 ## Document Types
 
-This is one of the most import spots in Umbraco.  This section is where you'll define Umbraco content types.
+This is one of the most important spots in Umbraco.  This section is where you'll define Umbraco content types.
 
 >NOTE: The terms `Document Type` and `Content Type` are used interchangeably at times.
 
