@@ -4,7 +4,7 @@ So Angular can seem weird at first, but we're just adding new functionality to H
 ## The View
 Next we will define a view or what will show on the document type when this property editor is rendered.
 
-So create a file named `~/App_Plugins/HideTab/hideTab.view.html` and place the following line in it:
+So create a file named `~/App_Plugins/HideTab/hideTab.html` and place the following line in it:
 
 ```xml
 <hide-tab></hide-tab>
