@@ -25,7 +25,7 @@ An example would be retrieving stored data from the multinode tree picker data t
 With this package you could rewrite it as such:
 ```c#
     <ul>
-        @foreach(var contentin Model.Content.GetPropertyValue<IEnumerable<IPublishedContent>>("mntpPropertyAlias"))
+        @foreach(var content in Model.Content.GetPropertyValue<IEnumerable<IPublishedContent>>("mntpPropertyAlias"))
         {
             <li>@content.Name</li>
         }
