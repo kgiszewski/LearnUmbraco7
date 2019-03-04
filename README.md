@@ -5,6 +5,8 @@
 
 **This project is at a stopping point. Pull requests still taken.**
 
+**Umbraco 8 is now available, for further information please visit: https://umbraco.com/**
+
 ## Not Official
 This repo started as a side project to get some co-workers up to speed on Umbraco as told through another developers point of view limited to the scope of version 7.  The official documentation is located here: https://github.com/umbraco/Umbraco4Docs and should be used as the source of truth.  The official documentation covers other versions of Umbraco as well as version 7.
 
